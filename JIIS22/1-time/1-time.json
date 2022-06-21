@@ -1,0 +1,197 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"http://www.w3.org/2006/time#TimePosition",
+			"http://www.w3.org/2006/time#TemporalPosition",
+			"http://www.w3.org/2006/time#January",
+			"http://www.w3.org/2006/time#DateTimeDescription",
+			"http://www.w3.org/2006/time#GeneralDateTimeDescription",
+			"http://www.w3.org/2006/time#Instant",
+			"http://www.w3.org/2006/time#TemporalEntity",
+			"http://www.w3.org/2006/time#Interval",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$",
+			"http://www.w3.org/2002/07/owl#Nothing",
+			"http://www.w3.org/2006/time#GeneralDurationDescription",
+			"http://www.w3.org/2006/time#TemporalDuration",
+			"http://www.w3.org/2006/time#DateTimeInterval",
+			"http://www.w3.org/2006/time#ProperInterval",
+			"http://www.w3.org/2006/time#Year",
+			"http://www.w3.org/2006/time#DurationDescription",
+			"http://www.w3.org/2006/time#Duration",
+			"http://www.w3.org/2006/time#TemporalUnit",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval",
+			"https://crowd-app.fi.uncoma.edu.ar#FakeTop",
+			"http://www.w3.org/2006/time#MonthOfYear"
+		]
+	},
+	"Role": [],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": []
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval",
+						"http://www.w3.org/2006/time#ProperInterval"
+					],
+					"name": "c1FgH213"
+				}
+			],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [
+			{
+				"entities": [
+					"http://www.w3.org/2006/time#Instant",
+					"http://www.w3.org/2006/time#Interval"
+				],
+				"name": "HM1CD5x8"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval",
+					"http://www.w3.org/2006/time#ProperInterval"
+				],
+				"name": "wcvrBjuy"
+			}
+		],
+		"Mandatory constraints": {
+			"Mandatory": []
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "http://www.w3.org/2006/time#TimePosition",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalPosition,http://www.w3.org/2006/time#TimePosition)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalPosition"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#January",
+				"name": "Subsumption(http://www.w3.org/2006/time#DateTimeDescription,http://www.w3.org/2006/time#January)",
+				"entity parent": "http://www.w3.org/2006/time#DateTimeDescription"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#DateTimeDescription",
+				"name": "Subsumption(http://www.w3.org/2006/time#GeneralDateTimeDescription,http://www.w3.org/2006/time#DateTimeDescription)",
+				"entity parent": "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Instant",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalEntity,http://www.w3.org/2006/time#Instant)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalEntity"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Instant",
+				"completeness constraints": "HM1CD5x8",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$,http://www.w3.org/2006/time#Instant)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Interval",
+				"completeness constraints": "HM1CD5x8",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$,http://www.w3.org/2006/time#Interval)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#TemporalEntity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$,http://www.w3.org/2006/time#TemporalEntity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.w3.org/2006/time#Instant$http://www.w3.org/2006/time#Interval$"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#January",
+				"name": "Subsumption(http://www.w3.org/2002/07/owl#Nothing,http://www.w3.org/2006/time#January)",
+				"entity parent": "http://www.w3.org/2002/07/owl#Nothing"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#GeneralDurationDescription",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalDuration,http://www.w3.org/2006/time#GeneralDurationDescription)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalDuration"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Interval",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalEntity,http://www.w3.org/2006/time#Interval)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalEntity"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#DateTimeInterval",
+				"name": "Subsumption(http://www.w3.org/2006/time#ProperInterval,http://www.w3.org/2006/time#DateTimeInterval)",
+				"entity parent": "http://www.w3.org/2006/time#ProperInterval"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Year",
+				"name": "Subsumption(http://www.w3.org/2006/time#DurationDescription,http://www.w3.org/2006/time#Year)",
+				"entity parent": "http://www.w3.org/2006/time#DurationDescription"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalPosition,http://www.w3.org/2006/time#GeneralDateTimeDescription)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalPosition"
+			},
+			{
+				"entity child": "http://www.w3.org/2002/07/owl#Nothing",
+				"name": "Subsumption(http://www.w3.org/2006/time#January,http://www.w3.org/2002/07/owl#Nothing)",
+				"entity parent": "http://www.w3.org/2006/time#January"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#DurationDescription",
+				"name": "Subsumption(http://www.w3.org/2006/time#GeneralDurationDescription,http://www.w3.org/2006/time#DurationDescription)",
+				"entity parent": "http://www.w3.org/2006/time#GeneralDurationDescription"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#ProperInterval",
+				"name": "Subsumption(http://www.w3.org/2006/time#Interval,http://www.w3.org/2006/time#ProperInterval)",
+				"entity parent": "http://www.w3.org/2006/time#Interval"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Duration",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalDuration,http://www.w3.org/2006/time#Duration)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalDuration"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#TemporalUnit",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalDuration,http://www.w3.org/2006/time#TemporalUnit)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalDuration"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval",
+				"disjointness constraints": "c1FgH213",
+				"completeness constraints": "wcvrBjuy",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Instant",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval,http://www.w3.org/2006/time#Instant)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Instant_NOT_ProperInterval"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#ProperInterval",
+				"disjointness constraints": "c1FgH213",
+				"completeness constraints": "wcvrBjuy",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://www.w3.org/2006/time#ProperInterval)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#MonthOfYear",
+				"name": "Subsumption(http://www.w3.org/2006/time#DateTimeDescription,http://www.w3.org/2006/time#MonthOfYear)",
+				"entity parent": "http://www.w3.org/2006/time#DateTimeDescription"
+			}
+		],
+		"Relationship": []
+	}
+}

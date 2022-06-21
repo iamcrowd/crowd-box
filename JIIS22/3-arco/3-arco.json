@@ -1,0 +1,599 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"https://w3id.org/arco/ontology/core/CulturalEntityClassification",
+			"https://w3id.org/arco/ontology/core/Classification",
+			"https://w3id.org/arco/ontology/core/AgentRole",
+			"https://w3id.org/arco/ontology/core/Situation",
+			"http://xmlns.com/foaf/0.1/Agent",
+			"https://w3id.org/italia/onto/l0/Agent",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"http://www.w3.org/2006/vcard/ns#Organization",
+			"https://w3id.org/italia/onto/RO/Role",
+			"https://w3id.org/italia/onto/l0/Concept",
+			"http://dati.gov.it/onto/dcatapit#Organization",
+			"https://w3id.org/arco/ontology/core/Event",
+			"https://w3id.org/italia/onto/l0/EventOrSituation",
+			"https://w3id.org/arco/ontology/core/Concept",
+			"https://w3id.org/arco/ontology/core/CulturalEntityCharacteristic",
+			"https://w3id.org/italia/onto/l0/Characteristic",
+			"https://w3id.org/arco/ontology/core/ClassificationInTime",
+			"https://w3id.org/arco/ontology/core/TimeIndexedSituation",
+			"https://w3id.org/arco/ontology/core/Method",
+			"https://w3id.org/italia/onto/l0/Description",
+			"https://w3id.org/italia/onto/l0/Object",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+			"https://crowd-app.fi.uncoma.edu.ar#FakeTop",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole",
+			"http://dati.beniculturali.it/cis/CulturalEvent",
+			"https://w3id.org/arco/ontology/core/Type",
+			"https://w3id.org/arco/ontology/core/Category",
+			"http://dati.gov.it/onto/dcatapit#Agent",
+			"http://dati.beniculturali.it/cis/NameInTime",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime",
+			"http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"http://dati.beniculturali.it/cis/Site",
+			"https://w3id.org/italia/onto/l0/Location",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification"
+		]
+	},
+	"Role": [
+		{
+			"object type cardinality": [
+				"cj9bGtgu"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/DqjkWEhshttps://w3id.org/arco/ontology/core/hasAgent.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/core/hasAgent",
+			"mandatory": "mandatoryU43P"
+		},
+		{
+			"object type cardinality": [
+				"DGzv15jr"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tmHStLJnhttps://w3id.org/arco/ontology/core/hasAgent.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/core/hasAgent"
+		},
+		{
+			"object type cardinality": [
+				"zJgMvL4E"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/RcPvftvthttps://w3id.org/arco/ontology/core/hasAgent1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1",
+			"mandatory": "mandatorysLDD"
+		},
+		{
+			"object type cardinality": [
+				"av3UmxLc"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1ErV75PHhttps://w3id.org/arco/ontology/core/hasAgent1.2",
+			"entity type": "https://w3id.org/italia/onto/l0/Agent",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1"
+		},
+		{
+			"object type cardinality": [
+				"r1ngdQ4i"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/HyWBQpdhhttps://w3id.org/arco/ontology/core/hasRole.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/core/hasRole",
+			"mandatory": "mandatoryC1aZ"
+		},
+		{
+			"object type cardinality": [
+				"jTM5On75"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/JSboxpGchttps://w3id.org/arco/ontology/core/hasRole.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/core/hasRole"
+		},
+		{
+			"object type cardinality": [
+				"yZrJthdE"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/i8QWgaVphttps://w3id.org/arco/ontology/core/hasRole1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1",
+			"mandatory": "mandatory2IqK"
+		},
+		{
+			"object type cardinality": [
+				"qeer118f"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Xhfmu5Mdhttps://w3id.org/arco/ontology/core/hasRole1.2",
+			"entity type": "https://w3id.org/italia/onto/RO/Role",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1"
+		}
+	],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": [
+				{
+					"name": "cj9bGtgu",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "DGzv15jr",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "zJgMvL4E",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "av3UmxLc",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "r1ngdQ4i",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "jTM5On75",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "yZrJthdE",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "qeer118f",
+					"maximum": "*",
+					"minimum": "0"
+				}
+			]
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+						"https://w3id.org/arco/ontology/core/ClassificationInTime"
+					],
+					"name": "OVTDH8yN"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime",
+						"http://dati.beniculturali.it/cis/NameInTime"
+					],
+					"name": "KfkBZYbt"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification",
+						"https://w3id.org/arco/ontology/core/Classification"
+					],
+					"name": "mbJiOQke"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+						"https://w3id.org/arco/ontology/core/CulturalEntityClassification"
+					],
+					"name": "S4MHCUs5"
+				}
+			],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+					"https://w3id.org/arco/ontology/core/ClassificationInTime"
+				],
+				"name": "eET8LqYo"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime",
+					"http://dati.beniculturali.it/cis/NameInTime"
+				],
+				"name": "YeqyM6c7"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification",
+					"https://w3id.org/arco/ontology/core/Classification"
+				],
+				"name": "JGYypth6"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+					"https://w3id.org/arco/ontology/core/CulturalEntityClassification"
+				],
+				"name": "0k5EZIPe"
+			}
+		],
+		"Mandatory constraints": {
+			"Mandatory": [
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/DqjkWEhshttps://w3id.org/arco/ontology/core/hasAgent.1",
+					"name": "mandatoryU43P"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/RcPvftvthttps://w3id.org/arco/ontology/core/hasAgent1.1",
+					"name": "mandatorysLDD"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/HyWBQpdhhttps://w3id.org/arco/ontology/core/hasRole.1",
+					"name": "mandatoryC1aZ"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/i8QWgaVphttps://w3id.org/arco/ontology/core/hasRole1.1",
+					"name": "mandatory2IqK"
+				}
+			]
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/CulturalEntityClassification",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Classification,https://w3id.org/arco/ontology/core/CulturalEntityClassification)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Classification"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Situation,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Situation"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/l0/Agent",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,https://w3id.org/italia/onto/l0/Agent)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Lfh2AhmD",
+				"entity parent": "https://w3id.org/arco/ontology/core/hasAgent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Classification",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Situation,https://w3id.org/arco/ontology/core/Classification)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Situation"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/vcard/ns#Organization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2006/vcard/ns#Organization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/RO/Role",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/italia/onto/RO/Role)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Organization",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://dati.gov.it/onto/dcatapit#Organization)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Event",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/EventOrSituation,https://w3id.org/arco/ontology/core/Event)",
+				"entity parent": "https://w3id.org/italia/onto/l0/EventOrSituation"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/RO/Role",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Concept,https://w3id.org/italia/onto/RO/Role)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/CulturalEntityCharacteristic",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Characteristic,https://w3id.org/arco/ontology/core/CulturalEntityCharacteristic)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Characteristic"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/ClassificationInTime",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/TimeIndexedSituation,https://w3id.org/arco/ontology/core/ClassificationInTime)",
+				"entity parent": "https://w3id.org/arco/ontology/core/TimeIndexedSituation"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Method",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Description,https://w3id.org/arco/ontology/core/Method)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Description"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/l0/Concept",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Object,https://w3id.org/italia/onto/l0/Concept)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Object"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+				"disjointness constraints": "OVTDH8yN",
+				"completeness constraints": "eET8LqYo",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/ClassificationInTime",
+				"disjointness constraints": "OVTDH8yN",
+				"completeness constraints": "eET8LqYo",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/arco/ontology/core/ClassificationInTime)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/zRO7i82p",
+				"entity parent": "https://w3id.org/arco/ontology/core/hasRole"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/TimeIndexedSituation",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Situation,https://w3id.org/arco/ontology/core/TimeIndexedSituation)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Situation"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalEvent",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Event,http://dati.beniculturali.it/cis/CulturalEvent)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Event"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Type",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/arco/ontology/core/Type)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Category",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Concept,https://w3id.org/arco/ontology/core/Category)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/ClassificationInTime",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Classification,https://w3id.org/arco/ontology/core/ClassificationInTime)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Classification"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Category",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/arco/ontology/core/Category)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Organization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://dati.gov.it/onto/dcatapit#Organization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Agent",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://dati.gov.it/onto/dcatapit#Agent)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/l0/Agent",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,https://w3id.org/italia/onto/l0/Agent)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime",
+				"disjointness constraints": "KfkBZYbt",
+				"completeness constraints": "YeqyM6c7",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalEvent",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime,http://dati.beniculturali.it/cis/CulturalEvent)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/NameInTime",
+				"disjointness constraints": "KfkBZYbt",
+				"completeness constraints": "YeqyM6c7",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://dati.beniculturali.it/cis/NameInTime)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/NameInTime",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Situation,http://dati.beniculturali.it/cis/NameInTime)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Situation"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Location,http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Location"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Agent",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://dati.gov.it/onto/dcatapit#Agent)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/vcard/ns#Organization",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://www.w3.org/2006/vcard/ns#Organization)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification",
+				"disjointness constraints": "mbJiOQke",
+				"completeness constraints": "JGYypth6",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Classification",
+				"disjointness constraints": "mbJiOQke",
+				"completeness constraints": "JGYypth6",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/arco/ontology/core/Classification)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Concept",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/arco/ontology/core/Concept)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/l0/Concept",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Concept,https://w3id.org/italia/onto/l0/Concept)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Type",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Concept,https://w3id.org/arco/ontology/core/Type)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Concept"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Organization",
+				"name": "Subsumption(http://www.w3.org/2006/vcard/ns#Organization,http://dati.gov.it/onto/dcatapit#Organization)",
+				"entity parent": "http://www.w3.org/2006/vcard/ns#Organization"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/vcard/ns#Organization",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Organization,http://www.w3.org/2006/vcard/ns#Organization)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Organization"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Situation",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/EventOrSituation,https://w3id.org/arco/ontology/core/Situation)",
+				"entity parent": "https://w3id.org/italia/onto/l0/EventOrSituation"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/NameInTime",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/EventOrSituation,http://dati.beniculturali.it/cis/NameInTime)",
+				"entity parent": "https://w3id.org/italia/onto/l0/EventOrSituation"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/vcard/ns#Organization",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://www.w3.org/2006/vcard/ns#Organization)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+				"disjointness constraints": "S4MHCUs5",
+				"completeness constraints": "0k5EZIPe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/CulturalEntityClassification",
+				"disjointness constraints": "S4MHCUs5",
+				"completeness constraints": "0k5EZIPe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/arco/ontology/core/CulturalEntityClassification)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Organization",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://dati.gov.it/onto/dcatapit#Organization)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Concept",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Object,https://w3id.org/arco/ontology/core/Concept)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Object"
+			}
+		],
+		"Relationship": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/core/hasAgent"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole",
+					"https://w3id.org/italia/onto/l0/Agent"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/core/hasRole"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole",
+					"https://w3id.org/italia/onto/RO/Role"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1"
+			}
+		]
+	}
+}

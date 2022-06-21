@@ -1,0 +1,1659 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"http://dati.beniculturali.it/cis/Museum",
+			"http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"http://dati.beniculturali.it/cis/Site",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site",
+			"http://dati.beniculturali.it/cis/GeographicalFeature",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site",
+			"http://dati.beniculturali.it/cis/OpeningHoursSpecification",
+			"http://dati.beniculturali.it/cis/AccessCondition",
+			"http://dati.beniculturali.it/cis/Library",
+			"http://dati.beniculturali.it/cis/QuantitativeValue",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue",
+			"http://dati.beniculturali.it/cis/MeasurementUnit",
+			"http://dati.beniculturali.it/cis/CultReseachCenter",
+			"http://dati.beniculturali.it/cis/Theatre",
+			"http://dati.beniculturali.it/cis/NameInTime",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime",
+			"http://dati.beniculturali.it/cis/TimeInterval",
+			"http://dati.beniculturali.it/cis/Card",
+			"http://dati.beniculturali.it/cis/Ticket",
+			"http://dati.beniculturali.it/cis/MonumentalArea",
+			"http://dati.beniculturali.it/cis/CulturalLandscapeAsset",
+			"http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+			"http://dati.beniculturali.it/cis/AudioObject",
+			"http://dati.beniculturali.it/cis/CreativeWork",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site",
+			"http://dati.beniculturali.it/cis/SiteDescription",
+			"http://dati.beniculturali.it/cis/RoleInTime",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime",
+			"http://dati.beniculturali.it/cis/Role",
+			"http://dati.beniculturali.it/cis/Cinema",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"http://dati.beniculturali.it/cis/CISType",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site",
+			"http://dati.beniculturali.it/cis/Address",
+			"http://dati.beniculturali.it/cis/CulturalHeritageObject",
+			"http://dati.beniculturali.it/cis/CulturalEntity",
+			"http://dati.beniculturali.it/cis/TemporaryClosure",
+			"http://dati.beniculturali.it/cis/ImageObject",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime",
+			"http://dati.beniculturali.it/cis/Collection",
+			"http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+			"http://dati.beniculturali.it/cis/Event",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event",
+			"http://dati.beniculturali.it/cis/Offer",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer",
+			"http://dati.beniculturali.it/cis/NewsArticle",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event",
+			"http://dati.beniculturali.it/cis/ArchaeologicalArea",
+			"http://dati.beniculturali.it/cis/VideoObject",
+			"http://dati.beniculturali.it/cis/Booking",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"http://dati.beniculturali.it/cis/HolderOfArchive",
+			"http://dati.beniculturali.it/cis/PriceSpecification",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification",
+			"http://dati.beniculturali.it/cis/Currency",
+			"http://dati.beniculturali.it/cis/ArchaeologicalPark",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection"
+		]
+	},
+	"Role": [
+		{
+			"object type cardinality": [
+				"bakhcatH"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ETDfF2cGhttp://dati.beniculturali.it/cis/hasGeographicalLocation.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasGeographicalLocation",
+			"mandatory": "mandatorybi5Q"
+		},
+		{
+			"object type cardinality": [
+				"muPTRU0g"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/6iIslFhThttp://dati.beniculturali.it/cis/hasGeographicalLocation.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasGeographicalLocation"
+		},
+		{
+			"object type cardinality": [
+				"suiMyMVf"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/LH1UiriMhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1",
+			"mandatory": "mandatoryRisL"
+		},
+		{
+			"object type cardinality": [
+				"JRgKNl31"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tRgjbJ29http://dati.beniculturali.it/cis/hasGeographicalLocation1.2",
+			"entity type": "http://dati.beniculturali.it/cis/GeographicalFeature",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1"
+		},
+		{
+			"object type cardinality": [
+				"YAxIuSfm"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/mLB4twalhttp://dati.beniculturali.it/cis/isSiteOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/isSiteOf",
+			"mandatory": "mandatorytypJ"
+		},
+		{
+			"object type cardinality": [
+				"RBKOwhAh"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/MbWWrwNEhttp://dati.beniculturali.it/cis/isSiteOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/isSiteOf"
+		},
+		{
+			"object type cardinality": [
+				"BbuKR2br"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/uq7RWSqlhttp://dati.beniculturali.it/cis/isSiteOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1",
+			"mandatory": "mandatorySmS3"
+		},
+		{
+			"object type cardinality": [
+				"ZL7cM1AN"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/cfGnHwsFhttp://dati.beniculturali.it/cis/isSiteOf1.2",
+			"entity type": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1"
+		},
+		{
+			"object type cardinality": [
+				"WIl3HA2z"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qlN4xGf3http://dati.beniculturali.it/cis/hasMeasurementUnit.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasMeasurementUnit",
+			"mandatory": "mandatorygcIv"
+		},
+		{
+			"object type cardinality": [
+				"qejGMDRx"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/zCTL7OAohttp://dati.beniculturali.it/cis/hasMeasurementUnit.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasMeasurementUnit"
+		},
+		{
+			"object type cardinality": [
+				"S2eUhOev"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/X9dwKbrWhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1",
+			"mandatory": "mandatoryJqTD"
+		},
+		{
+			"object type cardinality": [
+				"nXVxODP9"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/vpBifN2lhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.2",
+			"entity type": "http://dati.beniculturali.it/cis/MeasurementUnit",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1"
+		},
+		{
+			"object type cardinality": [
+				"nH5wIAMQ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/f65Je7Tvhttp://dati.beniculturali.it/cis/isValidDuring.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/isValidDuring",
+			"mandatory": "mandatoryIfFx"
+		},
+		{
+			"object type cardinality": [
+				"zq4nnAoi"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/L8XPLlDbhttp://dati.beniculturali.it/cis/isValidDuring.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/isValidDuring"
+		},
+		{
+			"object type cardinality": [
+				"UifwIcAM"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/J9L8KWHGhttp://dati.beniculturali.it/cis/isValidDuring1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1",
+			"mandatory": "mandatoryfB7o"
+		},
+		{
+			"object type cardinality": [
+				"CcnBHvYz"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/GqyAEQ17http://dati.beniculturali.it/cis/isValidDuring1.2",
+			"entity type": "http://dati.beniculturali.it/cis/TimeInterval",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1"
+		},
+		{
+			"object type cardinality": [
+				"a2cWQlG6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Z65z7ormhttp://dati.beniculturali.it/cis/hasSiteDescription.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasSiteDescription",
+			"mandatory": "mandatoryqCGU"
+		},
+		{
+			"object type cardinality": [
+				"qaP3JsQj"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/cFt19sSOhttp://dati.beniculturali.it/cis/hasSiteDescription.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasSiteDescription"
+		},
+		{
+			"object type cardinality": [
+				"zlrYGgEk"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/f3HSvKUFhttp://dati.beniculturali.it/cis/hasSiteDescription1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1",
+			"mandatory": "mandatory8UoB"
+		},
+		{
+			"object type cardinality": [
+				"ZZZWU7I6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/7J97rC7ahttp://dati.beniculturali.it/cis/hasSiteDescription1.2",
+			"entity type": "http://dati.beniculturali.it/cis/SiteDescription",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1"
+		},
+		{
+			"object type cardinality": [
+				"a0Q2q4jx"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/KEOj1RnYhttp://dati.beniculturali.it/cis/withRole.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/withRole",
+			"mandatory": "mandatory0f3i"
+		},
+		{
+			"object type cardinality": [
+				"LZvIdhSo"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/UY4bZHo7http://dati.beniculturali.it/cis/withRole.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/withRole"
+		},
+		{
+			"object type cardinality": [
+				"PNdIZdnI"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ulxz2Pw4http://dati.beniculturali.it/cis/withRole1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1",
+			"mandatory": "mandatoryMwie"
+		},
+		{
+			"object type cardinality": [
+				"O4A8XgOO"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/pivsaMmdhttp://dati.beniculturali.it/cis/withRole1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Role",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1"
+		},
+		{
+			"object type cardinality": [
+				"T6WycSVX"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/fTSRyW6Vhttp://dati.beniculturali.it/cis/hasCISType.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasCISType",
+			"mandatory": "mandatoryJ7CA"
+		},
+		{
+			"object type cardinality": [
+				"djYF8rhR"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/AsVRj3Xjhttp://dati.beniculturali.it/cis/hasCISType.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasCISType"
+		},
+		{
+			"object type cardinality": [
+				"IqMkCn8m"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/llOP47MXhttp://dati.beniculturali.it/cis/hasCISType1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1",
+			"mandatory": "mandatoryphPW"
+		},
+		{
+			"object type cardinality": [
+				"i9AFkWYe"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/xzH0nL3Fhttp://dati.beniculturali.it/cis/hasCISType1.2",
+			"entity type": "http://dati.beniculturali.it/cis/CISType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1"
+		},
+		{
+			"object type cardinality": [
+				"ykiHneEl"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/NrMhXMOohttp://dati.beniculturali.it/cis/hasAddress.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasAddress",
+			"mandatory": "mandatory0p6B"
+		},
+		{
+			"object type cardinality": [
+				"gXXvYtnK"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qVQTIsj5http://dati.beniculturali.it/cis/hasAddress.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasAddress"
+		},
+		{
+			"object type cardinality": [
+				"KZMgjYVG"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/K339TzLrhttp://dati.beniculturali.it/cis/hasAddress1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1",
+			"mandatory": "mandatoryTMHx"
+		},
+		{
+			"object type cardinality": [
+				"MsvUqaH6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/mufI0QSyhttp://dati.beniculturali.it/cis/hasAddress1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Address",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1"
+		},
+		{
+			"object type cardinality": [
+				"seYw64M6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ej2ua9k7http://dati.beniculturali.it/cis/atTime.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/atTime",
+			"mandatory": "mandatory48Ow"
+		},
+		{
+			"object type cardinality": [
+				"5EGvbtlZ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/CmqpMTqkhttp://dati.beniculturali.it/cis/atTime.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/atTime"
+		},
+		{
+			"object type cardinality": [
+				"CnT3hDyn"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/crHnjpTwhttp://dati.beniculturali.it/cis/atTime1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1",
+			"mandatory": "mandatorypBLJ"
+		},
+		{
+			"object type cardinality": [
+				"VHRKbJoW"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/aVlAiBMchttp://dati.beniculturali.it/cis/atTime1.2",
+			"entity type": "http://dati.beniculturali.it/cis/TimeInterval",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1"
+		},
+		{
+			"object type cardinality": [
+				"G9wOvstk"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/oOPcvM20http://dati.beniculturali.it/cis/isHostedBy.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/isHostedBy",
+			"mandatory": "mandatoryKmH5"
+		},
+		{
+			"object type cardinality": [
+				"N8MGBU7O"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/HCtOKrj7http://dati.beniculturali.it/cis/isHostedBy.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/isHostedBy"
+		},
+		{
+			"object type cardinality": [
+				"Ef1aFLmP"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/pHVKSHezhttp://dati.beniculturali.it/cis/isHostedBy1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1",
+			"mandatory": "mandatorygzER"
+		},
+		{
+			"object type cardinality": [
+				"HkMnt7UK"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/CrdUuwAMhttp://dati.beniculturali.it/cis/isHostedBy1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1"
+		},
+		{
+			"object type cardinality": [
+				"eYHXnpol"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/obUz9lc8http://dati.beniculturali.it/cis/includes.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/includes",
+			"mandatory": "mandatoryz8l8"
+		},
+		{
+			"object type cardinality": [
+				"GQodPmEw"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/IeyqCgGRhttp://dati.beniculturali.it/cis/includes.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/includes"
+		},
+		{
+			"object type cardinality": [
+				"k8w03WEJ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qTbJMUb1http://dati.beniculturali.it/cis/includes1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1",
+			"mandatory": "mandatoryRYQr"
+		},
+		{
+			"object type cardinality": [
+				"2KszXO20"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1ylzCcK9http://dati.beniculturali.it/cis/includes1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Ticket",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1"
+		},
+		{
+			"object type cardinality": [
+				"NVEY30j6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tWLWSj7lhttp://dati.beniculturali.it/cis/isRelatedToRiT.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/isRelatedToRiT",
+			"mandatory": "mandatoryDiNK"
+		},
+		{
+			"object type cardinality": [
+				"3z96iVKW"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/NNB4sOhShttp://dati.beniculturali.it/cis/isRelatedToRiT.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/isRelatedToRiT"
+		},
+		{
+			"object type cardinality": [
+				"7uCgBgWs"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/MBOuwztQhttp://dati.beniculturali.it/cis/isRelatedToRiT1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1",
+			"mandatory": "mandatoryJ5jR"
+		},
+		{
+			"object type cardinality": [
+				"ZODubRfL"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/z6KSca8ihttp://dati.beniculturali.it/cis/isRelatedToRiT1.2",
+			"entity type": "http://dati.beniculturali.it/cis/RoleInTime",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1"
+		},
+		{
+			"object type cardinality": [
+				"c1vhDgIW"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/gqm2iKxOhttp://dati.beniculturali.it/cis/hasSite.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasSite",
+			"mandatory": "mandatoryWnwi"
+		},
+		{
+			"object type cardinality": [
+				"puM3g4mc"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/py4dXAIzhttp://dati.beniculturali.it/cis/hasSite.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasSite"
+		},
+		{
+			"object type cardinality": [
+				"oD4uyWMu"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qw3910BOhttp://dati.beniculturali.it/cis/hasSite1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1",
+			"mandatory": "mandatoryKGTt"
+		},
+		{
+			"object type cardinality": [
+				"1hwhsFyy"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/nAMZKbmVhttp://dati.beniculturali.it/cis/hasSite1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1"
+		},
+		{
+			"object type cardinality": [
+				"4ug7yLmD"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ScQgWqcIhttp://dati.beniculturali.it/cis/hasCurrency.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://dati.beniculturali.it/cis/hasCurrency",
+			"mandatory": "mandatoryrdDT"
+		},
+		{
+			"object type cardinality": [
+				"drPKKjpQ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/fT0o5bephttp://dati.beniculturali.it/cis/hasCurrency.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://dati.beniculturali.it/cis/hasCurrency"
+		},
+		{
+			"object type cardinality": [
+				"Iy22AXHV"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/MV2eKFB4http://dati.beniculturali.it/cis/hasCurrency1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1",
+			"mandatory": "mandatoryfTgy"
+		},
+		{
+			"object type cardinality": [
+				"G58EOeGF"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/4VlJAIfZhttp://dati.beniculturali.it/cis/hasCurrency1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Currency",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1"
+		},
+		{
+			"object type cardinality": [
+				"OFv4wEdW"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tWTTiqKThttp://dati.beniculturali.it/cis/isRelatedToRiT1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1",
+			"mandatory": "mandatoryvth5"
+		},
+		{
+			"object type cardinality": [
+				"oLsWYRwy"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ckNrC73nhttp://dati.beniculturali.it/cis/isRelatedToRiT1.2",
+			"entity type": "http://dati.beniculturali.it/cis/RoleInTime",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1"
+		},
+		{
+			"object type cardinality": [
+				"uLfwZ5HF"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/NjrovpRqhttp://dati.beniculturali.it/cis/atTime1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1",
+			"mandatory": "mandatoryT4kn"
+		},
+		{
+			"object type cardinality": [
+				"Ubfs1EAu"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Lvny7E9khttp://dati.beniculturali.it/cis/atTime1.2",
+			"entity type": "http://dati.beniculturali.it/cis/TimeInterval",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1"
+		},
+		{
+			"object type cardinality": [
+				"PGaWdLMi"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/TEg0drqWhttp://dati.beniculturali.it/cis/atTime2.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2",
+			"mandatory": "mandatorya0W4"
+		},
+		{
+			"object type cardinality": [
+				"wTylaSYQ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/uPysP9bFhttp://dati.beniculturali.it/cis/atTime2.2",
+			"entity type": "http://dati.beniculturali.it/cis/TimeInterval",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2"
+		}
+	],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": [
+				{
+					"name": "bakhcatH",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "muPTRU0g",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "suiMyMVf",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "JRgKNl31",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "YAxIuSfm",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "RBKOwhAh",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "BbuKR2br",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "ZL7cM1AN",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "WIl3HA2z",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "qejGMDRx",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "S2eUhOev",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "nXVxODP9",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "nH5wIAMQ",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "zq4nnAoi",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "UifwIcAM",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "CcnBHvYz",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "a2cWQlG6",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "qaP3JsQj",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "zlrYGgEk",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "ZZZWU7I6",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "a0Q2q4jx",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "LZvIdhSo",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "PNdIZdnI",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "O4A8XgOO",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "T6WycSVX",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "djYF8rhR",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "IqMkCn8m",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "i9AFkWYe",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "ykiHneEl",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "gXXvYtnK",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "KZMgjYVG",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "MsvUqaH6",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "seYw64M6",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "5EGvbtlZ",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "CnT3hDyn",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "VHRKbJoW",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "G9wOvstk",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "N8MGBU7O",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "Ef1aFLmP",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "HkMnt7UK",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "eYHXnpol",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "GQodPmEw",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "k8w03WEJ",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "2KszXO20",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "NVEY30j6",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "3z96iVKW",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "7uCgBgWs",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "ZODubRfL",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "c1vhDgIW",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "puM3g4mc",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "oD4uyWMu",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "1hwhsFyy",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "4ug7yLmD",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "drPKKjpQ",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "Iy22AXHV",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "G58EOeGF",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "lLQksdwH",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "p7PGypem",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "OFv4wEdW",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "oLsWYRwy",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "tk8gm1fg",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "ahgpkN1D",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "uLfwZ5HF",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Ubfs1EAu",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "PGaWdLMi",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "wTylaSYQ",
+					"maximum": "*",
+					"minimum": "0"
+				}
+			]
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [],
+		"Mandatory constraints": {
+			"Mandatory": [
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ETDfF2cGhttp://dati.beniculturali.it/cis/hasGeographicalLocation.1",
+					"name": "mandatorybi5Q"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/LH1UiriMhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.1",
+					"name": "mandatoryRisL"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/mLB4twalhttp://dati.beniculturali.it/cis/isSiteOf.1",
+					"name": "mandatorytypJ"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/uq7RWSqlhttp://dati.beniculturali.it/cis/isSiteOf1.1",
+					"name": "mandatorySmS3"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/qlN4xGf3http://dati.beniculturali.it/cis/hasMeasurementUnit.1",
+					"name": "mandatorygcIv"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/X9dwKbrWhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.1",
+					"name": "mandatoryJqTD"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/f65Je7Tvhttp://dati.beniculturali.it/cis/isValidDuring.1",
+					"name": "mandatoryIfFx"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/J9L8KWHGhttp://dati.beniculturali.it/cis/isValidDuring1.1",
+					"name": "mandatoryfB7o"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/Z65z7ormhttp://dati.beniculturali.it/cis/hasSiteDescription.1",
+					"name": "mandatoryqCGU"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/f3HSvKUFhttp://dati.beniculturali.it/cis/hasSiteDescription1.1",
+					"name": "mandatory8UoB"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/KEOj1RnYhttp://dati.beniculturali.it/cis/withRole.1",
+					"name": "mandatory0f3i"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ulxz2Pw4http://dati.beniculturali.it/cis/withRole1.1",
+					"name": "mandatoryMwie"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/fTSRyW6Vhttp://dati.beniculturali.it/cis/hasCISType.1",
+					"name": "mandatoryJ7CA"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/llOP47MXhttp://dati.beniculturali.it/cis/hasCISType1.1",
+					"name": "mandatoryphPW"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/NrMhXMOohttp://dati.beniculturali.it/cis/hasAddress.1",
+					"name": "mandatory0p6B"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/K339TzLrhttp://dati.beniculturali.it/cis/hasAddress1.1",
+					"name": "mandatoryTMHx"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ej2ua9k7http://dati.beniculturali.it/cis/atTime.1",
+					"name": "mandatory48Ow"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/crHnjpTwhttp://dati.beniculturali.it/cis/atTime1.1",
+					"name": "mandatorypBLJ"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/oOPcvM20http://dati.beniculturali.it/cis/isHostedBy.1",
+					"name": "mandatoryKmH5"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/pHVKSHezhttp://dati.beniculturali.it/cis/isHostedBy1.1",
+					"name": "mandatorygzER"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/obUz9lc8http://dati.beniculturali.it/cis/includes.1",
+					"name": "mandatoryz8l8"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/qTbJMUb1http://dati.beniculturali.it/cis/includes1.1",
+					"name": "mandatoryRYQr"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/tWLWSj7lhttp://dati.beniculturali.it/cis/isRelatedToRiT.1",
+					"name": "mandatoryDiNK"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/MBOuwztQhttp://dati.beniculturali.it/cis/isRelatedToRiT1.1",
+					"name": "mandatoryJ5jR"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/gqm2iKxOhttp://dati.beniculturali.it/cis/hasSite.1",
+					"name": "mandatoryWnwi"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/qw3910BOhttp://dati.beniculturali.it/cis/hasSite1.1",
+					"name": "mandatoryKGTt"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ScQgWqcIhttp://dati.beniculturali.it/cis/hasCurrency.1",
+					"name": "mandatoryrdDT"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/MV2eKFB4http://dati.beniculturali.it/cis/hasCurrency1.1",
+					"name": "mandatoryfTgy"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/tWTTiqKThttp://dati.beniculturali.it/cis/isRelatedToRiT1.1",
+					"name": "mandatoryvth5"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/NjrovpRqhttp://dati.beniculturali.it/cis/atTime1.1",
+					"name": "mandatoryT4kn"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/TEg0drqWhttp://dati.beniculturali.it/cis/atTime2.1",
+					"name": "mandatorya0W4"
+				}
+			]
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Museum",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/Museum)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site,http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/fM69fMiD",
+				"entity parent": "http://dati.beniculturali.it/cis/hasGeographicalLocation"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site,http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/ReZdjLfu",
+				"entity parent": "http://dati.beniculturali.it/cis/isSiteOf"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/OpeningHoursSpecification",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/AccessCondition,http://dati.beniculturali.it/cis/OpeningHoursSpecification)",
+				"entity parent": "http://dati.beniculturali.it/cis/AccessCondition"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Library",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/Library)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/QuantitativeValue",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue,http://dati.beniculturali.it/cis/QuantitativeValue)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/e83XZTWi",
+				"entity parent": "http://dati.beniculturali.it/cis/hasMeasurementUnit"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CultReseachCenter",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/CultReseachCenter)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Theatre",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/Theatre)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/NameInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime,http://dati.beniculturali.it/cis/NameInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/JrL7hWMG",
+				"entity parent": "http://dati.beniculturali.it/cis/isValidDuring"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Card",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/Ticket,http://dati.beniculturali.it/cis/Card)",
+				"entity parent": "http://dati.beniculturali.it/cis/Ticket"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/MonumentalArea",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/MonumentalArea)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalLandscapeAsset",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/CulturalLandscapeAsset)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/GeographicalFeature,http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea)",
+				"entity parent": "http://dati.beniculturali.it/cis/GeographicalFeature"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/AudioObject",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CreativeWork,http://dati.beniculturali.it/cis/AudioObject)",
+				"entity parent": "http://dati.beniculturali.it/cis/CreativeWork"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site,http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/I5MtJ0Ec",
+				"entity parent": "http://dati.beniculturali.it/cis/hasSiteDescription"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/RoleInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime,http://dati.beniculturali.it/cis/RoleInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/0KmPmfAw",
+				"entity parent": "http://dati.beniculturali.it/cis/withRole"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Cinema",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/Cinema)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/U0pbFcTT",
+				"entity parent": "http://dati.beniculturali.it/cis/hasCISType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Site",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site,http://dati.beniculturali.it/cis/Site)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/IfmorKzd",
+				"entity parent": "http://dati.beniculturali.it/cis/hasAddress"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalHeritageObject",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalEntity,http://dati.beniculturali.it/cis/CulturalHeritageObject)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalEntity"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/TemporaryClosure",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/AccessCondition,http://dati.beniculturali.it/cis/TemporaryClosure)",
+				"entity parent": "http://dati.beniculturali.it/cis/AccessCondition"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/ImageObject",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CreativeWork,http://dati.beniculturali.it/cis/ImageObject)",
+				"entity parent": "http://dati.beniculturali.it/cis/CreativeWork"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/RoleInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime,http://dati.beniculturali.it/cis/RoleInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/mwsPUVsN",
+				"entity parent": "http://dati.beniculturali.it/cis/atTime"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Collection",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalEntity,http://dati.beniculturali.it/cis/Collection)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalEntity"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/GeographicalFeature,http://dati.beniculturali.it/cis/ClericalAdministrativeArea)",
+				"entity parent": "http://dati.beniculturali.it/cis/GeographicalFeature"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Event",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event,http://dati.beniculturali.it/cis/Event)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/BJuuup5X",
+				"entity parent": "http://dati.beniculturali.it/cis/isHostedBy"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Offer",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer,http://dati.beniculturali.it/cis/Offer)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/aZm6yTsU",
+				"entity parent": "http://dati.beniculturali.it/cis/includes"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/NewsArticle",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CreativeWork,http://dati.beniculturali.it/cis/NewsArticle)",
+				"entity parent": "http://dati.beniculturali.it/cis/CreativeWork"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Event",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event,http://dati.beniculturali.it/cis/Event)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/dAcmcZvG",
+				"entity parent": "http://dati.beniculturali.it/cis/isRelatedToRiT"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/ArchaeologicalArea",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/ArchaeologicalArea)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/VideoObject",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CreativeWork,http://dati.beniculturali.it/cis/VideoObject)",
+				"entity parent": "http://dati.beniculturali.it/cis/CreativeWork"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Booking",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/AccessCondition,http://dati.beniculturali.it/cis/Booking)",
+				"entity parent": "http://dati.beniculturali.it/cis/AccessCondition"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/b90ZY3Au",
+				"entity parent": "http://dati.beniculturali.it/cis/hasSite"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalEntity,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalEntity"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/HolderOfArchive",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/HolderOfArchive)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/PriceSpecification",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification,http://dati.beniculturali.it/cis/PriceSpecification)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/3ZzKVONz",
+				"entity parent": "http://dati.beniculturali.it/cis/hasCurrency"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/ArchaeologicalPark",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/ArchaeologicalPark)",
+				"entity parent": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/sZ8wC55v",
+				"entity parent": "http://dati.beniculturali.it/cis/isRelatedToRiT"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/Collection",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection,http://dati.beniculturali.it/cis/Collection)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/atTime,http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1)",
+				"entity parent": "http://dati.beniculturali.it/cis/atTime"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1,http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1"
+			}
+		],
+		"Relationship": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasGeographicalLocation"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site",
+					"http://dati.beniculturali.it/cis/GeographicalFeature"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/isSiteOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site",
+					"http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasMeasurementUnit"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue",
+					"http://dati.beniculturali.it/cis/MeasurementUnit"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/isValidDuring"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime",
+					"http://dati.beniculturali.it/cis/TimeInterval"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasSiteDescription"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site",
+					"http://dati.beniculturali.it/cis/SiteDescription"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/withRole"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime",
+					"http://dati.beniculturali.it/cis/Role"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasCISType"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+					"http://dati.beniculturali.it/cis/CISType"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasAddress"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site",
+					"http://dati.beniculturali.it/cis/Address"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/atTime"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime",
+					"http://dati.beniculturali.it/cis/TimeInterval"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/isHostedBy"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event",
+					"http://dati.beniculturali.it/cis/Site"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/includes"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer",
+					"http://dati.beniculturali.it/cis/Ticket"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/isRelatedToRiT"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event",
+					"http://dati.beniculturali.it/cis/RoleInTime"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasSite"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+					"http://dati.beniculturali.it/cis/Site"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://dati.beniculturali.it/cis/hasCurrency"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification",
+					"http://dati.beniculturali.it/cis/Currency"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+					"http://dati.beniculturali.it/cis/RoleInTime"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection",
+					"http://dati.beniculturali.it/cis/TimeInterval"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1"
+			},
+			{
+				"entities": [
+					"http://dati.beniculturali.it/cis/Collection",
+					"http://dati.beniculturali.it/cis/TimeInterval"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2"
+			}
+		]
+	}
+}

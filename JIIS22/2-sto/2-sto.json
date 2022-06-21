@@ -1,0 +1,282 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"https://w3id.org/i40/sto#AiiClassification",
+			"https://w3id.org/i40/sto#StandardClassification",
+			"https://w3id.org/i40/sto#ProductionSystemLifeCycle",
+			"http://example.org/iira#SystemCharacteristics",
+			"https://w3id.org/i40/sto#IicfConnectivityLayer",
+			"https://w3id.org/i40/sto#EdgecrossLayer",
+			"https://w3id.org/i40/sto#IviLayer",
+			"https://w3id.org/i40/sto#IIoTConsortium",
+			"http://xmlns.com/foaf/0.1/Organization",
+			"http://example.org/iira#CrosscuttingFunction",
+			"https://w3id.org/i40/sto#IIRACrosscuttingFunction",
+			"https://w3id.org/i40/sto#Viewpoint",
+			"https://w3id.org/i40/sto#OcfBlock",
+			"https://w3id.org/i40/rami#AdminShellSubmodel",
+			"https://w3id.org/i40/sto#DataSharingInitiative",
+			"https://w3id.org/i40/sto#FiwareChapter",
+			"https://w3id.org/i40/sto#IDSRAMLayer",
+			"https://w3id.org/i40/sto#IdsPerspective",
+			"https://w3id.org/i40/rami#RAMIITLayer",
+			"https://w3id.org/i40/sto#Publication",
+			"http://xmlns.com/foaf/0.1/Document",
+			"https://w3id.org/i40/sto#IotaPerspective",
+			"https://w3id.org/i40/sto#ArchitectureDescription",
+			"https://w3id.org/i40/sto#StandardizationFramework",
+			"https://w3id.org/i40/sto#StandardPart",
+			"https://w3id.org/i40/sto#TechnicalSpecification",
+			"https://w3id.org/i40/sto#Standard",
+			"https://w3id.org/i40/sto#BdvaConcern",
+			"https://w3id.org/i40/sto#IIRASystemCharacteristics",
+			"https://w3id.org/ids/ram/Layer",
+			"http://w3id.org/ids/ram/Perspective",
+			"https://w3id.org/i40/sto#TechnicalReport",
+			"https://w3id.org/i40/sto#ProductDevelopmentLifeCycle",
+			"http://example.org/iira#FunctionalDomain",
+			"https://w3id.org/i40/sto#ISA95Level",
+			"https://w3id.org/i40/sto#Stakeholder",
+			"http://xmlns.com/foaf/0.1/Person",
+			"https://w3id.org/i40/sto#NGSI_Context_Information_Management_API",
+			"https://w3id.org/i40/sto#StandardOrganization",
+			"https://w3id.org/i40/sto#xRoadSection",
+			"https://w3id.org/i40/sto#IIRAFunctionalDomain",
+			"https://w3id.org/i40/rami#RAMIHierarchyLevel",
+			"https://w3id.org/i40/sto#BusinessCycleSCM",
+			"https://w3id.org/i40/rami#RAMILifeCycleLayer",
+			"https://w3id.org/i40/sto#ConnectivityLayer"
+		]
+	},
+	"Role": [],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": []
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [],
+		"Mandatory constraints": {
+			"Mandatory": []
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "https://w3id.org/i40/sto#AiiClassification",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#AiiClassification)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#ProductionSystemLifeCycle",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#ProductionSystemLifeCycle)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "http://example.org/iira#SystemCharacteristics",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,http://example.org/iira#SystemCharacteristics)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IicfConnectivityLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IicfConnectivityLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#EdgecrossLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#EdgecrossLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IviLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IviLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IIoTConsortium",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Organization,https://w3id.org/i40/sto#IIoTConsortium)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Organization"
+			},
+			{
+				"entity child": "http://example.org/iira#CrosscuttingFunction",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,http://example.org/iira#CrosscuttingFunction)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IIRACrosscuttingFunction",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IIRACrosscuttingFunction)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#Viewpoint",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#Viewpoint)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#OcfBlock",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#OcfBlock)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/rami#AdminShellSubmodel",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/rami#AdminShellSubmodel)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#DataSharingInitiative",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Organization,https://w3id.org/i40/sto#DataSharingInitiative)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Organization"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#FiwareChapter",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#FiwareChapter)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IDSRAMLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IDSRAMLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IdsPerspective",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IdsPerspective)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/rami#RAMIITLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/rami#RAMIITLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#Publication",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Document,https://w3id.org/i40/sto#Publication)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Document"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IotaPerspective",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IotaPerspective)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#ArchitectureDescription",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardizationFramework,https://w3id.org/i40/sto#ArchitectureDescription)",
+				"entity parent": "https://w3id.org/i40/sto#StandardizationFramework"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#StandardPart",
+				"name": "Subsumption(https://w3id.org/i40/sto#Publication,https://w3id.org/i40/sto#StandardPart)",
+				"entity parent": "https://w3id.org/i40/sto#Publication"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#TechnicalSpecification",
+				"name": "Subsumption(https://w3id.org/i40/sto#Publication,https://w3id.org/i40/sto#TechnicalSpecification)",
+				"entity parent": "https://w3id.org/i40/sto#Publication"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#Standard",
+				"name": "Subsumption(https://w3id.org/i40/sto#Publication,https://w3id.org/i40/sto#Standard)",
+				"entity parent": "https://w3id.org/i40/sto#Publication"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#BdvaConcern",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#BdvaConcern)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IIRASystemCharacteristics",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IIRASystemCharacteristics)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/ids/ram/Layer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/ids/ram/Layer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "http://w3id.org/ids/ram/Perspective",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,http://w3id.org/ids/ram/Perspective)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#TechnicalReport",
+				"name": "Subsumption(https://w3id.org/i40/sto#Publication,https://w3id.org/i40/sto#TechnicalReport)",
+				"entity parent": "https://w3id.org/i40/sto#Publication"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#ProductDevelopmentLifeCycle",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#ProductDevelopmentLifeCycle)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "http://example.org/iira#FunctionalDomain",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,http://example.org/iira#FunctionalDomain)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#ISA95Level",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#ISA95Level)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#Stakeholder",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Person,https://w3id.org/i40/sto#Stakeholder)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Person"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#NGSI_Context_Information_Management_API",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#NGSI_Context_Information_Management_API)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#StandardOrganization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Organization,https://w3id.org/i40/sto#StandardOrganization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Organization"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#xRoadSection",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#xRoadSection)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#IIRAFunctionalDomain",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#IIRAFunctionalDomain)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/rami#RAMIHierarchyLevel",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/rami#RAMIHierarchyLevel)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#BusinessCycleSCM",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#BusinessCycleSCM)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/rami#RAMILifeCycleLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/rami#RAMILifeCycleLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			},
+			{
+				"entity child": "https://w3id.org/i40/sto#ConnectivityLayer",
+				"name": "Subsumption(https://w3id.org/i40/sto#StandardClassification,https://w3id.org/i40/sto#ConnectivityLayer)",
+				"entity parent": "https://w3id.org/i40/sto#StandardClassification"
+			}
+		],
+		"Relationship": []
+	}
+}

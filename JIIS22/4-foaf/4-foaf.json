@@ -1,0 +1,664 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"http://xmlns.com/foaf/0.1/Image",
+			"http://schema.org/CreativeWork",
+			"http://xmlns.com/foaf/0.1/Organization",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization",
+			"https://crowd-app.fi.uncoma.edu.ar#FakeTop",
+			"http://xmlns.com/foaf/0.1/Document",
+			"http://xmlns.com/foaf/0.1/Project",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project",
+			"http://xmlns.com/foaf/0.1/OnlineChatAccount",
+			"http://xmlns.com/foaf/0.1/OnlineAccount",
+			"http://www.w3.org/2000/10/swap/pim/contact#Person",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+			"http://schema.org/Person",
+			"http://purl.org/dc/terms/Agent",
+			"http://schema.org/ImageObject",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project",
+			"http://xmlns.com/foaf/0.1/Person",
+			"http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization",
+			"http://xmlns.com/foaf/0.1/Agent",
+			"http://xmlns.com/foaf/0.1/Group",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project",
+			"http://xmlns.com/foaf/0.1/OnlineGamingAccount",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project",
+			"http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument",
+			"http://xmlns.com/foaf/0.1/OnlineEcommerceAccount"
+		]
+	},
+	"Role": [],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": []
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization",
+						"http://xmlns.com/foaf/0.1/Organization"
+					],
+					"name": "7wnQCWNC"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "XUSGlcQD"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "5jgicAPs"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "FZMW3JUj"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization",
+						"http://xmlns.com/foaf/0.1/Organization"
+					],
+					"name": "03k4iA7K"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "cS3CApzV"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization",
+						"http://xmlns.com/foaf/0.1/Organization"
+					],
+					"name": "j3hLNhex"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "r694hKOC"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "Ir07HTaV"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization",
+						"http://xmlns.com/foaf/0.1/Organization"
+					],
+					"name": "eaWYs7Ba"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person",
+						"http://xmlns.com/foaf/0.1/Person"
+					],
+					"name": "QowUcpzs"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization",
+						"http://xmlns.com/foaf/0.1/Organization"
+					],
+					"name": "Mlq0noQP"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "TuWFgq7I"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+						"http://xmlns.com/foaf/0.1/Project"
+					],
+					"name": "UeVhEshC"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument",
+						"http://xmlns.com/foaf/0.1/PersonalProfileDocument"
+					],
+					"name": "jz3iAKFC"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization",
+						"http://xmlns.com/foaf/0.1/Organization"
+					],
+					"name": "g2JVYBmu"
+				}
+			],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization",
+					"http://xmlns.com/foaf/0.1/Organization"
+				],
+				"name": "FNBOAc37"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "BSvk1dTp"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "FGgY1mBT"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "x3LFVG50"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization",
+					"http://xmlns.com/foaf/0.1/Organization"
+				],
+				"name": "RqoN5YPe"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "LvdJ82Qf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization",
+					"http://xmlns.com/foaf/0.1/Organization"
+				],
+				"name": "6oIxue8Y"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "rKgyIu2f"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "AH3PKaUQ"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization",
+					"http://xmlns.com/foaf/0.1/Organization"
+				],
+				"name": "CsoRBQ36"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person",
+					"http://xmlns.com/foaf/0.1/Person"
+				],
+				"name": "uTQhqkQr"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization",
+					"http://xmlns.com/foaf/0.1/Organization"
+				],
+				"name": "4Pn0P3l1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "7cZWLJ3c"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+					"http://xmlns.com/foaf/0.1/Project"
+				],
+				"name": "pv8WwXYv"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument",
+					"http://xmlns.com/foaf/0.1/PersonalProfileDocument"
+				],
+				"name": "8b7ydaxe"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization",
+					"http://xmlns.com/foaf/0.1/Organization"
+				],
+				"name": "WtBEtfFs"
+			}
+		],
+		"Mandatory constraints": {
+			"Mandatory": []
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Image",
+				"name": "Subsumption(http://schema.org/CreativeWork,http://xmlns.com/foaf/0.1/Image)",
+				"entity parent": "http://schema.org/CreativeWork"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization",
+				"disjointness constraints": "7wnQCWNC",
+				"completeness constraints": "FNBOAc37",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://schema.org/CreativeWork",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization,http://schema.org/CreativeWork)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Organization",
+				"disjointness constraints": "7wnQCWNC",
+				"completeness constraints": "FNBOAc37",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://xmlns.com/foaf/0.1/Organization)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project",
+				"disjointness constraints": "XUSGlcQD",
+				"completeness constraints": "BSvk1dTp",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Document",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project,http://xmlns.com/foaf/0.1/Document)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Project",
+				"disjointness constraints": "XUSGlcQD",
+				"completeness constraints": "BSvk1dTp",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://xmlns.com/foaf/0.1/Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/OnlineChatAccount",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/OnlineAccount,http://xmlns.com/foaf/0.1/OnlineChatAccount)",
+				"entity parent": "http://xmlns.com/foaf/0.1/OnlineAccount"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project",
+				"disjointness constraints": "5jgicAPs",
+				"completeness constraints": "FGgY1mBT",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://purl.org/dc/terms/Agent,http://schema.org/Person)",
+				"entity parent": "http://purl.org/dc/terms/Agent"
+			},
+			{
+				"entity child": "http://schema.org/ImageObject",
+				"name": "Subsumption(http://schema.org/CreativeWork,http://schema.org/ImageObject)",
+				"entity parent": "http://schema.org/CreativeWork"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project",
+				"disjointness constraints": "FZMW3JUj",
+				"completeness constraints": "x3LFVG50",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://schema.org/CreativeWork",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project,http://schema.org/CreativeWork)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://purl.org/dc/terms/Agent,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://purl.org/dc/terms/Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Document,http://xmlns.com/foaf/0.1/PersonalProfileDocument)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Document"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://purl.org/dc/terms/Agent,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://purl.org/dc/terms/Agent"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Person,http://schema.org/Person)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Person"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://schema.org/Person,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://schema.org/Person"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization",
+				"disjointness constraints": "03k4iA7K",
+				"completeness constraints": "RqoN5YPe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Document",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization,http://xmlns.com/foaf/0.1/Document)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Organization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://xmlns.com/foaf/0.1/Organization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Group",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://xmlns.com/foaf/0.1/Group)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://www.w3.org/2000/10/swap/pim/contact#Person,http://schema.org/Person)",
+				"entity parent": "http://www.w3.org/2000/10/swap/pim/contact#Person"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://schema.org/Person,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://schema.org/Person"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Person"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://www.w3.org/2000/10/swap/pim/contact#Person,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://www.w3.org/2000/10/swap/pim/contact#Person"
+			},
+			{
+				"entity child": "http://purl.org/dc/terms/Agent",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://purl.org/dc/terms/Agent)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(http://purl.org/dc/terms/Agent,http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "http://purl.org/dc/terms/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project",
+				"disjointness constraints": "cS3CApzV",
+				"completeness constraints": "LvdJ82Qf",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project,http://xmlns.com/foaf/0.1/PersonalProfileDocument)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Image",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Document,http://xmlns.com/foaf/0.1/Image)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Document"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Group",
+				"name": "Subsumption(http://purl.org/dc/terms/Agent,http://xmlns.com/foaf/0.1/Group)",
+				"entity parent": "http://purl.org/dc/terms/Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/OnlineGamingAccount",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/OnlineAccount,http://xmlns.com/foaf/0.1/OnlineGamingAccount)",
+				"entity parent": "http://xmlns.com/foaf/0.1/OnlineAccount"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+				"name": "Subsumption(http://schema.org/CreativeWork,http://xmlns.com/foaf/0.1/PersonalProfileDocument)",
+				"entity parent": "http://schema.org/CreativeWork"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://schema.org/Person)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization",
+				"disjointness constraints": "j3hLNhex",
+				"completeness constraints": "6oIxue8Y",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Image",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization,http://xmlns.com/foaf/0.1/Image)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://schema.org/ImageObject",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Image,http://schema.org/ImageObject)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Image"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Image",
+				"name": "Subsumption(http://schema.org/ImageObject,http://xmlns.com/foaf/0.1/Image)",
+				"entity parent": "http://schema.org/ImageObject"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project",
+				"disjointness constraints": "r694hKOC",
+				"completeness constraints": "rKgyIu2f",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://schema.org/ImageObject",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project,http://schema.org/ImageObject)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization",
+				"disjointness constraints": "eaWYs7Ba",
+				"completeness constraints": "CsoRBQ36",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization,http://schema.org/Person)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization"
+			},
+			{
+				"entity child": "http://schema.org/ImageObject",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Document,http://schema.org/ImageObject)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Document"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person",
+				"disjointness constraints": "QowUcpzs",
+				"completeness constraints": "uTQhqkQr",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Organization",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person,http://xmlns.com/foaf/0.1/Organization)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"disjointness constraints": "QowUcpzs",
+				"completeness constraints": "uTQhqkQr",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization",
+				"disjointness constraints": "Mlq0noQP",
+				"completeness constraints": "4Pn0P3l1",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://schema.org/ImageObject",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization,http://schema.org/ImageObject)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization"
+			},
+			{
+				"entity child": "http://schema.org/CreativeWork",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Document,http://schema.org/CreativeWork)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Document"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Document",
+				"name": "Subsumption(http://schema.org/CreativeWork,http://xmlns.com/foaf/0.1/Document)",
+				"entity parent": "http://schema.org/CreativeWork"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project",
+				"disjointness constraints": "TuWFgq7I",
+				"completeness constraints": "7cZWLJ3c",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Image",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project,http://xmlns.com/foaf/0.1/Image)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing,http://schema.org/Person)",
+				"entity parent": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+			},
+			{
+				"entity child": "http://schema.org/Person",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project,http://schema.org/Person)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument",
+				"disjointness constraints": "jz3iAKFC",
+				"completeness constraints": "8b7ydaxe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Organization",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument,http://xmlns.com/foaf/0.1/Organization)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+				"disjointness constraints": "jz3iAKFC",
+				"completeness constraints": "8b7ydaxe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://xmlns.com/foaf/0.1/PersonalProfileDocument)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/OnlineEcommerceAccount",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/OnlineAccount,http://xmlns.com/foaf/0.1/OnlineEcommerceAccount)",
+				"entity parent": "http://xmlns.com/foaf/0.1/OnlineAccount"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Organization",
+				"name": "Subsumption(http://purl.org/dc/terms/Agent,http://xmlns.com/foaf/0.1/Organization)",
+				"entity parent": "http://purl.org/dc/terms/Agent"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization"
+			},
+			{
+				"entity child": "http://www.w3.org/2000/10/swap/pim/contact#Person",
+				"name": "Subsumption(http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing,http://www.w3.org/2000/10/swap/pim/contact#Person)",
+				"entity parent": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+			}
+		],
+		"Relationship": []
+	}
+}

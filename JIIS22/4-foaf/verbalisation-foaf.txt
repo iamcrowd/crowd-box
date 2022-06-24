@@ -1,0 +1,134 @@
+Http://xmlns.com/foaf/0.1/Image is an Object type.
+Http://schema.org/CreativeWork is an Object type.
+Http://xmlns.com/foaf/0.1/Organization is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization is an Object type.
+Https://crowd-app.fi.uncoma.edu.ar#FakeTop is an Object type.
+Http://xmlns.com/foaf/0.1/Document is an Object type.
+Http://xmlns.com/foaf/0.1/Project is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project is an Object type.
+Http://xmlns.com/foaf/0.1/OnlineChatAccount is an Object type.
+Http://xmlns.com/foaf/0.1/OnlineAccount is an Object type.
+Http://www.w3.org/2000/10/swap/pim/contact#Person is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project is an Object type.
+Http://schema.org/Person is an Object type.
+Http://purl.org/dc/terms/Agent is an Object type.
+Http://schema.org/ImageObject is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project is an Object type.
+Http://xmlns.com/foaf/0.1/Person is an Object type.
+Http://xmlns.com/foaf/0.1/PersonalProfileDocument is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization is an Object type.
+Http://xmlns.com/foaf/0.1/Agent is an Object type.
+Http://xmlns.com/foaf/0.1/Group is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project is an Object type.
+Http://xmlns.com/foaf/0.1/OnlineGamingAccount is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project is an Object type.
+Http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument is an Object type.
+Http://xmlns.com/foaf/0.1/OnlineEcommerceAccount is an Object type.
+Each http://xmlns.com/foaf/0.1/Image is a http://schema.org/CreativeWork.
+Each http://xmlns.com/foaf/0.1/Image is a http://xmlns.com/foaf/0.1/Document.
+Each http://xmlns.com/foaf/0.1/Image is a http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project.
+Each http://xmlns.com/foaf/0.1/Image is a http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project.
+Each http://xmlns.com/foaf/0.1/Image is a http://schema.org/ImageObject.
+Each http://schema.org/CreativeWork is a http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project.
+Each http://schema.org/CreativeWork is a http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project.
+Each http://schema.org/CreativeWork is a http://xmlns.com/foaf/0.1/Document.
+Each http://xmlns.com/foaf/0.1/Organization is a http://xmlns.com/foaf/0.1/Agent.
+Each http://xmlns.com/foaf/0.1/Organization is a http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument.
+Each http://xmlns.com/foaf/0.1/Organization is a http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument.
+Each http://xmlns.com/foaf/0.1/Organization is a http://purl.org/dc/terms/Agent.
+Each http://xmlns.com/foaf/0.1/Document is a http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization.
+Each http://xmlns.com/foaf/0.1/Document is a http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization.
+Each http://xmlns.com/foaf/0.1/Document is a http://schema.org/CreativeWork.
+Each http://xmlns.com/foaf/0.1/OnlineChatAccount is a http://xmlns.com/foaf/0.1/OnlineAccount.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project.
+Each http://schema.org/Person is a http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project.
+Each http://schema.org/Person is a http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project.
+Each http://xmlns.com/foaf/0.1/Person is a http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://purl.org/dc/terms/Agent.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://schema.org/Person.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://xmlns.com/foaf/0.1/Person.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://xmlns.com/foaf/0.1/Agent.
+Each http://www.w3.org/2000/10/swap/pim/contact#Person is a http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing.
+Each http://schema.org/Person is a http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing.
+Each http://xmlns.com/foaf/0.1/Person is a http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing.
+Each http://schema.org/Person is a http://purl.org/dc/terms/Agent.
+Each http://schema.org/Person is a http://xmlns.com/foaf/0.1/Person.
+Each http://schema.org/Person is a http://www.w3.org/2000/10/swap/pim/contact#Person.
+Each http://schema.org/Person is a http://xmlns.com/foaf/0.1/Agent.
+Each http://purl.org/dc/terms/Agent is a http://xmlns.com/foaf/0.1/Agent.
+Each http://schema.org/ImageObject is a http://schema.org/CreativeWork.
+Each http://schema.org/ImageObject is a http://xmlns.com/foaf/0.1/Image.
+Each http://schema.org/ImageObject is a http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization.
+Each http://schema.org/ImageObject is a http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization.
+Each http://schema.org/ImageObject is a http://xmlns.com/foaf/0.1/Document.
+Each http://xmlns.com/foaf/0.1/Person is a http://purl.org/dc/terms/Agent.
+Each http://xmlns.com/foaf/0.1/Person is a http://schema.org/Person.
+Each http://xmlns.com/foaf/0.1/Person is a http://www.w3.org/2000/10/swap/pim/contact#Person.
+Each http://xmlns.com/foaf/0.1/Person is a http://xmlns.com/foaf/0.1/Agent.
+Each http://xmlns.com/foaf/0.1/PersonalProfileDocument is a http://xmlns.com/foaf/0.1/Document.
+Each http://xmlns.com/foaf/0.1/PersonalProfileDocument is a http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project.
+Each http://xmlns.com/foaf/0.1/PersonalProfileDocument is a http://schema.org/CreativeWork.
+Each http://xmlns.com/foaf/0.1/Agent is a http://purl.org/dc/terms/Agent.
+Each http://xmlns.com/foaf/0.1/Group is a http://xmlns.com/foaf/0.1/Agent.
+Each http://xmlns.com/foaf/0.1/Group is a http://purl.org/dc/terms/Agent.
+Each http://xmlns.com/foaf/0.1/OnlineGamingAccount is a http://xmlns.com/foaf/0.1/OnlineAccount.
+Each http://xmlns.com/foaf/0.1/OnlineEcommerceAccount is a http://xmlns.com/foaf/0.1/OnlineAccount.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization and http://xmlns.com/foaf/0.1/Organization cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Organization and http://xmlns.com/foaf/0.1/Organization are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project and http://xmlns.com/foaf/0.1/Project cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Project and http://xmlns.com/foaf/0.1/Project are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project and http://xmlns.com/foaf/0.1/Project cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Project and http://xmlns.com/foaf/0.1/Project are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project and http://xmlns.com/foaf/0.1/Project cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CreativeWork_NOT_Project and http://xmlns.com/foaf/0.1/Project are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization and http://xmlns.com/foaf/0.1/Organization cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Document_NOT_Organization and http://xmlns.com/foaf/0.1/Organization are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project and http://xmlns.com/foaf/0.1/Project cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/PersonalProfileDocument_NOT_Project and http://xmlns.com/foaf/0.1/Project are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization and http://xmlns.com/foaf/0.1/Organization cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Organization and http://xmlns.com/foaf/0.1/Organization are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project and http://xmlns.com/foaf/0.1/Project cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Project and http://xmlns.com/foaf/0.1/Project are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization and http://xmlns.com/foaf/0.1/Organization cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Person_NOT_Organization and http://xmlns.com/foaf/0.1/Organization are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person and http://xmlns.com/foaf/0.1/Person cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_Person and http://xmlns.com/foaf/0.1/Person are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Person is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization and http://xmlns.com/foaf/0.1/Organization cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ImageObject_NOT_Organization and http://xmlns.com/foaf/0.1/Organization are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Organization is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project and http://xmlns.com/foaf/0.1/Project cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Image_NOT_Project and http://xmlns.com/foaf/0.1/Project are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/Project is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument and http://xmlns.com/foaf/0.1/PersonalProfileDocument cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Organization_NOT_PersonalProfileDocument and http://xmlns.com/foaf/0.1/PersonalProfileDocument are disjoint from each other.
+Each http://xmlns.com/foaf/0.1/PersonalProfileDocument is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.

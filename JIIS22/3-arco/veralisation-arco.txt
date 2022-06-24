@@ -1,0 +1,128 @@
+Https://w3id.org/arco/ontology/core/CulturalEntityClassification is an Object type.
+Https://w3id.org/arco/ontology/core/Classification is an Object type.
+Https://w3id.org/arco/ontology/core/AgentRole is an Object type.
+Https://w3id.org/arco/ontology/core/Situation is an Object type.
+Http://xmlns.com/foaf/0.1/Agent is an Object type.
+Https://w3id.org/italia/onto/l0/Agent is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran is an Object type.
+Http://www.w3.org/2006/vcard/ns#Organization is an Object type.
+Https://w3id.org/italia/onto/RO/Role is an Object type.
+Https://w3id.org/italia/onto/l0/Concept is an Object type.
+Http://dati.gov.it/onto/dcatapit#Organization is an Object type.
+Https://w3id.org/arco/ontology/core/Event is an Object type.
+Https://w3id.org/italia/onto/l0/EventOrSituation is an Object type.
+Https://w3id.org/arco/ontology/core/Concept is an Object type.
+Https://w3id.org/arco/ontology/core/CulturalEntityCharacteristic is an Object type.
+Https://w3id.org/italia/onto/l0/Characteristic is an Object type.
+Https://w3id.org/arco/ontology/core/ClassificationInTime is an Object type.
+Https://w3id.org/arco/ontology/core/TimeIndexedSituation is an Object type.
+Https://w3id.org/arco/ontology/core/Method is an Object type.
+Https://w3id.org/italia/onto/l0/Description is an Object type.
+Https://w3id.org/italia/onto/l0/Object is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime is an Object type.
+Https://crowd-app.fi.uncoma.edu.ar#FakeTop is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole is an Object type.
+Http://dati.beniculturali.it/cis/CulturalEvent is an Object type.
+Https://w3id.org/arco/ontology/core/Type is an Object type.
+Https://w3id.org/arco/ontology/core/Category is an Object type.
+Http://dati.gov.it/onto/dcatapit#Agent is an Object type.
+Http://dati.beniculturali.it/cis/NameInTime is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime is an Object type.
+Http://dati.beniculturali.it/cis/CulturalInstituteOrSite is an Object type.
+Http://dati.beniculturali.it/cis/Site is an Object type.
+Https://w3id.org/italia/onto/l0/Location is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole and https://w3id.org/italia/onto/l0/Agent.
+Http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasAgent is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasRole is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole and https://w3id.org/italia/onto/RO/Role.
+Each https://w3id.org/arco/ontology/core/CulturalEntityClassification is a https://w3id.org/arco/ontology/core/Classification.
+Each https://w3id.org/arco/ontology/core/ClassificationInTime is a https://w3id.org/arco/ontology/core/Classification.
+Each https://w3id.org/arco/ontology/core/Classification is a https://w3id.org/arco/ontology/core/Situation.
+Each https://w3id.org/arco/ontology/core/AgentRole is a https://w3id.org/arco/ontology/core/Situation.
+Each https://w3id.org/arco/ontology/core/TimeIndexedSituation is a https://w3id.org/arco/ontology/core/Situation.
+Each http://dati.beniculturali.it/cis/NameInTime is a https://w3id.org/arco/ontology/core/Situation.
+Each https://w3id.org/italia/onto/l0/Agent is a http://xmlns.com/foaf/0.1/Agent.
+Each http://www.w3.org/2006/vcard/ns#Organization is a http://xmlns.com/foaf/0.1/Agent.
+Each http://dati.gov.it/onto/dcatapit#Organization is a http://xmlns.com/foaf/0.1/Agent.
+Each http://dati.gov.it/onto/dcatapit#Agent is a http://xmlns.com/foaf/0.1/Agent.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://xmlns.com/foaf/0.1/Agent.
+Each http://xmlns.com/foaf/0.1/Agent is a https://w3id.org/italia/onto/l0/Agent.
+Each http://www.w3.org/2006/vcard/ns#Organization is a https://w3id.org/italia/onto/l0/Agent.
+Each http://dati.gov.it/onto/dcatapit#Organization is a https://w3id.org/italia/onto/l0/Agent.
+Each http://dati.gov.it/onto/dcatapit#Agent is a https://w3id.org/italia/onto/l0/Agent.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a https://w3id.org/italia/onto/l0/Agent.
+Each https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.gov.it/onto/dcatapit#Organization is a http://www.w3.org/2006/vcard/ns#Organization.
+Each https://w3id.org/italia/onto/RO/Role is a https://w3id.org/italia/onto/l0/Concept.
+Each https://w3id.org/arco/ontology/core/Concept is a https://w3id.org/italia/onto/l0/Concept.
+Each https://w3id.org/arco/ontology/core/Type is a https://w3id.org/italia/onto/l0/Concept.
+Each https://w3id.org/arco/ontology/core/Category is a https://w3id.org/italia/onto/l0/Concept.
+Each http://www.w3.org/2006/vcard/ns#Organization is a http://dati.gov.it/onto/dcatapit#Organization.
+Each http://dati.beniculturali.it/cis/CulturalEvent is a https://w3id.org/arco/ontology/core/Event.
+Each https://w3id.org/arco/ontology/core/Situation is a https://w3id.org/italia/onto/l0/EventOrSituation.
+Each https://w3id.org/arco/ontology/core/Event is a https://w3id.org/italia/onto/l0/EventOrSituation.
+Each http://dati.beniculturali.it/cis/NameInTime is a https://w3id.org/italia/onto/l0/EventOrSituation.
+Each https://w3id.org/italia/onto/RO/Role is a https://w3id.org/arco/ontology/core/Concept.
+Each https://w3id.org/italia/onto/l0/Concept is a https://w3id.org/arco/ontology/core/Concept.
+Each https://w3id.org/arco/ontology/core/Type is a https://w3id.org/arco/ontology/core/Concept.
+Each https://w3id.org/arco/ontology/core/Category is a https://w3id.org/arco/ontology/core/Concept.
+Each https://w3id.org/arco/ontology/core/CulturalEntityCharacteristic is a https://w3id.org/italia/onto/l0/Characteristic.
+Each https://w3id.org/arco/ontology/core/ClassificationInTime is a https://w3id.org/arco/ontology/core/TimeIndexedSituation.
+Each https://w3id.org/arco/ontology/core/Method is a https://w3id.org/italia/onto/l0/Description.
+Each https://w3id.org/italia/onto/l0/Concept is a https://w3id.org/italia/onto/l0/Object.
+Each https://w3id.org/arco/ontology/core/Concept is a https://w3id.org/italia/onto/l0/Object.
+Each https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime and https://w3id.org/arco/ontology/core/ClassificationInTime cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime and https://w3id.org/arco/ontology/core/ClassificationInTime are disjoint from each other.
+Each https://w3id.org/arco/ontology/core/ClassificationInTime is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime and http://dati.beniculturali.it/cis/NameInTime cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime and http://dati.beniculturali.it/cis/NameInTime are disjoint from each other.
+Each http://dati.beniculturali.it/cis/NameInTime is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification and https://w3id.org/arco/ontology/core/Classification cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification and https://w3id.org/arco/ontology/core/Classification are disjoint from each other.
+Each https://w3id.org/arco/ontology/core/Classification is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification and https://w3id.org/arco/ontology/core/CulturalEntityClassification cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification and https://w3id.org/arco/ontology/core/CulturalEntityClassification are disjoint from each other.
+Each https://w3id.org/arco/ontology/core/CulturalEntityClassification is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole.
+Each http://xmlns.com/foaf/0.1/Agent is a http://dati.gov.it/onto/dcatapit#Agent.
+Each https://w3id.org/italia/onto/l0/Agent is a http://dati.gov.it/onto/dcatapit#Agent.
+Each http://www.w3.org/2006/vcard/ns#Organization is a http://dati.gov.it/onto/dcatapit#Agent.
+Each http://dati.gov.it/onto/dcatapit#Organization is a http://dati.gov.it/onto/dcatapit#Agent.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://dati.gov.it/onto/dcatapit#Agent.
+Each http://dati.beniculturali.it/cis/CulturalEvent is a http://crowd.fi.uncoma.edu.ar/IMPORT/CulturalEvent_NOT_NameInTime.
+Each http://dati.beniculturali.it/cis/Site is a https://w3id.org/italia/onto/l0/Location.
+Each https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_Classification.
+Each https://w3id.org/arco/ontology/core/AgentRole is a http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1 is a http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasAgent.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1 is a http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasRole.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/RcPvftvthttps://w3id.org/arco/ontology/core/hasAgent1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole http://crowd.fi.uncoma.edu.ar/IMPORT/RcPvftvthttps://w3id.org/arco/ontology/core/hasAgent1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1s at least 1 https://w3id.org/italia/onto/l0/Agent and at most * https://w3id.org/italia/onto/l0/Agent.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/RcPvftvthttps://w3id.org/arco/ontology/core/hasAgent1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1ErV75PHhttps://w3id.org/arco/ontology/core/hasAgent1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1.
+Each https://w3id.org/italia/onto/l0/Agent http://crowd.fi.uncoma.edu.ar/IMPORT/1ErV75PHhttps://w3id.org/arco/ontology/core/hasAgent1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/t4uwEMvkhttps://w3id.org/arco/ontology/core/hasAgent1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasAgent%https://w3id.org/arco/ontology/core/AgentRole.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/DqjkWEhshttps://w3id.org/arco/ontology/core/hasAgent.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasAgent.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/DqjkWEhshttps://w3id.org/arco/ontology/core/hasAgent.1 http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasAgents at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/HyWBQpdhhttps://w3id.org/arco/ontology/core/hasRole.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tmHStLJnhttps://w3id.org/arco/ontology/core/hasAgent.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasAgent.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/tmHStLJnhttps://w3id.org/arco/ontology/core/hasAgent.2 http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasAgents at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/HyWBQpdhhttps://w3id.org/arco/ontology/core/hasRole.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasRole.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/HyWBQpdhhttps://w3id.org/arco/ontology/core/hasRole.1 http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasRoles at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/HyWBQpdhhttps://w3id.org/arco/ontology/core/hasRole.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/JSboxpGchttps://w3id.org/arco/ontology/core/hasRole.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasRole.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/JSboxpGchttps://w3id.org/arco/ontology/core/hasRole.2 http://crowd.fi.uncoma.edu.ar#https://w3id.org/arco/ontology/core/hasRoles at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/i8QWgaVphttps://w3id.org/arco/ontology/core/hasRole1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole http://crowd.fi.uncoma.edu.ar/IMPORT/i8QWgaVphttps://w3id.org/arco/ontology/core/hasRole1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1s at least 1 https://w3id.org/italia/onto/RO/Role and at most * https://w3id.org/italia/onto/RO/Role.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/i8QWgaVphttps://w3id.org/arco/ontology/core/hasRole1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Xhfmu5Mdhttps://w3id.org/arco/ontology/core/hasRole1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1.
+Each https://w3id.org/italia/onto/RO/Role http://crowd.fi.uncoma.edu.ar/IMPORT/Xhfmu5Mdhttps://w3id.org/arco/ontology/core/hasRole1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/k5uK0r8rhttps://w3id.org/arco/ontology/core/hasRole1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/core/hasRole%https://w3id.org/arco/ontology/core/AgentRole.

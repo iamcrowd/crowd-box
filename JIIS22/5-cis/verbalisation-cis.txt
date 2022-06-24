@@ -1,0 +1,318 @@
+Http://dati.beniculturali.it/cis/Museum is an Object type.
+Http://dati.beniculturali.it/cis/CulturalInstituteOrSite is an Object type.
+Http://dati.beniculturali.it/cis/Site is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site is an Object type.
+Http://dati.beniculturali.it/cis/GeographicalFeature is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site is an Object type.
+Http://dati.beniculturali.it/cis/OpeningHoursSpecification is an Object type.
+Http://dati.beniculturali.it/cis/AccessCondition is an Object type.
+Http://dati.beniculturali.it/cis/Library is an Object type.
+Http://dati.beniculturali.it/cis/QuantitativeValue is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue is an Object type.
+Http://dati.beniculturali.it/cis/MeasurementUnit is an Object type.
+Http://dati.beniculturali.it/cis/CultReseachCenter is an Object type.
+Http://dati.beniculturali.it/cis/Theatre is an Object type.
+Http://dati.beniculturali.it/cis/NameInTime is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime is an Object type.
+Http://dati.beniculturali.it/cis/TimeInterval is an Object type.
+Http://dati.beniculturali.it/cis/Card is an Object type.
+Http://dati.beniculturali.it/cis/Ticket is an Object type.
+Http://dati.beniculturali.it/cis/MonumentalArea is an Object type.
+Http://dati.beniculturali.it/cis/CulturalLandscapeAsset is an Object type.
+Http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea is an Object type.
+Http://dati.beniculturali.it/cis/AudioObject is an Object type.
+Http://dati.beniculturali.it/cis/CreativeWork is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site is an Object type.
+Http://dati.beniculturali.it/cis/SiteDescription is an Object type.
+Http://dati.beniculturali.it/cis/RoleInTime is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime is an Object type.
+Http://dati.beniculturali.it/cis/Role is an Object type.
+Http://dati.beniculturali.it/cis/Cinema is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite is an Object type.
+Http://dati.beniculturali.it/cis/CISType is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site is an Object type.
+Http://dati.beniculturali.it/cis/Address is an Object type.
+Http://dati.beniculturali.it/cis/CulturalHeritageObject is an Object type.
+Http://dati.beniculturali.it/cis/CulturalEntity is an Object type.
+Http://dati.beniculturali.it/cis/TemporaryClosure is an Object type.
+Http://dati.beniculturali.it/cis/ImageObject is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime is an Object type.
+Http://dati.beniculturali.it/cis/Collection is an Object type.
+Http://dati.beniculturali.it/cis/ClericalAdministrativeArea is an Object type.
+Http://dati.beniculturali.it/cis/Event is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event is an Object type.
+Http://dati.beniculturali.it/cis/Offer is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer is an Object type.
+Http://dati.beniculturali.it/cis/NewsArticle is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event is an Object type.
+Http://dati.beniculturali.it/cis/ArchaeologicalArea is an Object type.
+Http://dati.beniculturali.it/cis/VideoObject is an Object type.
+Http://dati.beniculturali.it/cis/Booking is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite is an Object type.
+Http://dati.beniculturali.it/cis/HolderOfArchive is an Object type.
+Http://dati.beniculturali.it/cis/PriceSpecification is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification is an Object type.
+Http://dati.beniculturali.it/cis/Currency is an Object type.
+Http://dati.beniculturali.it/cis/ArchaeologicalPark is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site and http://dati.beniculturali.it/cis/GeographicalFeature.
+Http://dati.beniculturali.it/cis/hasGeographicalLocation is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/isSiteOf is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/hasMeasurementUnit is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/isValidDuring is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/hasSiteDescription is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/withRole is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/hasCISType is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/hasAddress is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/atTime is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/isHostedBy is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/includes is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/isRelatedToRiT is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/hasSite is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://dati.beniculturali.it/cis/hasCurrency is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site and http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue and http://dati.beniculturali.it/cis/MeasurementUnit.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime and http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site and http://dati.beniculturali.it/cis/SiteDescription.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime and http://dati.beniculturali.it/cis/Role.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite and http://dati.beniculturali.it/cis/CISType.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site and http://dati.beniculturali.it/cis/Address.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime and http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2 is a relationship between http://dati.beniculturali.it/cis/Collection and http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event and http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer and http://dati.beniculturali.it/cis/Ticket.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event and http://dati.beniculturali.it/cis/RoleInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite and http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification and http://dati.beniculturali.it/cis/Currency.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite and http://dati.beniculturali.it/cis/RoleInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection and http://dati.beniculturali.it/cis/TimeInterval.
+Each http://dati.beniculturali.it/cis/Museum is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://dati.beniculturali.it/cis/CulturalEntity.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site.
+Each http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site.
+Each http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site.
+Each http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/OpeningHoursSpecification is a http://dati.beniculturali.it/cis/AccessCondition.
+Each http://dati.beniculturali.it/cis/Library is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/QuantitativeValue is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/CultReseachCenter is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/Theatre is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/NameInTime is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/Card is a http://dati.beniculturali.it/cis/Ticket.
+Each http://dati.beniculturali.it/cis/MonumentalArea is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/CulturalLandscapeAsset is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea is a http://dati.beniculturali.it/cis/GeographicalFeature.
+Each http://dati.beniculturali.it/cis/AudioObject is a http://dati.beniculturali.it/cis/CreativeWork.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/RoleInTime is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime.
+Each http://dati.beniculturali.it/cis/RoleInTime is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/Cinema is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/CulturalHeritageObject is a http://dati.beniculturali.it/cis/CulturalEntity.
+Each http://dati.beniculturali.it/cis/TemporaryClosure is a http://dati.beniculturali.it/cis/AccessCondition.
+Each http://dati.beniculturali.it/cis/ImageObject is a http://dati.beniculturali.it/cis/CreativeWork.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/Collection is a http://dati.beniculturali.it/cis/CulturalEntity.
+Each http://dati.beniculturali.it/cis/Collection is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection.
+Each http://dati.beniculturali.it/cis/ClericalAdministrativeArea is a http://dati.beniculturali.it/cis/GeographicalFeature.
+Each http://dati.beniculturali.it/cis/Event is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event.
+Each http://dati.beniculturali.it/cis/Event is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/Offer is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/NewsArticle is a http://dati.beniculturali.it/cis/CreativeWork.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/ArchaeologicalArea is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/VideoObject is a http://dati.beniculturali.it/cis/CreativeWork.
+Each http://dati.beniculturali.it/cis/Booking is a http://dati.beniculturali.it/cis/AccessCondition.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/HolderOfArchive is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://dati.beniculturali.it/cis/PriceSpecification is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://dati.beniculturali.it/cis/ArchaeologicalPark is a http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1 is a http://dati.beniculturali.it/cis/hasGeographicalLocation.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1 is a http://dati.beniculturali.it/cis/isSiteOf.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1 is a http://dati.beniculturali.it/cis/hasMeasurementUnit.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1 is a http://dati.beniculturali.it/cis/isValidDuring.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1 is a http://dati.beniculturali.it/cis/hasSiteDescription.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1 is a http://dati.beniculturali.it/cis/withRole.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1 is a http://dati.beniculturali.it/cis/hasCISType.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1 is a http://dati.beniculturali.it/cis/hasAddress.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1 is a http://dati.beniculturali.it/cis/atTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1 is a http://dati.beniculturali.it/cis/isHostedBy.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1 is a http://dati.beniculturali.it/cis/includes.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1 is a http://dati.beniculturali.it/cis/isRelatedToRiT.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1 is a http://dati.beniculturali.it/cis/hasSite.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1 is a http://dati.beniculturali.it/cis/hasCurrency.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1 is a http://dati.beniculturali.it/cis/isRelatedToRiT.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1 is a http://dati.beniculturali.it/cis/atTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2 is a http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/LH1UiriMhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site http://crowd.fi.uncoma.edu.ar/IMPORT/LH1UiriMhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1s at least 1 http://dati.beniculturali.it/cis/GeographicalFeature and at most * http://dati.beniculturali.it/cis/GeographicalFeature.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/LH1UiriMhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tRgjbJ29http://dati.beniculturali.it/cis/hasGeographicalLocation1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1.
+Each http://dati.beniculturali.it/cis/GeographicalFeature http://crowd.fi.uncoma.edu.ar/IMPORT/tRgjbJ29http://dati.beniculturali.it/cis/hasGeographicalLocation1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/MqrNiikOhttp://dati.beniculturali.it/cis/hasGeographicalLocation1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasGeographicalLocation%http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ETDfF2cGhttp://dati.beniculturali.it/cis/hasGeographicalLocation.1 is a role in a relationship http://dati.beniculturali.it/cis/hasGeographicalLocation.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/ETDfF2cGhttp://dati.beniculturali.it/cis/hasGeographicalLocation.1 http://dati.beniculturali.it/cis/hasGeographicalLocations at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ETDfF2cGhttp://dati.beniculturali.it/cis/hasGeographicalLocation.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/6iIslFhThttp://dati.beniculturali.it/cis/hasGeographicalLocation.2 is a role in a relationship http://dati.beniculturali.it/cis/hasGeographicalLocation.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/6iIslFhThttp://dati.beniculturali.it/cis/hasGeographicalLocation.2 http://dati.beniculturali.it/cis/hasGeographicalLocations at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/mLB4twalhttp://dati.beniculturali.it/cis/isSiteOf.1 is a role in a relationship http://dati.beniculturali.it/cis/isSiteOf.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/mLB4twalhttp://dati.beniculturali.it/cis/isSiteOf.1 http://dati.beniculturali.it/cis/isSiteOfs at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/mLB4twalhttp://dati.beniculturali.it/cis/isSiteOf.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MbWWrwNEhttp://dati.beniculturali.it/cis/isSiteOf.2 is a role in a relationship http://dati.beniculturali.it/cis/isSiteOf.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/MbWWrwNEhttp://dati.beniculturali.it/cis/isSiteOf.2 http://dati.beniculturali.it/cis/isSiteOfs at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qlN4xGf3http://dati.beniculturali.it/cis/hasMeasurementUnit.1 is a role in a relationship http://dati.beniculturali.it/cis/hasMeasurementUnit.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/qlN4xGf3http://dati.beniculturali.it/cis/hasMeasurementUnit.1 http://dati.beniculturali.it/cis/hasMeasurementUnits at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qlN4xGf3http://dati.beniculturali.it/cis/hasMeasurementUnit.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/zCTL7OAohttp://dati.beniculturali.it/cis/hasMeasurementUnit.2 is a role in a relationship http://dati.beniculturali.it/cis/hasMeasurementUnit.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/zCTL7OAohttp://dati.beniculturali.it/cis/hasMeasurementUnit.2 http://dati.beniculturali.it/cis/hasMeasurementUnits at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/f65Je7Tvhttp://dati.beniculturali.it/cis/isValidDuring.1 is a role in a relationship http://dati.beniculturali.it/cis/isValidDuring.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/f65Je7Tvhttp://dati.beniculturali.it/cis/isValidDuring.1 http://dati.beniculturali.it/cis/isValidDurings at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/f65Je7Tvhttp://dati.beniculturali.it/cis/isValidDuring.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/L8XPLlDbhttp://dati.beniculturali.it/cis/isValidDuring.2 is a role in a relationship http://dati.beniculturali.it/cis/isValidDuring.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/L8XPLlDbhttp://dati.beniculturali.it/cis/isValidDuring.2 http://dati.beniculturali.it/cis/isValidDurings at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Z65z7ormhttp://dati.beniculturali.it/cis/hasSiteDescription.1 is a role in a relationship http://dati.beniculturali.it/cis/hasSiteDescription.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/Z65z7ormhttp://dati.beniculturali.it/cis/hasSiteDescription.1 http://dati.beniculturali.it/cis/hasSiteDescriptions at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Z65z7ormhttp://dati.beniculturali.it/cis/hasSiteDescription.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/cFt19sSOhttp://dati.beniculturali.it/cis/hasSiteDescription.2 is a role in a relationship http://dati.beniculturali.it/cis/hasSiteDescription.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/cFt19sSOhttp://dati.beniculturali.it/cis/hasSiteDescription.2 http://dati.beniculturali.it/cis/hasSiteDescriptions at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/KEOj1RnYhttp://dati.beniculturali.it/cis/withRole.1 is a role in a relationship http://dati.beniculturali.it/cis/withRole.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/KEOj1RnYhttp://dati.beniculturali.it/cis/withRole.1 http://dati.beniculturali.it/cis/withRoles at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/KEOj1RnYhttp://dati.beniculturali.it/cis/withRole.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/UY4bZHo7http://dati.beniculturali.it/cis/withRole.2 is a role in a relationship http://dati.beniculturali.it/cis/withRole.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/UY4bZHo7http://dati.beniculturali.it/cis/withRole.2 http://dati.beniculturali.it/cis/withRoles at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/fTSRyW6Vhttp://dati.beniculturali.it/cis/hasCISType.1 is a role in a relationship http://dati.beniculturali.it/cis/hasCISType.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/fTSRyW6Vhttp://dati.beniculturali.it/cis/hasCISType.1 http://dati.beniculturali.it/cis/hasCISTypes at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/fTSRyW6Vhttp://dati.beniculturali.it/cis/hasCISType.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/AsVRj3Xjhttp://dati.beniculturali.it/cis/hasCISType.2 is a role in a relationship http://dati.beniculturali.it/cis/hasCISType.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/AsVRj3Xjhttp://dati.beniculturali.it/cis/hasCISType.2 http://dati.beniculturali.it/cis/hasCISTypes at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/NrMhXMOohttp://dati.beniculturali.it/cis/hasAddress.1 is a role in a relationship http://dati.beniculturali.it/cis/hasAddress.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/NrMhXMOohttp://dati.beniculturali.it/cis/hasAddress.1 http://dati.beniculturali.it/cis/hasAddresses at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/NrMhXMOohttp://dati.beniculturali.it/cis/hasAddress.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qVQTIsj5http://dati.beniculturali.it/cis/hasAddress.2 is a role in a relationship http://dati.beniculturali.it/cis/hasAddress.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/qVQTIsj5http://dati.beniculturali.it/cis/hasAddress.2 http://dati.beniculturali.it/cis/hasAddresses at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Ej2ua9k7http://dati.beniculturali.it/cis/atTime.1 is a role in a relationship http://dati.beniculturali.it/cis/atTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/Ej2ua9k7http://dati.beniculturali.it/cis/atTime.1 http://dati.beniculturali.it/cis/atTimes at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Ej2ua9k7http://dati.beniculturali.it/cis/atTime.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CmqpMTqkhttp://dati.beniculturali.it/cis/atTime.2 is a role in a relationship http://dati.beniculturali.it/cis/atTime.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/CmqpMTqkhttp://dati.beniculturali.it/cis/atTime.2 http://dati.beniculturali.it/cis/atTimes at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/oOPcvM20http://dati.beniculturali.it/cis/isHostedBy.1 is a role in a relationship http://dati.beniculturali.it/cis/isHostedBy.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/oOPcvM20http://dati.beniculturali.it/cis/isHostedBy.1 http://dati.beniculturali.it/cis/isHostedBys at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/oOPcvM20http://dati.beniculturali.it/cis/isHostedBy.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/HCtOKrj7http://dati.beniculturali.it/cis/isHostedBy.2 is a role in a relationship http://dati.beniculturali.it/cis/isHostedBy.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/HCtOKrj7http://dati.beniculturali.it/cis/isHostedBy.2 http://dati.beniculturali.it/cis/isHostedBys at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/obUz9lc8http://dati.beniculturali.it/cis/includes.1 is a role in a relationship http://dati.beniculturali.it/cis/includes.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/obUz9lc8http://dati.beniculturali.it/cis/includes.1 http://dati.beniculturali.it/cis/includeses at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/obUz9lc8http://dati.beniculturali.it/cis/includes.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/IeyqCgGRhttp://dati.beniculturali.it/cis/includes.2 is a role in a relationship http://dati.beniculturali.it/cis/includes.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/IeyqCgGRhttp://dati.beniculturali.it/cis/includes.2 http://dati.beniculturali.it/cis/includeses at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tWLWSj7lhttp://dati.beniculturali.it/cis/isRelatedToRiT.1 is a role in a relationship http://dati.beniculturali.it/cis/isRelatedToRiT.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/tWLWSj7lhttp://dati.beniculturali.it/cis/isRelatedToRiT.1 http://dati.beniculturali.it/cis/isRelatedToRiTs at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tWLWSj7lhttp://dati.beniculturali.it/cis/isRelatedToRiT.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/NNB4sOhShttp://dati.beniculturali.it/cis/isRelatedToRiT.2 is a role in a relationship http://dati.beniculturali.it/cis/isRelatedToRiT.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/NNB4sOhShttp://dati.beniculturali.it/cis/isRelatedToRiT.2 http://dati.beniculturali.it/cis/isRelatedToRiTs at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/gqm2iKxOhttp://dati.beniculturali.it/cis/hasSite.1 is a role in a relationship http://dati.beniculturali.it/cis/hasSite.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/gqm2iKxOhttp://dati.beniculturali.it/cis/hasSite.1 http://dati.beniculturali.it/cis/hasSites at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/gqm2iKxOhttp://dati.beniculturali.it/cis/hasSite.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/py4dXAIzhttp://dati.beniculturali.it/cis/hasSite.2 is a role in a relationship http://dati.beniculturali.it/cis/hasSite.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/py4dXAIzhttp://dati.beniculturali.it/cis/hasSite.2 http://dati.beniculturali.it/cis/hasSites at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ScQgWqcIhttp://dati.beniculturali.it/cis/hasCurrency.1 is a role in a relationship http://dati.beniculturali.it/cis/hasCurrency.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/ScQgWqcIhttp://dati.beniculturali.it/cis/hasCurrency.1 http://dati.beniculturali.it/cis/hasCurrencies at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ScQgWqcIhttp://dati.beniculturali.it/cis/hasCurrency.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/fT0o5bephttp://dati.beniculturali.it/cis/hasCurrency.2 is a role in a relationship http://dati.beniculturali.it/cis/hasCurrency.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/fT0o5bephttp://dati.beniculturali.it/cis/hasCurrency.2 http://dati.beniculturali.it/cis/hasCurrencies at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/uq7RWSqlhttp://dati.beniculturali.it/cis/isSiteOf1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site http://crowd.fi.uncoma.edu.ar/IMPORT/uq7RWSqlhttp://dati.beniculturali.it/cis/isSiteOf1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1s at least 1 http://dati.beniculturali.it/cis/CulturalInstituteOrSite and at most * http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/uq7RWSqlhttp://dati.beniculturali.it/cis/isSiteOf1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/cfGnHwsFhttp://dati.beniculturali.it/cis/isSiteOf1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1.
+Each http://dati.beniculturali.it/cis/CulturalInstituteOrSite http://crowd.fi.uncoma.edu.ar/IMPORT/cfGnHwsFhttp://dati.beniculturali.it/cis/isSiteOf1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/ErdNqO3Mhttp://dati.beniculturali.it/cis/isSiteOf1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isSiteOf%http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/X9dwKbrWhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue http://crowd.fi.uncoma.edu.ar/IMPORT/X9dwKbrWhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1s at least 1 http://dati.beniculturali.it/cis/MeasurementUnit and at most * http://dati.beniculturali.it/cis/MeasurementUnit.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/X9dwKbrWhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/vpBifN2lhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.
+Each http://dati.beniculturali.it/cis/MeasurementUnit http://crowd.fi.uncoma.edu.ar/IMPORT/vpBifN2lhttp://dati.beniculturali.it/cis/hasMeasurementUnit1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/PsmGAdhHhttp://dati.beniculturali.it/cis/hasMeasurementUnit1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasMeasurementUnit%http://dati.beniculturali.it/cis/QuantitativeValue.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/J9L8KWHGhttp://dati.beniculturali.it/cis/isValidDuring1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime http://crowd.fi.uncoma.edu.ar/IMPORT/J9L8KWHGhttp://dati.beniculturali.it/cis/isValidDuring1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1s at least 1 http://dati.beniculturali.it/cis/TimeInterval and at most * http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/J9L8KWHGhttp://dati.beniculturali.it/cis/isValidDuring1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/GqyAEQ17http://dati.beniculturali.it/cis/isValidDuring1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1.
+Each http://dati.beniculturali.it/cis/TimeInterval http://crowd.fi.uncoma.edu.ar/IMPORT/GqyAEQ17http://dati.beniculturali.it/cis/isValidDuring1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/WOA2YDoJhttp://dati.beniculturali.it/cis/isValidDuring1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isValidDuring%http://dati.beniculturali.it/cis/NameInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/f3HSvKUFhttp://dati.beniculturali.it/cis/hasSiteDescription1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site http://crowd.fi.uncoma.edu.ar/IMPORT/f3HSvKUFhttp://dati.beniculturali.it/cis/hasSiteDescription1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1s at least 1 http://dati.beniculturali.it/cis/SiteDescription and at most * http://dati.beniculturali.it/cis/SiteDescription.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/f3HSvKUFhttp://dati.beniculturali.it/cis/hasSiteDescription1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/7J97rC7ahttp://dati.beniculturali.it/cis/hasSiteDescription1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1.
+Each http://dati.beniculturali.it/cis/SiteDescription http://crowd.fi.uncoma.edu.ar/IMPORT/7J97rC7ahttp://dati.beniculturali.it/cis/hasSiteDescription1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/q0cf3zX8http://dati.beniculturali.it/cis/hasSiteDescription1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSiteDescription%http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Ulxz2Pw4http://dati.beniculturali.it/cis/withRole1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime http://crowd.fi.uncoma.edu.ar/IMPORT/Ulxz2Pw4http://dati.beniculturali.it/cis/withRole1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1s at least 1 http://dati.beniculturali.it/cis/Role and at most * http://dati.beniculturali.it/cis/Role.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Ulxz2Pw4http://dati.beniculturali.it/cis/withRole1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/pivsaMmdhttp://dati.beniculturali.it/cis/withRole1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1.
+Each http://dati.beniculturali.it/cis/Role http://crowd.fi.uncoma.edu.ar/IMPORT/pivsaMmdhttp://dati.beniculturali.it/cis/withRole1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/0XiTQWi9http://dati.beniculturali.it/cis/withRole1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/withRole%http://dati.beniculturali.it/cis/RoleInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/llOP47MXhttp://dati.beniculturali.it/cis/hasCISType1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite http://crowd.fi.uncoma.edu.ar/IMPORT/llOP47MXhttp://dati.beniculturali.it/cis/hasCISType1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1s at least 1 http://dati.beniculturali.it/cis/CISType and at most * http://dati.beniculturali.it/cis/CISType.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/llOP47MXhttp://dati.beniculturali.it/cis/hasCISType1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/xzH0nL3Fhttp://dati.beniculturali.it/cis/hasCISType1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1.
+Each http://dati.beniculturali.it/cis/CISType http://crowd.fi.uncoma.edu.ar/IMPORT/xzH0nL3Fhttp://dati.beniculturali.it/cis/hasCISType1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/S97EQ6dHhttp://dati.beniculturali.it/cis/hasCISType1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCISType%http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/K339TzLrhttp://dati.beniculturali.it/cis/hasAddress1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site http://crowd.fi.uncoma.edu.ar/IMPORT/K339TzLrhttp://dati.beniculturali.it/cis/hasAddress1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1s at least 1 http://dati.beniculturali.it/cis/Address and at most * http://dati.beniculturali.it/cis/Address.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/K339TzLrhttp://dati.beniculturali.it/cis/hasAddress1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/mufI0QSyhttp://dati.beniculturali.it/cis/hasAddress1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1.
+Each http://dati.beniculturali.it/cis/Address http://crowd.fi.uncoma.edu.ar/IMPORT/mufI0QSyhttp://dati.beniculturali.it/cis/hasAddress1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/fsHuZaDXhttp://dati.beniculturali.it/cis/hasAddress1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasAddress%http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/crHnjpTwhttp://dati.beniculturali.it/cis/atTime1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime http://crowd.fi.uncoma.edu.ar/IMPORT/crHnjpTwhttp://dati.beniculturali.it/cis/atTime1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1s at least 1 http://dati.beniculturali.it/cis/TimeInterval and at most * http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/crHnjpTwhttp://dati.beniculturali.it/cis/atTime1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/aVlAiBMchttp://dati.beniculturali.it/cis/atTime1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1.
+Each http://dati.beniculturali.it/cis/TimeInterval http://crowd.fi.uncoma.edu.ar/IMPORT/aVlAiBMchttp://dati.beniculturali.it/cis/atTime1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/1bwFLVeshttp://dati.beniculturali.it/cis/atTime1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/RoleInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/TEg0drqWhttp://dati.beniculturali.it/cis/atTime2.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2.
+Each http://dati.beniculturali.it/cis/Collection http://crowd.fi.uncoma.edu.ar/IMPORT/TEg0drqWhttp://dati.beniculturali.it/cis/atTime2.1 http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2s at least 1 http://dati.beniculturali.it/cis/TimeInterval and at most * http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/TEg0drqWhttp://dati.beniculturali.it/cis/atTime2.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/uPysP9bFhttp://dati.beniculturali.it/cis/atTime2.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2.
+Each http://dati.beniculturali.it/cis/TimeInterval http://crowd.fi.uncoma.edu.ar/IMPORT/uPysP9bFhttp://dati.beniculturali.it/cis/atTime2.2 http://crowd.fi.uncoma.edu.ar/IMPORT/2FMWc5GLhttp://dati.beniculturali.it/cis/atTime2s at least 0 http://dati.beniculturali.it/cis/Collection and at most * http://dati.beniculturali.it/cis/Collection.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/pHVKSHezhttp://dati.beniculturali.it/cis/isHostedBy1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event http://crowd.fi.uncoma.edu.ar/IMPORT/pHVKSHezhttp://dati.beniculturali.it/cis/isHostedBy1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1s at least 1 http://dati.beniculturali.it/cis/Site and at most * http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/pHVKSHezhttp://dati.beniculturali.it/cis/isHostedBy1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/CrdUuwAMhttp://dati.beniculturali.it/cis/isHostedBy1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1.
+Each http://dati.beniculturali.it/cis/Site http://crowd.fi.uncoma.edu.ar/IMPORT/CrdUuwAMhttp://dati.beniculturali.it/cis/isHostedBy1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/pWcPWCyFhttp://dati.beniculturali.it/cis/isHostedBy1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isHostedBy%http://dati.beniculturali.it/cis/Event.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qTbJMUb1http://dati.beniculturali.it/cis/includes1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer http://crowd.fi.uncoma.edu.ar/IMPORT/qTbJMUb1http://dati.beniculturali.it/cis/includes1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1s at least 1 http://dati.beniculturali.it/cis/Ticket and at most * http://dati.beniculturali.it/cis/Ticket.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qTbJMUb1http://dati.beniculturali.it/cis/includes1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1ylzCcK9http://dati.beniculturali.it/cis/includes1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1.
+Each http://dati.beniculturali.it/cis/Ticket http://crowd.fi.uncoma.edu.ar/IMPORT/1ylzCcK9http://dati.beniculturali.it/cis/includes1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/GxVMxgPuhttp://dati.beniculturali.it/cis/includes1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/includes%http://dati.beniculturali.it/cis/Offer.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MBOuwztQhttp://dati.beniculturali.it/cis/isRelatedToRiT1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event http://crowd.fi.uncoma.edu.ar/IMPORT/MBOuwztQhttp://dati.beniculturali.it/cis/isRelatedToRiT1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1s at least 1 http://dati.beniculturali.it/cis/RoleInTime and at most * http://dati.beniculturali.it/cis/RoleInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MBOuwztQhttp://dati.beniculturali.it/cis/isRelatedToRiT1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/z6KSca8ihttp://dati.beniculturali.it/cis/isRelatedToRiT1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1.
+Each http://dati.beniculturali.it/cis/RoleInTime http://crowd.fi.uncoma.edu.ar/IMPORT/z6KSca8ihttp://dati.beniculturali.it/cis/isRelatedToRiT1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/8UDCn08Jhttp://dati.beniculturali.it/cis/isRelatedToRiT1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/Event.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qw3910BOhttp://dati.beniculturali.it/cis/hasSite1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite http://crowd.fi.uncoma.edu.ar/IMPORT/qw3910BOhttp://dati.beniculturali.it/cis/hasSite1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1s at least 1 http://dati.beniculturali.it/cis/Site and at most * http://dati.beniculturali.it/cis/Site.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qw3910BOhttp://dati.beniculturali.it/cis/hasSite1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/nAMZKbmVhttp://dati.beniculturali.it/cis/hasSite1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1.
+Each http://dati.beniculturali.it/cis/Site http://crowd.fi.uncoma.edu.ar/IMPORT/nAMZKbmVhttp://dati.beniculturali.it/cis/hasSite1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/DPzXNQF7http://dati.beniculturali.it/cis/hasSite1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasSite%http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MV2eKFB4http://dati.beniculturali.it/cis/hasCurrency1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification http://crowd.fi.uncoma.edu.ar/IMPORT/MV2eKFB4http://dati.beniculturali.it/cis/hasCurrency1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1s at least 1 http://dati.beniculturali.it/cis/Currency and at most * http://dati.beniculturali.it/cis/Currency.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MV2eKFB4http://dati.beniculturali.it/cis/hasCurrency1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/4VlJAIfZhttp://dati.beniculturali.it/cis/hasCurrency1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1.
+Each http://dati.beniculturali.it/cis/Currency http://crowd.fi.uncoma.edu.ar/IMPORT/4VlJAIfZhttp://dati.beniculturali.it/cis/hasCurrency1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/aWY77c9Rhttp://dati.beniculturali.it/cis/hasCurrency1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/hasCurrency%http://dati.beniculturali.it/cis/PriceSpecification.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tWTTiqKThttp://dati.beniculturali.it/cis/isRelatedToRiT1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite http://crowd.fi.uncoma.edu.ar/IMPORT/tWTTiqKThttp://dati.beniculturali.it/cis/isRelatedToRiT1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1s at least 1 http://dati.beniculturali.it/cis/RoleInTime and at most * http://dati.beniculturali.it/cis/RoleInTime.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tWTTiqKThttp://dati.beniculturali.it/cis/isRelatedToRiT1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ckNrC73nhttp://dati.beniculturali.it/cis/isRelatedToRiT1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1.
+Each http://dati.beniculturali.it/cis/RoleInTime http://crowd.fi.uncoma.edu.ar/IMPORT/ckNrC73nhttp://dati.beniculturali.it/cis/isRelatedToRiT1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/H1SYKYlLhttp://dati.beniculturali.it/cis/isRelatedToRiT1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/isRelatedToRiT%http://dati.beniculturali.it/cis/CulturalInstituteOrSite.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/NjrovpRqhttp://dati.beniculturali.it/cis/atTime1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection http://crowd.fi.uncoma.edu.ar/IMPORT/NjrovpRqhttp://dati.beniculturali.it/cis/atTime1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1s at least 1 http://dati.beniculturali.it/cis/TimeInterval and at most * http://dati.beniculturali.it/cis/TimeInterval.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/NjrovpRqhttp://dati.beniculturali.it/cis/atTime1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Lvny7E9khttp://dati.beniculturali.it/cis/atTime1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1.
+Each http://dati.beniculturali.it/cis/TimeInterval http://crowd.fi.uncoma.edu.ar/IMPORT/Lvny7E9khttp://dati.beniculturali.it/cis/atTime1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/Wdh6a0aAhttp://dati.beniculturali.it/cis/atTime1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://dati.beniculturali.it/cis/atTime%http://dati.beniculturali.it/cis/Collection.

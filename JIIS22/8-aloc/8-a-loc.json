@@ -1,0 +1,2773 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"https://w3id.org/arco/ontology/location/GeometryMethod",
+			"https://w3id.org/arco/ontology/core/Method",
+			"http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+			"https://w3id.org/italia/onto/CLV/Address",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"https://w3id.org/arco/ontology/location/NeighbouringCadastralEntity",
+			"https://w3id.org/arco/ontology/location/CadastralEntity",
+			"https://w3id.org/arco/ontology/location/LocationType",
+			"https://w3id.org/arco/ontology/core/Type",
+			"https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"http://dati.beniculturali.it/cis/CulturalEntity",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"https://w3id.org/italia/onto/CLV/City",
+			"https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent",
+			"https://w3id.org/italia/onto/CLV/Feature",
+			"http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+			"https://w3id.org/arco/ontology/location/UrbanArea",
+			"https://w3id.org/italia/onto/CLV/District",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District",
+			"https://crowd-app.fi.uncoma.edu.ar#FakeTop",
+			"https://w3id.org/italia/onto/CLV/Geometry",
+			"https://w3id.org/italia/onto/CLV/SpatialObject",
+			"https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteType",
+			"https://w3id.org/arco/ontology/location/GeometryTechnique",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"https://w3id.org/arco/ontology/location/Altitude",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude",
+			"https://w3id.org/arco/ontology/location/Coordinates",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates",
+			"https://w3id.org/arco/ontology/location/ToponymInTime",
+			"https://w3id.org/arco/ontology/core/TimeIndexedSituation",
+			"https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+			"https://w3id.org/arco/ontology/location/CadastreType",
+			"https://w3id.org/arco/ontology/location/BaseMap",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap",
+			"https://w3id.org/arco/ontology/location/SiteDefinition",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition",
+			"https://w3id.org/arco/ontology/location/SiteType",
+			"https://w3id.org/italia/onto/l0/Object",
+			"https://w3id.org/arco/ontology/location/OldTown",
+			"https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteSpecification",
+			"https://w3id.org/italia/onto/l0/Description",
+			"http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+			"http://dati.gov.it/onto/dcatapit#Agent",
+			"https://w3id.org/italia/onto/l0/Collection",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType",
+			"http://dati.beniculturali.it/cis/GeographicalFeature",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"http://www.w3.org/2006/vcard/ns#Organization",
+			"http://xmlns.com/foaf/0.1/Agent",
+			"https://w3id.org/italia/onto/RO/Role",
+			"https://w3id.org/italia/onto/l0/Concept",
+			"https://w3id.org/arco/ontology/location/Continent",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod",
+			"https://w3id.org/arco/ontology/location/SiteSpecification",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification",
+			"https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteDefinition",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique",
+			"https://w3id.org/italia/onto/l0/Location",
+			"https://w3id.org/arco/ontology/core/AgentRole",
+			"https://w3id.org/arco/ontology/core/ClassificationInTime",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType",
+			"https://w3id.org/arco/ontology/core/Category",
+			"https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+			"http://dati.gov.it/onto/dcatapit#Organization",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType",
+			"http://www.w3.org/2002/07/owl#Thing",
+			"https://w3id.org/italia/onto/l0/Agent",
+			"https://w3id.org/arco/ontology/location/TypeOfContext",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext",
+			"https://w3id.org/arco/ontology/location/CadastralFolio",
+			"https://w3id.org/italia/onto/l0/Characteristic",
+			"https://w3id.org/arco/ontology/core/Concept",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType",
+			"http://dati.beniculturali.it/cis/Site",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent",
+			"https://w3id.org/arco/ontology/location/CadastralUnitCollection",
+			"https://w3id.org/arco/ontology/core/CulturalEntityClassification",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District"
+		]
+	},
+	"Role": [
+		{
+			"object type cardinality": [
+				"n0gdqafp"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/X23jqVprhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf",
+			"mandatory": "mandatoryPBlh"
+		},
+		{
+			"object type cardinality": [
+				"xuNPMqEU"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/E0iLaDXqhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf"
+		},
+		{
+			"object type cardinality": [
+				"0UDxI9y2"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/hQxEEl5Vhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/z2d1Eanxhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1",
+			"mandatory": "mandatory2t3Z"
+		},
+		{
+			"object type cardinality": [
+				"i3bcrCS9"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/jK1iR29Ohttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Address",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/z2d1Eanxhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1"
+		},
+		{
+			"object type cardinality": [
+				"8QqSxWy0"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/rEgRdeQZhttps://w3id.org/arco/ontology/location/isCadastralIdentityOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isCadastralIdentityOf",
+			"mandatory": "mandatorypJTD"
+		},
+		{
+			"object type cardinality": [
+				"fPCJkHQ9"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/mKoro0Oohttps://w3id.org/arco/ontology/location/isCadastralIdentityOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isCadastralIdentityOf"
+		},
+		{
+			"object type cardinality": [
+				"WQyhtkV4"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/FEfV1TLEhttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/y2eNHLqphttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1",
+			"mandatory": "mandatorytfCz"
+		},
+		{
+			"object type cardinality": [
+				"DMjgDdKq"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/4mMkhrEQhttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1.2",
+			"entity type": "http://dati.beniculturali.it/cis/CulturalEntity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/y2eNHLqphttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1"
+		},
+		{
+			"object type cardinality": [
+				"ega3DF28"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Hto3Hq1Bhttps://w3id.org/arco/ontology/location/hasCadastralCity.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/hasCadastralCity",
+			"mandatory": "mandatorySYbK"
+		},
+		{
+			"object type cardinality": [
+				"GhE3VuFy"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tRA6WjCThttps://w3id.org/arco/ontology/location/hasCadastralCity.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/hasCadastralCity"
+		},
+		{
+			"object type cardinality": [
+				"y7HzNYdS"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ShIqEmIfhttps://w3id.org/arco/ontology/location/hasCadastralCity1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Fk1cgy7ohttps://w3id.org/arco/ontology/location/hasCadastralCity1",
+			"mandatory": "mandatoryW7de"
+		},
+		{
+			"object type cardinality": [
+				"kpVwTQko"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/L8GA5Lqkhttps://w3id.org/arco/ontology/location/hasCadastralCity1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/City",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Fk1cgy7ohttps://w3id.org/arco/ontology/location/hasCadastralCity1"
+		},
+		{
+			"object type cardinality": [
+				"uig0xs9Y"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/YSBJFcwMhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf",
+			"mandatory": "mandatory61c9"
+		},
+		{
+			"object type cardinality": [
+				"R3oo3V1w"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/yRFBdatqhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf"
+		},
+		{
+			"object type cardinality": [
+				"miEWkwnn"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/BTMSDOwfhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/eP63rPLGhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1",
+			"mandatory": "mandatoryBWfL"
+		},
+		{
+			"object type cardinality": [
+				"q4EHKtZ0"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/BGQOCzCChttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Address",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/eP63rPLGhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1"
+		},
+		{
+			"object type cardinality": [
+				"19nWLC86"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/2O6sz4Clhttps://w3id.org/arco/ontology/location/hasLocationType.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/hasLocationType",
+			"mandatory": "mandatoryydCK"
+		},
+		{
+			"object type cardinality": [
+				"RDmWatPs"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Qj8FvdyMhttps://w3id.org/arco/ontology/location/hasLocationType.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/hasLocationType"
+		},
+		{
+			"object type cardinality": [
+				"hQFioRgD"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/cgFSDBaWhttps://w3id.org/arco/ontology/location/hasLocationType1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/upi01eLohttps://w3id.org/arco/ontology/location/hasLocationType1",
+			"mandatory": "mandatoryx0cS"
+		},
+		{
+			"object type cardinality": [
+				"1vGW7MH5"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/YKoRwC7Ohttps://w3id.org/arco/ontology/location/hasLocationType1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/LocationType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/upi01eLohttps://w3id.org/arco/ontology/location/hasLocationType1"
+		},
+		{
+			"object type cardinality": [
+				"LTHpn4iE"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1B0NVcF8https://w3id.org/arco/ontology/location/isAltitudeOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isAltitudeOf",
+			"mandatory": "mandatoryjtjS"
+		},
+		{
+			"object type cardinality": [
+				"3s6t9YPK"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/oM1mDUg8https://w3id.org/arco/ontology/location/isAltitudeOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isAltitudeOf"
+		},
+		{
+			"object type cardinality": [
+				"G0QvjPcg"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/YJeIgtSMhttps://w3id.org/arco/ontology/location/isAltitudeOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/YTZYcYVIhttps://w3id.org/arco/ontology/location/isAltitudeOf1",
+			"mandatory": "mandatoryfAla"
+		},
+		{
+			"object type cardinality": [
+				"woUMaM0s"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qU1swbqLhttps://w3id.org/arco/ontology/location/isAltitudeOf1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/Coordinates",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/YTZYcYVIhttps://w3id.org/arco/ontology/location/isAltitudeOf1"
+		},
+		{
+			"object type cardinality": [
+				"IyR1E5qw"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/nlYOSNWMhttps://w3id.org/arco/ontology/location/areCoordinatesOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/areCoordinatesOf",
+			"mandatory": "mandatoryVP2P"
+		},
+		{
+			"object type cardinality": [
+				"14WdN2wb"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/sXImtmK5https://w3id.org/arco/ontology/location/areCoordinatesOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/areCoordinatesOf"
+		},
+		{
+			"object type cardinality": [
+				"H3OooPar"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/PNxBuBFthttps://w3id.org/arco/ontology/location/areCoordinatesOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOIYeENYhttps://w3id.org/arco/ontology/location/areCoordinatesOf1",
+			"mandatory": "mandatory9V1S"
+		},
+		{
+			"object type cardinality": [
+				"Tyj7zK0V"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/V2h9RaTqhttps://w3id.org/arco/ontology/location/areCoordinatesOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Geometry",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOIYeENYhttps://w3id.org/arco/ontology/location/areCoordinatesOf1"
+		},
+		{
+			"object type cardinality": [
+				"ZKyHk1mW"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/gtwBRXFwhttps://w3id.org/arco/ontology/location/isBaseMapOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isBaseMapOf",
+			"mandatory": "mandatory8sK6"
+		},
+		{
+			"object type cardinality": [
+				"outYEJxE"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/YaWEWzxOhttps://w3id.org/arco/ontology/location/isBaseMapOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isBaseMapOf"
+		},
+		{
+			"object type cardinality": [
+				"2zxlR16Q"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/o8oVtClthttps://w3id.org/arco/ontology/location/isBaseMapOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/TBrhrneqhttps://w3id.org/arco/ontology/location/isBaseMapOf1",
+			"mandatory": "mandatoryEIg0"
+		},
+		{
+			"object type cardinality": [
+				"dOEVaNoB"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/JaETcDaDhttps://w3id.org/arco/ontology/location/isBaseMapOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Geometry",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/TBrhrneqhttps://w3id.org/arco/ontology/location/isBaseMapOf1"
+		},
+		{
+			"object type cardinality": [
+				"cY1F7DMJ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/H7n96ieahttps://w3id.org/arco/ontology/location/isSiteDefinitionOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isSiteDefinitionOf",
+			"mandatory": "mandatoryLmQs"
+		},
+		{
+			"object type cardinality": [
+				"R2VjaIX1"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/m7WMzEMmhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isSiteDefinitionOf"
+		},
+		{
+			"object type cardinality": [
+				"p9LSURC1"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/IQTfSgrrhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/ceRxKEojhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1",
+			"mandatory": "mandatory847Z"
+		},
+		{
+			"object type cardinality": [
+				"yxVlVvCL"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/lmaMg5rJhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/SiteType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/ceRxKEojhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1"
+		},
+		{
+			"object type cardinality": [
+				"kajCGfrl"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/v9db9oiphttps://w3id.org/arco/ontology/location/isCadastreTypeOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isCadastreTypeOf",
+			"mandatory": "mandatory2axW"
+		},
+		{
+			"object type cardinality": [
+				"v0N6FUaA"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/eAuActGShttps://w3id.org/arco/ontology/location/isCadastreTypeOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isCadastreTypeOf"
+		},
+		{
+			"object type cardinality": [
+				"HRRc3oCF"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/BLAgPUHmhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImXVj5fQhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1",
+			"mandatory": "mandatoryzBqG"
+		},
+		{
+			"object type cardinality": [
+				"Di1NVqQ0"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/2qch7hPMhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImXVj5fQhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1"
+		},
+		{
+			"object type cardinality": [
+				"2EnXMDf1"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/dOtJIVn5https://w3id.org/arco/ontology/location/hasCadastreType.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/hasCadastreType",
+			"mandatory": "mandatorycUcT"
+		},
+		{
+			"object type cardinality": [
+				"Wbj3EOnh"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/xlbfrOgvhttps://w3id.org/arco/ontology/location/hasCadastreType.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/hasCadastreType"
+		},
+		{
+			"object type cardinality": [
+				"9yYVR7ca"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/8xpzrhHUhttps://w3id.org/arco/ontology/location/hasCadastreType1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/EpFTvo0Ghttps://w3id.org/arco/ontology/location/hasCadastreType1",
+			"mandatory": "mandatoryaWI0"
+		},
+		{
+			"object type cardinality": [
+				"Z2fvhwF6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tHaN2NbHhttps://w3id.org/arco/ontology/location/hasCadastreType1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/CadastreType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/EpFTvo0Ghttps://w3id.org/arco/ontology/location/hasCadastreType1"
+		},
+		{
+			"object type cardinality": [
+				"fJRXAWtV"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/vCPk5kMehttps://w3id.org/arco/ontology/location/isGeometryMethodOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isGeometryMethodOf",
+			"mandatory": "mandatoryjkPn"
+		},
+		{
+			"object type cardinality": [
+				"2Jr7xZMI"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/MbZgTqSbhttps://w3id.org/arco/ontology/location/isGeometryMethodOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isGeometryMethodOf"
+		},
+		{
+			"object type cardinality": [
+				"DfUaX7TR"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/wCt4tLunhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/83gMT7tLhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1",
+			"mandatory": "mandatoryJLlv"
+		},
+		{
+			"object type cardinality": [
+				"FtkhE9HV"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/83A8JIIfhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Geometry",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/83gMT7tLhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1"
+		},
+		{
+			"object type cardinality": [
+				"WT6yMQ9d"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/p52mrNzGhttps://w3id.org/arco/ontology/location/isSiteSpecificationOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isSiteSpecificationOf",
+			"mandatory": "mandatoryy2qu"
+		},
+		{
+			"object type cardinality": [
+				"mX6EaWb4"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/B3G9b4v6https://w3id.org/arco/ontology/location/isSiteSpecificationOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isSiteSpecificationOf"
+		},
+		{
+			"object type cardinality": [
+				"DtUPAnsc"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/PCQkvdPihttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/4NW6o48Ihttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1",
+			"mandatory": "mandatoryybxz"
+		},
+		{
+			"object type cardinality": [
+				"A4UGwDSC"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/c0LJEaPphttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/SiteType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/4NW6o48Ihttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1"
+		},
+		{
+			"object type cardinality": [
+				"DIncBL8o"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/pWR66P5thttps://w3id.org/arco/ontology/location/hasSiteDefinition.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/hasSiteDefinition",
+			"mandatory": "mandatoryZRWe"
+		},
+		{
+			"object type cardinality": [
+				"SMQnpHmZ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/IgIXby7Uhttps://w3id.org/arco/ontology/location/hasSiteDefinition.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/hasSiteDefinition"
+		},
+		{
+			"object type cardinality": [
+				"N3AAlgGv"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/C9TF9x7Ahttps://w3id.org/arco/ontology/location/hasSiteDefinition1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/JpvXVIg5https://w3id.org/arco/ontology/location/hasSiteDefinition1",
+			"mandatory": "mandatoryRlGB"
+		},
+		{
+			"object type cardinality": [
+				"1oCIiOaa"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Vg6cGa9Uhttps://w3id.org/arco/ontology/location/hasSiteDefinition1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/SiteDefinition",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/JpvXVIg5https://w3id.org/arco/ontology/location/hasSiteDefinition1"
+		},
+		{
+			"object type cardinality": [
+				"ZroeLNSH"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/hmbkNf4Whttps://w3id.org/arco/ontology/location/isLocationTypeOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isLocationTypeOf",
+			"mandatory": "mandatoryxLBf"
+		},
+		{
+			"object type cardinality": [
+				"D9PUfmdV"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/oDRJzNTxhttps://w3id.org/arco/ontology/location/isLocationTypeOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isLocationTypeOf"
+		},
+		{
+			"object type cardinality": [
+				"w7rRuoba"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/4ctr8GHbhttps://w3id.org/arco/ontology/location/isLocationTypeOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/FIuckAsahttps://w3id.org/arco/ontology/location/isLocationTypeOf1",
+			"mandatory": "mandatorym7YI"
+		},
+		{
+			"object type cardinality": [
+				"rEKqgKVT"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/NreZdcrVhttps://w3id.org/arco/ontology/location/isLocationTypeOf1.2",
+			"entity type": "http://www.w3.org/2002/07/owl#Thing",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/FIuckAsahttps://w3id.org/arco/ontology/location/isLocationTypeOf1"
+		},
+		{
+			"object type cardinality": [
+				"nsoi92z4"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/fjOAs5fxhttps://w3id.org/arco/ontology/location/isTypeOfContextOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isTypeOfContextOf",
+			"mandatory": "mandatory4dKm"
+		},
+		{
+			"object type cardinality": [
+				"InGCMjFp"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/sKhUt7Yxhttps://w3id.org/arco/ontology/location/isTypeOfContextOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isTypeOfContextOf"
+		},
+		{
+			"object type cardinality": [
+				"K27jZV85"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/5TKXjX84https://w3id.org/arco/ontology/location/isTypeOfContextOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/hrrai3jLhttps://w3id.org/arco/ontology/location/isTypeOfContextOf1",
+			"mandatory": "mandatory709J"
+		},
+		{
+			"object type cardinality": [
+				"Ziw8q4p0"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/GRn28KhWhttps://w3id.org/arco/ontology/location/isTypeOfContextOf1.2",
+			"entity type": "http://www.w3.org/2002/07/owl#Thing",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/hrrai3jLhttps://w3id.org/arco/ontology/location/isTypeOfContextOf1"
+		},
+		{
+			"object type cardinality": [
+				"nhx8xTaH"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ov5O8u7Chttps://w3id.org/arco/ontology/location/hasLocationType1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/uXXdw7PHhttps://w3id.org/arco/ontology/location/hasLocationType1",
+			"mandatory": "mandatoryZxLz"
+		},
+		{
+			"object type cardinality": [
+				"0MgoH3bY"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/mhKfyqLmhttps://w3id.org/arco/ontology/location/hasLocationType1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/LocationType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/uXXdw7PHhttps://w3id.org/arco/ontology/location/hasLocationType1"
+		},
+		{
+			"object type cardinality": [
+				"uf335YTd"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ROCf0HePhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf",
+			"mandatory": "mandatoryul1A"
+		},
+		{
+			"object type cardinality": [
+				"DQiDXvZx"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qzaw96s7https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf"
+		},
+		{
+			"object type cardinality": [
+				"DS3fcgb7"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/lFwOzbiMhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/XQQ79bbRhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1",
+			"mandatory": "mandatoryweMu"
+		},
+		{
+			"object type cardinality": [
+				"5BZY8sIU"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/J6zYMitahttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1.2",
+			"entity type": "http://www.w3.org/2002/07/owl#Thing",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/XQQ79bbRhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1"
+		},
+		{
+			"object type cardinality": [
+				"160dDdBh"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/UwYSb4njhttps://w3id.org/arco/ontology/location/isSiteTypeOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isSiteTypeOf",
+			"mandatory": "mandatoryNXvD"
+		},
+		{
+			"object type cardinality": [
+				"xEH09nAK"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/GqDdSAYvhttps://w3id.org/arco/ontology/location/isSiteTypeOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isSiteTypeOf"
+		},
+		{
+			"object type cardinality": [
+				"a89MeH2a"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/97Jhhjjjhttps://w3id.org/arco/ontology/location/isSiteTypeOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/6c9EhLzAhttps://w3id.org/arco/ontology/location/isSiteTypeOf1",
+			"mandatory": "mandatoryoK5E"
+		},
+		{
+			"object type cardinality": [
+				"RQOZQbJa"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/2eh48W3Uhttps://w3id.org/arco/ontology/location/isSiteTypeOf1.2",
+			"entity type": "http://dati.beniculturali.it/cis/Site",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/6c9EhLzAhttps://w3id.org/arco/ontology/location/isSiteTypeOf1"
+		},
+		{
+			"object type cardinality": [
+				"3O8W50zU"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/i7higdYYhttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isGeometryTechniqueOf",
+			"mandatory": "mandatoryAOHt"
+		},
+		{
+			"object type cardinality": [
+				"y5cVAcYx"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/nAhTrSknhttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isGeometryTechniqueOf"
+		},
+		{
+			"object type cardinality": [
+				"8oow7OOW"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/fPlvh0YDhttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Bu2ogwPahttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1",
+			"mandatory": "mandatoryOtlc"
+		},
+		{
+			"object type cardinality": [
+				"FZL7Xpmj"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/y1OrQnaOhttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Geometry",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Bu2ogwPahttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1"
+		},
+		{
+			"object type cardinality": [
+				"3INxDg47"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ST0yJDophttps://w3id.org/arco/ontology/location/hasCadastralEntity.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/hasCadastralEntity",
+			"mandatory": "mandatoryNpg9"
+		},
+		{
+			"object type cardinality": [
+				"qJfytc6x"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/UXKnl4fghttps://w3id.org/arco/ontology/location/hasCadastralEntity.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/hasCadastralEntity"
+		},
+		{
+			"object type cardinality": [
+				"eXnVlB4y"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Mhf7cCiKhttps://w3id.org/arco/ontology/location/hasCadastralEntity1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/RttkRnAlhttps://w3id.org/arco/ontology/location/hasCadastralEntity1",
+			"mandatory": "mandatoryr74W"
+		},
+		{
+			"object type cardinality": [
+				"rfXOMOm7"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/lGtpMSFUhttps://w3id.org/arco/ontology/location/hasCadastralEntity1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/CadastralEntity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/RttkRnAlhttps://w3id.org/arco/ontology/location/hasCadastralEntity1"
+		},
+		{
+			"object type cardinality": [
+				"sia5LN7I"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/YQoo99Gthttps://w3id.org/arco/ontology/location/isToponymInTimeOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isToponymInTimeOf",
+			"mandatory": "mandatoryhYRN"
+		},
+		{
+			"object type cardinality": [
+				"5ioAOwdz"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/jAT8KmJEhttps://w3id.org/arco/ontology/location/isToponymInTimeOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isToponymInTimeOf"
+		},
+		{
+			"object type cardinality": [
+				"9msISC4d"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/m2TCNjQYhttps://w3id.org/arco/ontology/location/isToponymInTimeOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/MNdQcVTahttps://w3id.org/arco/ontology/location/isToponymInTimeOf1",
+			"mandatory": "mandatoryRxJ9"
+		},
+		{
+			"object type cardinality": [
+				"WwGboubR"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/lWQDkkjvhttps://w3id.org/arco/ontology/location/isToponymInTimeOf1.2",
+			"entity type": "https://w3id.org/italia/onto/CLV/Feature",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/MNdQcVTahttps://w3id.org/arco/ontology/location/isToponymInTimeOf1"
+		},
+		{
+			"object type cardinality": [
+				"hKzNLuTX"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/FYd0lpMFhttps://w3id.org/arco/ontology/location/isContinentOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isContinentOf",
+			"mandatory": "mandatoryXYff"
+		},
+		{
+			"object type cardinality": [
+				"W0JC3JKz"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/yjzAWrOlhttps://w3id.org/arco/ontology/location/isContinentOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isContinentOf"
+		},
+		{
+			"object type cardinality": [
+				"PKbuPbpK"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/55GzobFHhttps://w3id.org/arco/ontology/location/isContinentOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ke6rSYn1https://w3id.org/arco/ontology/location/isContinentOf1",
+			"mandatory": "mandatoryRFEI"
+		},
+		{
+			"object type cardinality": [
+				"p50R4Jds"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1H8YHcfrhttps://w3id.org/arco/ontology/location/isContinentOf1.2",
+			"entity type": "http://www.w3.org/2002/07/owl#Thing",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ke6rSYn1https://w3id.org/arco/ontology/location/isContinentOf1"
+		},
+		{
+			"object type cardinality": [
+				"4fucAMjV"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/PxkjKdGLhttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf",
+			"mandatory": "mandatoryjyEQ"
+		},
+		{
+			"object type cardinality": [
+				"n2dM56pd"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/hoGyQgqdhttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf"
+		},
+		{
+			"object type cardinality": [
+				"wK6rkhR6"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1FxKIxUXhttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/cZ5iRVJihttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1",
+			"mandatory": "mandatorygamX"
+		},
+		{
+			"object type cardinality": [
+				"mDmnXjOo"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/bvvdP5qKhttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/OldTown",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/cZ5iRVJihttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1"
+		},
+		{
+			"object type cardinality": [
+				"it67CFnz"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/xA0FEJFchttps://w3id.org/arco/ontology/location/hasTypeOfContext.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://w3id.org/arco/ontology/location/hasTypeOfContext",
+			"mandatory": "mandatoryrdMi"
+		},
+		{
+			"object type cardinality": [
+				"V3fhe8hT"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/40p0jP8jhttps://w3id.org/arco/ontology/location/hasTypeOfContext.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://w3id.org/arco/ontology/location/hasTypeOfContext"
+		},
+		{
+			"object type cardinality": [
+				"xIOE2A4C"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/BiDIPS47https://w3id.org/arco/ontology/location/hasTypeOfContext1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/UqZnWYqAhttps://w3id.org/arco/ontology/location/hasTypeOfContext1",
+			"mandatory": "mandatory7cv1"
+		},
+		{
+			"object type cardinality": [
+				"Qny5BSYj"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ryvJPePQhttps://w3id.org/arco/ontology/location/hasTypeOfContext1.2",
+			"entity type": "https://w3id.org/arco/ontology/location/TypeOfContext",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/UqZnWYqAhttps://w3id.org/arco/ontology/location/hasTypeOfContext1"
+		}
+	],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": [
+				{
+					"name": "n0gdqafp",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "xuNPMqEU",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "0UDxI9y2",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "i3bcrCS9",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "8QqSxWy0",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "fPCJkHQ9",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "WQyhtkV4",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "DMjgDdKq",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "ega3DF28",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "GhE3VuFy",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "y7HzNYdS",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "kpVwTQko",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "uig0xs9Y",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "R3oo3V1w",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "miEWkwnn",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "q4EHKtZ0",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "19nWLC86",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "RDmWatPs",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "hQFioRgD",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "1vGW7MH5",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "LTHpn4iE",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "3s6t9YPK",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "G0QvjPcg",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "woUMaM0s",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "IyR1E5qw",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "14WdN2wb",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "H3OooPar",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Tyj7zK0V",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "ZKyHk1mW",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "outYEJxE",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "2zxlR16Q",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "dOEVaNoB",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "cY1F7DMJ",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "R2VjaIX1",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "p9LSURC1",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "yxVlVvCL",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "kajCGfrl",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "v0N6FUaA",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "HRRc3oCF",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Di1NVqQ0",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "2EnXMDf1",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Wbj3EOnh",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "9yYVR7ca",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Z2fvhwF6",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "fJRXAWtV",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "2Jr7xZMI",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "DfUaX7TR",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "FtkhE9HV",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "WT6yMQ9d",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "mX6EaWb4",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "DtUPAnsc",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "A4UGwDSC",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "DIncBL8o",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "SMQnpHmZ",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "N3AAlgGv",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "1oCIiOaa",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "ZroeLNSH",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "D9PUfmdV",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "w7rRuoba",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "rEKqgKVT",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "nsoi92z4",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "InGCMjFp",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "K27jZV85",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Ziw8q4p0",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "lrQTNWWs",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "KTyPkLwu",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "nhx8xTaH",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "0MgoH3bY",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "uf335YTd",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "DQiDXvZx",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "DS3fcgb7",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "5BZY8sIU",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "160dDdBh",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "xEH09nAK",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "a89MeH2a",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "RQOZQbJa",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "3O8W50zU",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "y5cVAcYx",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "8oow7OOW",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "FZL7Xpmj",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "3INxDg47",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "qJfytc6x",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "eXnVlB4y",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "rfXOMOm7",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "sia5LN7I",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "5ioAOwdz",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "9msISC4d",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "WwGboubR",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "hKzNLuTX",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "W0JC3JKz",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "PKbuPbpK",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "p50R4Jds",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "4fucAMjV",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "n2dM56pd",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "wK6rkhR6",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "mDmnXjOo",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "it67CFnz",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "V3fhe8hT",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "xIOE2A4C",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Qny5BSYj",
+					"maximum": "*",
+					"minimum": "0"
+				}
+			]
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District",
+						"https://w3id.org/italia/onto/CLV/District"
+					],
+					"name": "cia9jgTD"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique",
+						"https://w3id.org/arco/ontology/location/GeometryTechnique"
+					],
+					"name": "uchaEzta"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+						"https://w3id.org/arco/ontology/core/ClassificationInTime"
+					],
+					"name": "x4TD92pW"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+						"https://w3id.org/arco/ontology/core/CulturalEntityClassification"
+					],
+					"name": "Km34sf44"
+				}
+			],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District",
+					"https://w3id.org/italia/onto/CLV/District"
+				],
+				"name": "ZJUGsX1V"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique",
+					"https://w3id.org/arco/ontology/location/GeometryTechnique"
+				],
+				"name": "kLiGXbec"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+					"https://w3id.org/arco/ontology/core/ClassificationInTime"
+				],
+				"name": "jO6CB5aq"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+					"https://w3id.org/arco/ontology/core/CulturalEntityClassification"
+				],
+				"name": "KsnaZsJu"
+			}
+		],
+		"Mandatory constraints": {
+			"Mandatory": [
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/X23jqVprhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf.1",
+					"name": "mandatoryPBlh"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/hQxEEl5Vhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1.1",
+					"name": "mandatory2t3Z"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/rEgRdeQZhttps://w3id.org/arco/ontology/location/isCadastralIdentityOf.1",
+					"name": "mandatorypJTD"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/FEfV1TLEhttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1.1",
+					"name": "mandatorytfCz"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/Hto3Hq1Bhttps://w3id.org/arco/ontology/location/hasCadastralCity.1",
+					"name": "mandatorySYbK"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ShIqEmIfhttps://w3id.org/arco/ontology/location/hasCadastralCity1.1",
+					"name": "mandatoryW7de"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/YSBJFcwMhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf.1",
+					"name": "mandatory61c9"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/BTMSDOwfhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1.1",
+					"name": "mandatoryBWfL"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/2O6sz4Clhttps://w3id.org/arco/ontology/location/hasLocationType.1",
+					"name": "mandatoryydCK"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/cgFSDBaWhttps://w3id.org/arco/ontology/location/hasLocationType1.1",
+					"name": "mandatoryx0cS"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/1B0NVcF8https://w3id.org/arco/ontology/location/isAltitudeOf.1",
+					"name": "mandatoryjtjS"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/YJeIgtSMhttps://w3id.org/arco/ontology/location/isAltitudeOf1.1",
+					"name": "mandatoryfAla"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/nlYOSNWMhttps://w3id.org/arco/ontology/location/areCoordinatesOf.1",
+					"name": "mandatoryVP2P"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/PNxBuBFthttps://w3id.org/arco/ontology/location/areCoordinatesOf1.1",
+					"name": "mandatory9V1S"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/gtwBRXFwhttps://w3id.org/arco/ontology/location/isBaseMapOf.1",
+					"name": "mandatory8sK6"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/o8oVtClthttps://w3id.org/arco/ontology/location/isBaseMapOf1.1",
+					"name": "mandatoryEIg0"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/H7n96ieahttps://w3id.org/arco/ontology/location/isSiteDefinitionOf.1",
+					"name": "mandatoryLmQs"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/IQTfSgrrhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1.1",
+					"name": "mandatory847Z"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/v9db9oiphttps://w3id.org/arco/ontology/location/isCadastreTypeOf.1",
+					"name": "mandatory2axW"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/BLAgPUHmhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1.1",
+					"name": "mandatoryzBqG"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/dOtJIVn5https://w3id.org/arco/ontology/location/hasCadastreType.1",
+					"name": "mandatorycUcT"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/8xpzrhHUhttps://w3id.org/arco/ontology/location/hasCadastreType1.1",
+					"name": "mandatoryaWI0"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/vCPk5kMehttps://w3id.org/arco/ontology/location/isGeometryMethodOf.1",
+					"name": "mandatoryjkPn"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/wCt4tLunhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1.1",
+					"name": "mandatoryJLlv"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/p52mrNzGhttps://w3id.org/arco/ontology/location/isSiteSpecificationOf.1",
+					"name": "mandatoryy2qu"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/PCQkvdPihttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1.1",
+					"name": "mandatoryybxz"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/pWR66P5thttps://w3id.org/arco/ontology/location/hasSiteDefinition.1",
+					"name": "mandatoryZRWe"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/C9TF9x7Ahttps://w3id.org/arco/ontology/location/hasSiteDefinition1.1",
+					"name": "mandatoryRlGB"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/hmbkNf4Whttps://w3id.org/arco/ontology/location/isLocationTypeOf.1",
+					"name": "mandatoryxLBf"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/4ctr8GHbhttps://w3id.org/arco/ontology/location/isLocationTypeOf1.1",
+					"name": "mandatorym7YI"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/fjOAs5fxhttps://w3id.org/arco/ontology/location/isTypeOfContextOf.1",
+					"name": "mandatory4dKm"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/5TKXjX84https://w3id.org/arco/ontology/location/isTypeOfContextOf1.1",
+					"name": "mandatory709J"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ov5O8u7Chttps://w3id.org/arco/ontology/location/hasLocationType1.1",
+					"name": "mandatoryZxLz"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ROCf0HePhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf.1",
+					"name": "mandatoryul1A"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/lFwOzbiMhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1.1",
+					"name": "mandatoryweMu"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/UwYSb4njhttps://w3id.org/arco/ontology/location/isSiteTypeOf.1",
+					"name": "mandatoryNXvD"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/97Jhhjjjhttps://w3id.org/arco/ontology/location/isSiteTypeOf1.1",
+					"name": "mandatoryoK5E"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/i7higdYYhttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf.1",
+					"name": "mandatoryAOHt"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/fPlvh0YDhttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1.1",
+					"name": "mandatoryOtlc"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ST0yJDophttps://w3id.org/arco/ontology/location/hasCadastralEntity.1",
+					"name": "mandatoryNpg9"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/Mhf7cCiKhttps://w3id.org/arco/ontology/location/hasCadastralEntity1.1",
+					"name": "mandatoryr74W"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/YQoo99Gthttps://w3id.org/arco/ontology/location/isToponymInTimeOf.1",
+					"name": "mandatoryhYRN"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/m2TCNjQYhttps://w3id.org/arco/ontology/location/isToponymInTimeOf1.1",
+					"name": "mandatoryRxJ9"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/FYd0lpMFhttps://w3id.org/arco/ontology/location/isContinentOf.1",
+					"name": "mandatoryXYff"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/55GzobFHhttps://w3id.org/arco/ontology/location/isContinentOf1.1",
+					"name": "mandatoryRFEI"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/PxkjKdGLhttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf.1",
+					"name": "mandatoryjyEQ"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/1FxKIxUXhttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1.1",
+					"name": "mandatorygamX"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/xA0FEJFchttps://w3id.org/arco/ontology/location/hasTypeOfContext.1",
+					"name": "mandatoryrdMi"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/BiDIPS47https://w3id.org/arco/ontology/location/hasTypeOfContext1.1",
+					"name": "mandatory7cv1"
+				}
+			]
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/GeometryMethod",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Method,https://w3id.org/arco/ontology/location/GeometryMethod)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Method"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea,http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/z2d1Eanxhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/eA8AMDux",
+				"entity parent": "https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/NeighbouringCadastralEntity",
+				"name": "Subsumption(https://w3id.org/arco/ontology/location/CadastralEntity,https://w3id.org/arco/ontology/location/NeighbouringCadastralEntity)",
+				"entity parent": "https://w3id.org/arco/ontology/location/CadastralEntity"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/LocationType",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Type,https://w3id.org/arco/ontology/location/LocationType)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Type"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity,https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/y2eNHLqphttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/VscuicGx",
+				"entity parent": "https://w3id.org/arco/ontology/location/isCadastralIdentityOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity,https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Fk1cgy7ohttps://w3id.org/arco/ontology/location/hasCadastralCity1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/FxAEuF9W",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasCadastralCity"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/Feature,https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/Feature"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea,http://dati.beniculturali.it/cis/ClericalAdministrativeArea)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/eP63rPLGhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/fqPLVGAn",
+				"entity parent": "https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District",
+				"disjointness constraints": "cia9jgTD",
+				"completeness constraints": "ZJUGsX1V",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/UrbanArea",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District,https://w3id.org/arco/ontology/location/UrbanArea)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UrbanArea_NOT_District"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/District",
+				"disjointness constraints": "cia9jgTD",
+				"completeness constraints": "ZJUGsX1V",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/italia/onto/CLV/District)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/Geometry",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/SpatialObject,https://w3id.org/italia/onto/CLV/Geometry)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/SpatialObject"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteType",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Type,https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteType)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Type"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/GeometryTechnique",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Method,https://w3id.org/arco/ontology/location/GeometryTechnique)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Method"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity,https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/upi01eLohttps://w3id.org/arco/ontology/location/hasLocationType1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/ER61PbU0",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasLocationType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Altitude",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude,https://w3id.org/arco/ontology/location/Altitude)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/YTZYcYVIhttps://w3id.org/arco/ontology/location/isAltitudeOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Lsyyvdcg",
+				"entity parent": "https://w3id.org/arco/ontology/location/isAltitudeOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Coordinates",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates,https://w3id.org/arco/ontology/location/Coordinates)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOIYeENYhttps://w3id.org/arco/ontology/location/areCoordinatesOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/adx7n1xa",
+				"entity parent": "https://w3id.org/arco/ontology/location/areCoordinatesOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/ToponymInTime",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/TimeIndexedSituation,https://w3id.org/arco/ontology/location/ToponymInTime)",
+				"entity parent": "https://w3id.org/arco/ontology/core/TimeIndexedSituation"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Type,https://w3id.org/arco/ontology/location/OldTownAdmistrativeType)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Type"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastreType",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Type,https://w3id.org/arco/ontology/location/CadastreType)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Type"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/BaseMap",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap,https://w3id.org/arco/ontology/location/BaseMap)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/TBrhrneqhttps://w3id.org/arco/ontology/location/isBaseMapOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/VFn8jTuK",
+				"entity parent": "https://w3id.org/arco/ontology/location/isBaseMapOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteDefinition",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition,https://w3id.org/arco/ontology/location/SiteDefinition)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/ceRxKEojhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/9OUQx4lB",
+				"entity parent": "https://w3id.org/arco/ontology/location/isSiteDefinitionOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Object,https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Object"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/District",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent,https://w3id.org/italia/onto/CLV/District)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteType",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Type,https://w3id.org/arco/ontology/location/SiteType)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Type"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/OldTown",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/City,https://w3id.org/arco/ontology/location/OldTown)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/City"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/Address",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/Feature,https://w3id.org/italia/onto/CLV/Address)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/Feature"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteSpecification",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Description,https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteSpecification)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Description"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Coordinates",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Collection,https://w3id.org/arco/ontology/location/Coordinates)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Collection"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastreType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType,https://w3id.org/arco/ontology/location/CadastreType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImXVj5fQhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/3q6CykGI",
+				"entity parent": "https://w3id.org/arco/ontology/location/isCadastreTypeOf"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/GeographicalFeature,http://dati.beniculturali.it/cis/ClericalAdministrativeArea)",
+				"entity parent": "http://dati.beniculturali.it/cis/GeographicalFeature"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity,https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/EpFTvo0Ghttps://w3id.org/arco/ontology/location/hasCadastreType1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/mfzQJiW5",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasCadastreType"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/Feature",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/SpatialObject,https://w3id.org/italia/onto/CLV/Feature)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/SpatialObject"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/City",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent,https://w3id.org/italia/onto/CLV/City)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/vcard/ns#Organization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2006/vcard/ns#Organization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/RO/Role",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/italia/onto/RO/Role)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Continent",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent,https://w3id.org/arco/ontology/location/Continent)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/GeometryMethod",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod,https://w3id.org/arco/ontology/location/GeometryMethod)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/83gMT7tLhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/f7sXw2zZ",
+				"entity parent": "https://w3id.org/arco/ontology/location/isGeometryMethodOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteSpecification",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification,https://w3id.org/arco/ontology/location/SiteSpecification)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/4NW6o48Ihttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/808blen2",
+				"entity parent": "https://w3id.org/arco/ontology/location/isSiteSpecificationOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteDefinition",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Description,https://w3id.org/arco/ontology/location/CulturalInstituteOrSiteDefinition)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Description"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique",
+				"disjointness constraints": "uchaEzta",
+				"completeness constraints": "kLiGXbec",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/GeometryMethod",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique,https://w3id.org/arco/ontology/location/GeometryMethod)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/GeometryMethod_NOT_GeometryTechnique"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/GeometryTechnique",
+				"disjointness constraints": "uchaEzta",
+				"completeness constraints": "kLiGXbec",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/arco/ontology/location/GeometryTechnique)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/SpatialObject",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Location,https://w3id.org/italia/onto/CLV/SpatialObject)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Location"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime",
+				"disjointness constraints": "x4TD92pW",
+				"completeness constraints": "jO6CB5aq",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_ClassificationInTime"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/ClassificationInTime",
+				"disjointness constraints": "x4TD92pW",
+				"completeness constraints": "jO6CB5aq",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/arco/ontology/core/ClassificationInTime)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType,https://w3id.org/arco/ontology/location/SiteType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/JpvXVIg5https://w3id.org/arco/ontology/location/hasSiteDefinition1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/T2cczRVS",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasSiteDefinition"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteDefinition",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Description,https://w3id.org/arco/ontology/location/SiteDefinition)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Description"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Type",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/arco/ontology/core/Type)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/Category",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/arco/ontology/core/Category)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/TimeIndexedSituation,https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation)",
+				"entity parent": "https://w3id.org/arco/ontology/core/TimeIndexedSituation"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Organization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://dati.gov.it/onto/dcatapit#Organization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+				"name": "Subsumption(http://dati.beniculturali.it/cis/GeographicalFeature,http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea)",
+				"entity parent": "http://dati.beniculturali.it/cis/GeographicalFeature"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/LocationType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType,https://w3id.org/arco/ontology/location/LocationType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/FIuckAsahttps://w3id.org/arco/ontology/location/isLocationTypeOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/h2nfsAzh",
+				"entity parent": "https://w3id.org/arco/ontology/location/isLocationTypeOf"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Agent",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://dati.gov.it/onto/dcatapit#Agent)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Agent",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://dati.gov.it/onto/dcatapit#Agent)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Agent,http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/l0/Agent",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,https://w3id.org/italia/onto/l0/Agent)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/l0/Agent",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,https://w3id.org/italia/onto/l0/Agent)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/vcard/ns#Organization",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://www.w3.org/2006/vcard/ns#Organization)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/TypeOfContext",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext,https://w3id.org/arco/ontology/location/TypeOfContext)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/hrrai3jLhttps://w3id.org/arco/ontology/location/isTypeOfContextOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/J9Kaozac",
+				"entity parent": "https://w3id.org/arco/ontology/location/isTypeOfContextOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/BaseMap",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Object,https://w3id.org/arco/ontology/location/BaseMap)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Object"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralFolio",
+				"name": "Subsumption(https://w3id.org/arco/ontology/location/CadastralEntity,https://w3id.org/arco/ontology/location/CadastralFolio)",
+				"entity parent": "https://w3id.org/arco/ontology/location/CadastralEntity"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteSpecification",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Description,https://w3id.org/arco/ontology/location/SiteSpecification)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Description"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Altitude",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Characteristic,https://w3id.org/arco/ontology/location/Altitude)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Characteristic"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/TypeOfContext",
+				"name": "Subsumption(https://w3id.org/arco/ontology/core/Concept,https://w3id.org/arco/ontology/location/TypeOfContext)",
+				"entity parent": "https://w3id.org/arco/ontology/core/Concept"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation,https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/uXXdw7PHhttps://w3id.org/arco/ontology/location/hasLocationType1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/p8wtwp4C",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasLocationType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation,https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/XQQ79bbRhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/MuPSSv07",
+				"entity parent": "https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/SiteType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType,https://w3id.org/arco/ontology/location/SiteType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/6c9EhLzAhttps://w3id.org/arco/ontology/location/isSiteTypeOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Dt7ewiqL",
+				"entity parent": "https://w3id.org/arco/ontology/location/isSiteTypeOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/TypeOfContext",
+				"name": "Subsumption(https://w3id.org/italia/onto/l0/Concept,https://w3id.org/arco/ontology/location/TypeOfContext)",
+				"entity parent": "https://w3id.org/italia/onto/l0/Concept"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralEntity",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/SpatialObject,https://w3id.org/arco/ontology/location/CadastralEntity)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/SpatialObject"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/GeometryTechnique",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique,https://w3id.org/arco/ontology/location/GeometryTechnique)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Bu2ogwPahttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/FnTafx2y",
+				"entity parent": "https://w3id.org/arco/ontology/location/isGeometryTechniqueOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralIdentity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity,https://w3id.org/arco/ontology/location/CadastralIdentity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/RttkRnAlhttps://w3id.org/arco/ontology/location/hasCadastralEntity1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/SIuK1tLa",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasCadastralEntity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/ToponymInTime",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime,https://w3id.org/arco/ontology/location/ToponymInTime)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/MNdQcVTahttps://w3id.org/arco/ontology/location/isToponymInTimeOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/aJsHfqTS",
+				"entity parent": "https://w3id.org/arco/ontology/location/isToponymInTimeOf"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/UrbanArea",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent,https://w3id.org/arco/ontology/location/UrbanArea)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/AdministrativeUnitComponent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Continent",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent,https://w3id.org/arco/ontology/location/Continent)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ke6rSYn1https://w3id.org/arco/ontology/location/isContinentOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/2uRimjpJ",
+				"entity parent": "https://w3id.org/arco/ontology/location/isContinentOf"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://dati.beniculturali.it/cis/CulturalInstituteOrSite)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/CadastralUnitCollection",
+				"name": "Subsumption(https://w3id.org/arco/ontology/location/CadastralEntity,https://w3id.org/arco/ontology/location/CadastralUnitCollection)",
+				"entity parent": "https://w3id.org/arco/ontology/location/CadastralEntity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification",
+				"disjointness constraints": "Km34sf44",
+				"completeness constraints": "KsnaZsJu",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/AgentRole",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification,https://w3id.org/arco/ontology/core/AgentRole)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/AgentRole_NOT_CulturalEntityClassification"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/core/CulturalEntityClassification",
+				"disjointness constraints": "Km34sf44",
+				"completeness constraints": "KsnaZsJu",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://w3id.org/arco/ontology/core/CulturalEntityClassification)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType,https://w3id.org/arco/ontology/location/OldTownAdmistrativeType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/cZ5iRVJihttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/oxi6DpbK",
+				"entity parent": "https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf"
+			},
+			{
+				"entity child": "http://dati.beniculturali.it/cis/GeographicalFeature",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/Feature,http://dati.beniculturali.it/cis/GeographicalFeature)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/Feature"
+			},
+			{
+				"entity child": "https://w3id.org/arco/ontology/location/Coordinates",
+				"name": "Subsumption(https://w3id.org/italia/onto/CLV/Geometry,https://w3id.org/arco/ontology/location/Coordinates)",
+				"entity parent": "https://w3id.org/italia/onto/CLV/Geometry"
+			},
+			{
+				"entity child": "http://dati.gov.it/onto/dcatapit#Organization",
+				"name": "Subsumption(http://dati.gov.it/onto/dcatapit#Agent,http://dati.gov.it/onto/dcatapit#Organization)",
+				"entity parent": "http://dati.gov.it/onto/dcatapit#Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://w3id.org/italia/onto/CLV/District",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District,https://w3id.org/italia/onto/CLV/District)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/UqZnWYqAhttps://w3id.org/arco/ontology/location/hasTypeOfContext1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/YTbflHhA",
+				"entity parent": "https://w3id.org/arco/ontology/location/hasTypeOfContext"
+			}
+		],
+		"Relationship": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf%http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+					"https://w3id.org/italia/onto/CLV/Address"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/z2d1Eanxhttps://w3id.org/arco/ontology/location/isGovernmentalAdministrativeAreaOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isCadastralIdentityOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastralIdentityOf%https://w3id.org/arco/ontology/location/CadastralIdentity",
+					"http://dati.beniculturali.it/cis/CulturalEntity"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/y2eNHLqphttps://w3id.org/arco/ontology/location/isCadastralIdentityOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/hasCadastralCity"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralCity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+					"https://w3id.org/italia/onto/CLV/City"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Fk1cgy7ohttps://w3id.org/arco/ontology/location/hasCadastralCity1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf%http://dati.beniculturali.it/cis/ClericalAdministrativeArea",
+					"https://w3id.org/italia/onto/CLV/Address"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/eP63rPLGhttps://w3id.org/arco/ontology/location/isClericalAdministrativeAreaOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/hasLocationType"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+					"https://w3id.org/arco/ontology/location/LocationType"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/upi01eLohttps://w3id.org/arco/ontology/location/hasLocationType1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isAltitudeOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isAltitudeOf%https://w3id.org/arco/ontology/location/Altitude",
+					"https://w3id.org/arco/ontology/location/Coordinates"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/YTZYcYVIhttps://w3id.org/arco/ontology/location/isAltitudeOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/areCoordinatesOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/areCoordinatesOf%https://w3id.org/arco/ontology/location/Coordinates",
+					"https://w3id.org/italia/onto/CLV/Geometry"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/WOIYeENYhttps://w3id.org/arco/ontology/location/areCoordinatesOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isBaseMapOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isBaseMapOf%https://w3id.org/arco/ontology/location/BaseMap",
+					"https://w3id.org/italia/onto/CLV/Geometry"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/TBrhrneqhttps://w3id.org/arco/ontology/location/isBaseMapOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isSiteDefinitionOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteDefinitionOf%https://w3id.org/arco/ontology/location/SiteDefinition",
+					"https://w3id.org/arco/ontology/location/SiteType"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/ceRxKEojhttps://w3id.org/arco/ontology/location/isSiteDefinitionOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isCadastreTypeOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isCadastreTypeOf%https://w3id.org/arco/ontology/location/CadastreType",
+					"https://w3id.org/arco/ontology/location/CadastralIdentity"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/ImXVj5fQhttps://w3id.org/arco/ontology/location/isCadastreTypeOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/hasCadastreType"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastreType%https://w3id.org/arco/ontology/location/CadastralIdentity",
+					"https://w3id.org/arco/ontology/location/CadastreType"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/EpFTvo0Ghttps://w3id.org/arco/ontology/location/hasCadastreType1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isGeometryMethodOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryMethodOf%https://w3id.org/arco/ontology/location/GeometryMethod",
+					"https://w3id.org/italia/onto/CLV/Geometry"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/83gMT7tLhttps://w3id.org/arco/ontology/location/isGeometryMethodOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isSiteSpecificationOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteSpecificationOf%https://w3id.org/arco/ontology/location/SiteSpecification",
+					"https://w3id.org/arco/ontology/location/SiteType"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/4NW6o48Ihttps://w3id.org/arco/ontology/location/isSiteSpecificationOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/hasSiteDefinition"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasSiteDefinition%https://w3id.org/arco/ontology/location/SiteType",
+					"https://w3id.org/arco/ontology/location/SiteDefinition"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/JpvXVIg5https://w3id.org/arco/ontology/location/hasSiteDefinition1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isLocationTypeOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isLocationTypeOf%https://w3id.org/arco/ontology/location/LocationType",
+					"http://www.w3.org/2002/07/owl#Thing"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/FIuckAsahttps://w3id.org/arco/ontology/location/isLocationTypeOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isTypeOfContextOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTypeOfContextOf%https://w3id.org/arco/ontology/location/TypeOfContext",
+					"http://www.w3.org/2002/07/owl#Thing"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/hrrai3jLhttps://w3id.org/arco/ontology/location/isTypeOfContextOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasLocationType%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+					"https://w3id.org/arco/ontology/location/LocationType"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/uXXdw7PHhttps://w3id.org/arco/ontology/location/hasLocationType1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf%https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation",
+					"http://www.w3.org/2002/07/owl#Thing"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/XQQ79bbRhttps://w3id.org/arco/ontology/location/isTimeIndexedTypedLocationOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isSiteTypeOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isSiteTypeOf%https://w3id.org/arco/ontology/location/SiteType",
+					"http://dati.beniculturali.it/cis/Site"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/6c9EhLzAhttps://w3id.org/arco/ontology/location/isSiteTypeOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isGeometryTechniqueOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isGeometryTechniqueOf%https://w3id.org/arco/ontology/location/GeometryTechnique",
+					"https://w3id.org/italia/onto/CLV/Geometry"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Bu2ogwPahttps://w3id.org/arco/ontology/location/isGeometryTechniqueOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/hasCadastralEntity"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasCadastralEntity%https://w3id.org/arco/ontology/location/CadastralIdentity",
+					"https://w3id.org/arco/ontology/location/CadastralEntity"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/RttkRnAlhttps://w3id.org/arco/ontology/location/hasCadastralEntity1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isToponymInTimeOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isToponymInTimeOf%https://w3id.org/arco/ontology/location/ToponymInTime",
+					"https://w3id.org/italia/onto/CLV/Feature"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/MNdQcVTahttps://w3id.org/arco/ontology/location/isToponymInTimeOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isContinentOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isContinentOf%https://w3id.org/arco/ontology/location/Continent",
+					"http://www.w3.org/2002/07/owl#Thing"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ke6rSYn1https://w3id.org/arco/ontology/location/isContinentOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf%https://w3id.org/arco/ontology/location/OldTownAdmistrativeType",
+					"https://w3id.org/arco/ontology/location/OldTown"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/cZ5iRVJihttps://w3id.org/arco/ontology/location/isOldTownAdministrativeTypeOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://w3id.org/arco/ontology/location/hasTypeOfContext"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://w3id.org/arco/ontology/location/hasTypeOfContext%https://w3id.org/italia/onto/CLV/District",
+					"https://w3id.org/arco/ontology/location/TypeOfContext"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/UqZnWYqAhttps://w3id.org/arco/ontology/location/hasTypeOfContext1"
+			}
+		]
+	}
+}

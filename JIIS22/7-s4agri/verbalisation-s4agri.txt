@@ -1,0 +1,434 @@
+Http://www.opengis.net/ont/geosparql#Feature is an Object type.
+Http://www.opengis.net/ont/geosparql#SpatialObject is an Object type.
+Https://saref.etsi.org/saref4agri/WateringValve is an Object type.
+Https://saref.etsi.org/core/Actuator is an Object type.
+Https://saref.etsi.org/saref4agri/Deployment is an Object type.
+Http://www.w3.org/ns/ssn/Deployment is an Object type.
+Https://saref.etsi.org/saref4agri/Crop is an Object type.
+Https://saref.etsi.org/core/FeatureOfInterest is an Object type.
+Https://saref.etsi.org/saref4agri/AnimalGroup is an Object type.
+Https://saref.etsi.org/saref4agri/Thermometer is an Object type.
+Https://saref.etsi.org/core/Sensor is an Object type.
+Https://saref.etsi.org/saref4agri/WateringGun is an Object type.
+Https://saref.etsi.org/saref4agri/Pluviometer is an Object type.
+Https://saref.etsi.org/saref4agri/BuildingSpace is an Object type.
+Https://saref.etsi.org/saref4agri/WateringSystem is an Object type.
+Http://www.w3.org/ns/ssn/System is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment is an Object type.
+Http://www.w3.org/ns/sosa/Platform is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran is an Object type.
+Http://xmlns.com/foaf/0.1/Agent is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent is an Object type.
+Http://www.w3.org/2006/time#Instant is an Object type.
+Http://www.w3.org/2006/time#TemporalEntity is an Object type.
+Https://saref.etsi.org/saref4agri/Parcel is an Object type.
+Http://www.opengis.net/ont/geosparql#Geometry is an Object type.
+Https://saref.etsi.org/saref4agri/Building is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building is an Object type.
+Https://crowd-app.fi.uncoma.edu.ar#FakeTop is an Object type.
+Https://saref.etsi.org/saref4agri/WeatherStation is an Object type.
+Https://saref.etsi.org/saref4agri/MovementActivitySensor is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel is an Object type.
+Https://saref.etsi.org/saref4agri/Animal is an Object type.
+Https://saref.etsi.org/core/Humidity is an Object type.
+Https://saref.etsi.org/core/UnitOfMeasure is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure is an Object type.
+Https://saref.etsi.org/saref4agri/Farm is an Object type.
+Https://saref.etsi.org/saref4agri/EatingActivitySensor is an Object type.
+Http://www.w3.org/2003/01/geo/wgs84_pos#Point is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point is an Object type.
+Https://saref.etsi.org/core/Measurement is an Object type.
+Https://saref.etsi.org/core/Property is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm is an Object type.
+Https://saref.etsi.org/saref4agri/MilkingSensor is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel is an Object type.
+Https://saref.etsi.org/core/Temperature is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal is an Object type.
+Http://purl.obolibrary.org/obo/TAXRANK_0000000 is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure is an Object type.
+Https://saref.etsi.org/saref4agri/SoilTensiometer is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature is an Object type.
+Https://saref.etsi.org/core/Time is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment is an Object type.
+Https://saref.etsi.org/saref4agri/WeightSensor is an Object type.
+Http://xmlns.com/foaf/0.1/Person is an Object type.
+Https://saref.etsi.org/saref4agri/Platform is an Object type.
+Https://saref.etsi.org/core/Device is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel is an Object type.
+Https://saref.etsi.org/saref4agri/Farmer is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop is an Object type.
+Https://saref.etsi.org/saref4agri/FarmHolding is an Object type.
+Https://schema.org/Organization is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal is an Object type.
+Http://www.w3.org/2006/time#Interval is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm is an Object type.
+Https://saref.etsi.org/saref4agri/Soil is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time is an Object type.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment and http://www.w3.org/ns/sosa/Platform.
+Http://www.w3.org/ns/ssn/deployedOnPlatform is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://xmlns.com/foaf/0.1/member is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasMember is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://purl.obolibrary.org/obo/TAXRANK_1000000 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIn is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isMemberOf is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasDeploymentPeriod is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarm is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://www.w3.org/ns/ssn/deployedSystem is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isDeployedAtSpace is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent and http://xmlns.com/foaf/0.1/Agent.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm and https://saref.etsi.org/saref4agri/Parcel.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm and https://saref.etsi.org/saref4agri/Building.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building and https://saref.etsi.org/saref4agri/BuildingSpace.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup and https://saref.etsi.org/saref4agri/Animal.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal and http://purl.obolibrary.org/obo/TAXRANK_0000000.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup and http://www.opengis.net/ont/geosparql#Feature.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal and https://saref.etsi.org/saref4agri/AnimalGroup.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment and http://www.w3.org/2006/time#TemporalEntity.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel and https://saref.etsi.org/saref4agri/Crop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer and https://saref.etsi.org/saref4agri/Farm.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop and http://purl.obolibrary.org/obo/TAXRANK_0000000.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal and http://www.opengis.net/ont/geosparql#Feature.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment and http://www.w3.org/ns/ssn/System.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding and https://saref.etsi.org/saref4agri/Farm.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1 is a relationship between http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment and http://www.opengis.net/ont/geosparql#SpatialObject.
+Each https://saref.etsi.org/saref4agri/BuildingSpace is a http://www.opengis.net/ont/geosparql#Feature.
+Each https://saref.etsi.org/saref4agri/Parcel is a http://www.opengis.net/ont/geosparql#Feature.
+Each https://saref.etsi.org/saref4agri/Building is a http://www.opengis.net/ont/geosparql#Feature.
+Each https://saref.etsi.org/saref4agri/Farm is a http://www.opengis.net/ont/geosparql#Feature.
+Each http://www.opengis.net/ont/geosparql#Feature is a http://www.opengis.net/ont/geosparql#SpatialObject.
+Each http://www.opengis.net/ont/geosparql#Geometry is a http://www.opengis.net/ont/geosparql#SpatialObject.
+Each https://saref.etsi.org/saref4agri/WateringValve is a https://saref.etsi.org/core/Actuator.
+Each https://saref.etsi.org/saref4agri/WateringGun is a https://saref.etsi.org/core/Actuator.
+Each https://saref.etsi.org/saref4agri/Deployment is a http://www.w3.org/ns/ssn/Deployment.
+Each https://saref.etsi.org/saref4agri/Crop is a https://saref.etsi.org/core/FeatureOfInterest.
+Each https://saref.etsi.org/saref4agri/AnimalGroup is a https://saref.etsi.org/core/FeatureOfInterest.
+Each https://saref.etsi.org/saref4agri/Animal is a https://saref.etsi.org/core/FeatureOfInterest.
+Each https://saref.etsi.org/saref4agri/Soil is a https://saref.etsi.org/core/FeatureOfInterest.
+Each https://saref.etsi.org/saref4agri/Thermometer is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/Pluviometer is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/WeatherStation is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/MovementActivitySensor is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/EatingActivitySensor is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/MilkingSensor is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/SoilTensiometer is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/WeightSensor is a https://saref.etsi.org/core/Sensor.
+Each https://saref.etsi.org/saref4agri/WateringSystem is a http://www.w3.org/ns/ssn/System.
+Each https://saref.etsi.org/saref4agri/WeatherStation is a http://www.w3.org/ns/ssn/System.
+Each https://saref.etsi.org/core/Device is a http://www.w3.org/ns/ssn/System.
+Each https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment.
+Each https://saref.etsi.org/saref4agri/Platform is a http://www.w3.org/ns/sosa/Platform.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Each http://xmlns.com/foaf/0.1/Person is a http://xmlns.com/foaf/0.1/Agent.
+Each https://schema.org/Organization is a http://xmlns.com/foaf/0.1/Agent.
+Each http://xmlns.com/foaf/0.1/Agent is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent.
+Each http://www.w3.org/2006/time#Instant is a http://www.w3.org/2006/time#TemporalEntity.
+Each http://www.w3.org/2006/time#Interval is a http://www.w3.org/2006/time#TemporalEntity.
+Each http://www.w3.org/2003/01/geo/wgs84_pos#Point is a http://www.opengis.net/ont/geosparql#Geometry.
+Each http://www.opengis.net/ont/geosparql#Geometry is a http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building and https://saref.etsi.org/saref4agri/Building cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building and https://saref.etsi.org/saref4agri/Building are disjoint from each other.
+Each https://saref.etsi.org/saref4agri/Building is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/saref4agri/Building is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/Building and http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/Building and http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel and https://saref.etsi.org/saref4agri/Parcel cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel and https://saref.etsi.org/saref4agri/Parcel are disjoint from each other.
+Each https://saref.etsi.org/saref4agri/Parcel is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/saref4agri/Parcel is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/Parcel and http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/Parcel and http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure and https://saref.etsi.org/core/UnitOfMeasure cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure and https://saref.etsi.org/core/UnitOfMeasure are disjoint from each other.
+Each https://saref.etsi.org/core/UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/core/UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/core/UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/core/UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/core/UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/core/UnitOfMeasure and http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace and https://saref.etsi.org/saref4agri/BuildingSpace cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace and https://saref.etsi.org/saref4agri/BuildingSpace are disjoint from each other.
+Each https://saref.etsi.org/saref4agri/BuildingSpace is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/saref4agri/BuildingSpace is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/BuildingSpace and http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/BuildingSpace and http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point and http://www.w3.org/2003/01/geo/wgs84_pos#Point cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point and http://www.w3.org/2003/01/geo/wgs84_pos#Point are disjoint from each other.
+Each http://www.w3.org/2003/01/geo/wgs84_pos#Point is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property and https://saref.etsi.org/core/Property cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property and https://saref.etsi.org/core/Property are disjoint from each other.
+Each https://saref.etsi.org/core/Property is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature and https://saref.etsi.org/core/Temperature cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature and https://saref.etsi.org/core/Temperature are disjoint from each other.
+Each https://saref.etsi.org/core/Temperature is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm and https://saref.etsi.org/saref4agri/Farm cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm and https://saref.etsi.org/saref4agri/Farm are disjoint from each other.
+Each https://saref.etsi.org/saref4agri/Farm is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each https://saref.etsi.org/saref4agri/Farm is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/Farm and http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Https://saref.etsi.org/saref4agri/Farm and http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm are disjoint from each other.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry and http://www.opengis.net/ont/geosparql#Geometry cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry and http://www.opengis.net/ont/geosparql#Geometry are disjoint from each other.
+Each http://www.opengis.net/ont/geosparql#Geometry is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement and https://saref.etsi.org/core/Measurement cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement and https://saref.etsi.org/core/Measurement are disjoint from each other.
+Each https://saref.etsi.org/core/Measurement is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time and https://saref.etsi.org/core/Time cover https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time and https://saref.etsi.org/core/Time are disjoint from each other.
+Each https://saref.etsi.org/core/Time is a https://crowd-app.fi.uncoma.edu.ar#FakeTop.
+Each http://www.opengis.net/ont/geosparql#Geometry is a http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel.
+Each https://saref.etsi.org/core/Humidity is a http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure.
+Each http://www.w3.org/2003/01/geo/wgs84_pos#Point is a http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace.
+Each http://www.opengis.net/ont/geosparql#Feature is a http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point.
+Each https://saref.etsi.org/core/Humidity is a https://saref.etsi.org/core/Property.
+Each https://saref.etsi.org/core/Temperature is a https://saref.etsi.org/core/Property.
+Each https://saref.etsi.org/core/Time is a https://saref.etsi.org/core/Property.
+Each https://saref.etsi.org/core/Measurement is a http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property.
+Each http://www.opengis.net/ont/geosparql#Geometry is a http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace.
+Each https://saref.etsi.org/saref4agri/Farm is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm.
+Each https://saref.etsi.org/saref4agri/Building is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building.
+Each https://saref.etsi.org/saref4agri/AnimalGroup is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup.
+Each http://www.w3.org/2003/01/geo/wgs84_pos#Point is a http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel.
+Each https://saref.etsi.org/core/Temperature is a http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure.
+Each https://saref.etsi.org/saref4agri/Animal is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal.
+Each http://www.w3.org/2003/01/geo/wgs84_pos#Point is a http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building.
+Each https://saref.etsi.org/core/Measurement is a http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure.
+Each https://saref.etsi.org/saref4agri/AnimalGroup is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup.
+Each https://saref.etsi.org/core/Measurement is a http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature.
+Each https://saref.etsi.org/core/Time is a http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure.
+Each https://saref.etsi.org/saref4agri/Animal is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal.
+Each https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment.
+Each https://saref.etsi.org/saref4agri/Farmer is a http://xmlns.com/foaf/0.1/Person.
+Each https://saref.etsi.org/core/Actuator is a https://saref.etsi.org/core/Device.
+Each https://saref.etsi.org/core/Sensor is a https://saref.etsi.org/core/Device.
+Each https://saref.etsi.org/saref4agri/Parcel is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel.
+Each https://saref.etsi.org/saref4agri/Farmer is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer.
+Each https://saref.etsi.org/saref4agri/Crop is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop.
+Each https://saref.etsi.org/saref4agri/FarmHolding is a https://schema.org/Organization.
+Each https://saref.etsi.org/saref4agri/Animal is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal.
+Each http://www.opengis.net/ont/geosparql#Geometry is a http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm.
+Each https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment.
+Each https://saref.etsi.org/saref4agri/FarmHolding is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding.
+Each http://www.opengis.net/ont/geosparql#Feature is a http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry.
+Each https://saref.etsi.org/core/Property is a http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure.
+Each http://www.w3.org/2003/01/geo/wgs84_pos#Point is a http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm.
+Each https://saref.etsi.org/saref4agri/Deployment is a http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment.
+Each https://saref.etsi.org/core/Humidity is a http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement.
+Each https://saref.etsi.org/core/Measurement is a http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1 is a http://www.w3.org/ns/ssn/deployedOnPlatform.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1 is a http://xmlns.com/foaf/0.1/member.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasMember.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001 is a http://purl.obolibrary.org/obo/TAXRANK_1000000.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIn.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isMemberOf.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasDeploymentPeriod.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarm.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001 is a http://purl.obolibrary.org/obo/TAXRANK_1000000.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIn.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1 is a http://www.w3.org/ns/ssn/deployedSystem.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarm.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1 is a http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isDeployedAtSpace.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qbgKYRp2http://www.w3.org/ns/ssn/deployedOnPlatform1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment http://crowd.fi.uncoma.edu.ar/IMPORT/qbgKYRp2http://www.w3.org/ns/ssn/deployedOnPlatform1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1s at least 1 http://www.w3.org/ns/sosa/Platform and at most * http://www.w3.org/ns/sosa/Platform.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qbgKYRp2http://www.w3.org/ns/ssn/deployedOnPlatform1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/08iDYkbghttp://www.w3.org/ns/ssn/deployedOnPlatform1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1.
+Each http://www.w3.org/ns/sosa/Platform http://crowd.fi.uncoma.edu.ar/IMPORT/08iDYkbghttp://www.w3.org/ns/ssn/deployedOnPlatform1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/6UeJc3rIhttp://www.w3.org/ns/ssn/deployedOnPlatform.1 is a role in a relationship http://www.w3.org/ns/ssn/deployedOnPlatform.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/6UeJc3rIhttp://www.w3.org/ns/ssn/deployedOnPlatform.1 http://www.w3.org/ns/ssn/deployedOnPlatforms at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ApNi1hzyhttp://www.w3.org/ns/ssn/deployedOnPlatform.2 is a role in a relationship http://www.w3.org/ns/ssn/deployedOnPlatform.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/ApNi1hzyhttp://www.w3.org/ns/ssn/deployedOnPlatform.2 http://www.w3.org/ns/ssn/deployedOnPlatforms at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/6hZHOrjOhttp://xmlns.com/foaf/0.1/member.1 is a role in a relationship http://xmlns.com/foaf/0.1/member.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/6hZHOrjOhttp://xmlns.com/foaf/0.1/member.1 http://xmlns.com/foaf/0.1/members at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/nzvTt6Uqhttp://xmlns.com/foaf/0.1/member.2 is a role in a relationship http://xmlns.com/foaf/0.1/member.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/nzvTt6Uqhttp://xmlns.com/foaf/0.1/member.2 http://xmlns.com/foaf/0.1/members at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/wJlUvY4ihttps://saref.etsi.org/saref4agri/contains.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/wJlUvY4ihttps://saref.etsi.org/saref4agri/contains.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/containses at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/7NAMgm7Mhttps://saref.etsi.org/saref4agri/contains.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/contains.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/7NAMgm7Mhttps://saref.etsi.org/saref4agri/contains.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/containses at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/yul7FEFwhttps://saref.etsi.org/saref4agri/hasMember.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasMember.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/yul7FEFwhttps://saref.etsi.org/saref4agri/hasMember.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasMembers at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/EVVGpNcuhttps://saref.etsi.org/saref4agri/hasMember.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasMember.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/EVVGpNcuhttps://saref.etsi.org/saref4agri/hasMember.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasMembers at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/PaBSqu8mhttp://purl.obolibrary.org/obo/TAXRANK_1000000.1 is a role in a relationship http://purl.obolibrary.org/obo/TAXRANK_1000000.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/PaBSqu8mhttp://purl.obolibrary.org/obo/TAXRANK_1000000.1 http://purl.obolibrary.org/obo/TAXRANK_1000000s at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/oYtCmOq0http://purl.obolibrary.org/obo/TAXRANK_1000000.2 is a role in a relationship http://purl.obolibrary.org/obo/TAXRANK_1000000.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/oYtCmOq0http://purl.obolibrary.org/obo/TAXRANK_1000000.2 http://purl.obolibrary.org/obo/TAXRANK_1000000s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/IL1PFEC4https://saref.etsi.org/saref4agri/isLocatedIn.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIn.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/IL1PFEC4https://saref.etsi.org/saref4agri/isLocatedIn.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIns at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/eRTswvEmhttps://saref.etsi.org/saref4agri/isLocatedIn.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIn.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/eRTswvEmhttps://saref.etsi.org/saref4agri/isLocatedIn.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isLocatedIns at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/eRDzxUyZhttps://saref.etsi.org/saref4agri/isMemberOf.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isMemberOf.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/eRDzxUyZhttps://saref.etsi.org/saref4agri/isMemberOf.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isMemberOfs at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/JnVkyTxEhttps://saref.etsi.org/saref4agri/isMemberOf.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isMemberOf.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/JnVkyTxEhttps://saref.etsi.org/saref4agri/isMemberOf.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isMemberOfs at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Ibs3w04Chttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasDeploymentPeriod.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/Ibs3w04Chttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasDeploymentPeriods at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/SCC7Y6hDhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasDeploymentPeriod.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/SCC7Y6hDhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/hasDeploymentPeriods at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/j1No7MHKhttps://saref.etsi.org/saref4agri/managesFarm.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarm.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/j1No7MHKhttps://saref.etsi.org/saref4agri/managesFarm.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarms at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/2WVYUolChttps://saref.etsi.org/saref4agri/managesFarm.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarm.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/2WVYUolChttps://saref.etsi.org/saref4agri/managesFarm.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/managesFarms at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/DaI8izBshttp://www.w3.org/ns/ssn/deployedSystem.1 is a role in a relationship http://www.w3.org/ns/ssn/deployedSystem.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/DaI8izBshttp://www.w3.org/ns/ssn/deployedSystem.1 http://www.w3.org/ns/ssn/deployedSystems at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/Jk1J4giWhttp://www.w3.org/ns/ssn/deployedSystem.2 is a role in a relationship http://www.w3.org/ns/ssn/deployedSystem.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/Jk1J4giWhttp://www.w3.org/ns/ssn/deployedSystem.2 http://www.w3.org/ns/ssn/deployedSystems at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isDeployedAtSpace.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isDeployedAtSpaces at least 1 http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/QUjhfkJHhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isDeployedAtSpace.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran http://crowd.fi.uncoma.edu.ar/IMPORT/QUjhfkJHhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.2 http://crowd.fi.uncoma.edu.ar#https://saref.etsi.org/saref4agri/isDeployedAtSpaces at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/FlEeDvMahttp://xmlns.com/foaf/0.1/member1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent http://crowd.fi.uncoma.edu.ar/IMPORT/FlEeDvMahttp://xmlns.com/foaf/0.1/member1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1s at least 1 http://xmlns.com/foaf/0.1/Agent and at most * http://xmlns.com/foaf/0.1/Agent.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/FlEeDvMahttp://xmlns.com/foaf/0.1/member1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/XDFKEGachttp://xmlns.com/foaf/0.1/member1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1.
+Each http://xmlns.com/foaf/0.1/Agent http://crowd.fi.uncoma.edu.ar/IMPORT/XDFKEGachttp://xmlns.com/foaf/0.1/member1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/5nCapGcehttps://saref.etsi.org/saref4agri/contains1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm http://crowd.fi.uncoma.edu.ar/IMPORT/5nCapGcehttps://saref.etsi.org/saref4agri/contains1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1s at least 1 https://saref.etsi.org/saref4agri/Parcel and at most * https://saref.etsi.org/saref4agri/Parcel.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/LVH8L7EFhttps://saref.etsi.org/saref4agri/contains1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/0IJsapOxhttps://saref.etsi.org/saref4agri/contains1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1.
+Each https://saref.etsi.org/saref4agri/Parcel http://crowd.fi.uncoma.edu.ar/IMPORT/0IJsapOxhttps://saref.etsi.org/saref4agri/contains1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/LVH8L7EFhttps://saref.etsi.org/saref4agri/contains1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm http://crowd.fi.uncoma.edu.ar/IMPORT/LVH8L7EFhttps://saref.etsi.org/saref4agri/contains1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1s at least 1 https://saref.etsi.org/saref4agri/Building and at most * https://saref.etsi.org/saref4agri/Building.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/LVH8L7EFhttps://saref.etsi.org/saref4agri/contains1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/nv5TNNmShttps://saref.etsi.org/saref4agri/contains1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1.
+Each https://saref.etsi.org/saref4agri/Building http://crowd.fi.uncoma.edu.ar/IMPORT/nv5TNNmShttps://saref.etsi.org/saref4agri/contains1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1QcqWFJ9https://saref.etsi.org/saref4agri/contains1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building http://crowd.fi.uncoma.edu.ar/IMPORT/1QcqWFJ9https://saref.etsi.org/saref4agri/contains1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1s at least 1 https://saref.etsi.org/saref4agri/BuildingSpace and at most * https://saref.etsi.org/saref4agri/BuildingSpace.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1QcqWFJ9https://saref.etsi.org/saref4agri/contains1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/rpDH2YADhttps://saref.etsi.org/saref4agri/contains1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1.
+Each https://saref.etsi.org/saref4agri/BuildingSpace http://crowd.fi.uncoma.edu.ar/IMPORT/rpDH2YADhttps://saref.etsi.org/saref4agri/contains1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tQLNWhJShttps://saref.etsi.org/saref4agri/hasMember1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup http://crowd.fi.uncoma.edu.ar/IMPORT/tQLNWhJShttps://saref.etsi.org/saref4agri/hasMember1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1s at least 1 https://saref.etsi.org/saref4agri/Animal and at most * https://saref.etsi.org/saref4agri/Animal.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/tQLNWhJShttps://saref.etsi.org/saref4agri/hasMember1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/uL7pj7DUhttps://saref.etsi.org/saref4agri/hasMember1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1.
+Each https://saref.etsi.org/saref4agri/Animal http://crowd.fi.uncoma.edu.ar/IMPORT/uL7pj7DUhttps://saref.etsi.org/saref4agri/hasMember1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/xQ8FcTgZhttp://purl.obolibrary.org/obo/TAXRANK_10000001.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal http://crowd.fi.uncoma.edu.ar/IMPORT/xQ8FcTgZhttp://purl.obolibrary.org/obo/TAXRANK_10000001.1 http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001s at least 1 http://purl.obolibrary.org/obo/TAXRANK_0000000 and at most * http://purl.obolibrary.org/obo/TAXRANK_0000000.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/xQ8FcTgZhttp://purl.obolibrary.org/obo/TAXRANK_10000001.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/rsuEkeKMhttp://purl.obolibrary.org/obo/TAXRANK_10000001.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001.
+Each http://purl.obolibrary.org/obo/TAXRANK_0000000 http://crowd.fi.uncoma.edu.ar/IMPORT/rsuEkeKMhttp://purl.obolibrary.org/obo/TAXRANK_10000001.2 http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/2xE9eGG6https://saref.etsi.org/saref4agri/isLocatedIn1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup http://crowd.fi.uncoma.edu.ar/IMPORT/2xE9eGG6https://saref.etsi.org/saref4agri/isLocatedIn1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1s at least 1 http://www.opengis.net/ont/geosparql#Feature and at most * http://www.opengis.net/ont/geosparql#Feature.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/2xE9eGG6https://saref.etsi.org/saref4agri/isLocatedIn1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/5nnjH3Lmhttps://saref.etsi.org/saref4agri/isLocatedIn1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1.
+Each http://www.opengis.net/ont/geosparql#Feature http://crowd.fi.uncoma.edu.ar/IMPORT/5nnjH3Lmhttps://saref.etsi.org/saref4agri/isLocatedIn1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/GIyAKPMZhttps://saref.etsi.org/saref4agri/isMemberOf1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal http://crowd.fi.uncoma.edu.ar/IMPORT/GIyAKPMZhttps://saref.etsi.org/saref4agri/isMemberOf1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1s at least 1 https://saref.etsi.org/saref4agri/AnimalGroup and at most * https://saref.etsi.org/saref4agri/AnimalGroup.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/GIyAKPMZhttps://saref.etsi.org/saref4agri/isMemberOf1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ZSwZv1pChttps://saref.etsi.org/saref4agri/isMemberOf1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1.
+Each https://saref.etsi.org/saref4agri/AnimalGroup http://crowd.fi.uncoma.edu.ar/IMPORT/ZSwZv1pChttps://saref.etsi.org/saref4agri/isMemberOf1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/xIPz9F7vhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment http://crowd.fi.uncoma.edu.ar/IMPORT/xIPz9F7vhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1s at least 1 http://www.w3.org/2006/time#TemporalEntity and at most * http://www.w3.org/2006/time#TemporalEntity.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/xIPz9F7vhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/stZB9Khmhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.
+Each http://www.w3.org/2006/time#TemporalEntity http://crowd.fi.uncoma.edu.ar/IMPORT/stZB9Khmhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/O3EHD8EWhttps://saref.etsi.org/saref4agri/contains1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel http://crowd.fi.uncoma.edu.ar/IMPORT/O3EHD8EWhttps://saref.etsi.org/saref4agri/contains1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1s at least 1 https://saref.etsi.org/saref4agri/Crop and at most * https://saref.etsi.org/saref4agri/Crop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/O3EHD8EWhttps://saref.etsi.org/saref4agri/contains1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/1PMzymHAhttps://saref.etsi.org/saref4agri/contains1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1.
+Each https://saref.etsi.org/saref4agri/Crop http://crowd.fi.uncoma.edu.ar/IMPORT/1PMzymHAhttps://saref.etsi.org/saref4agri/contains1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qDStR10Ghttps://saref.etsi.org/saref4agri/managesFarm1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer http://crowd.fi.uncoma.edu.ar/IMPORT/qDStR10Ghttps://saref.etsi.org/saref4agri/managesFarm1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1s at least 1 https://saref.etsi.org/saref4agri/Farm and at most * https://saref.etsi.org/saref4agri/Farm.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/qDStR10Ghttps://saref.etsi.org/saref4agri/managesFarm1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/pg3qYPj9https://saref.etsi.org/saref4agri/managesFarm1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1.
+Each https://saref.etsi.org/saref4agri/Farm http://crowd.fi.uncoma.edu.ar/IMPORT/pg3qYPj9https://saref.etsi.org/saref4agri/managesFarm1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/FIEvVWi8http://purl.obolibrary.org/obo/TAXRANK_10000001.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop http://crowd.fi.uncoma.edu.ar/IMPORT/FIEvVWi8http://purl.obolibrary.org/obo/TAXRANK_10000001.1 http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001s at least 1 http://purl.obolibrary.org/obo/TAXRANK_0000000 and at most * http://purl.obolibrary.org/obo/TAXRANK_0000000.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/FIEvVWi8http://purl.obolibrary.org/obo/TAXRANK_10000001.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/mooZZ9Hdhttp://purl.obolibrary.org/obo/TAXRANK_10000001.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001.
+Each http://purl.obolibrary.org/obo/TAXRANK_0000000 http://crowd.fi.uncoma.edu.ar/IMPORT/mooZZ9Hdhttp://purl.obolibrary.org/obo/TAXRANK_10000001.2 http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/3myTPfIhhttps://saref.etsi.org/saref4agri/isLocatedIn1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal http://crowd.fi.uncoma.edu.ar/IMPORT/3myTPfIhhttps://saref.etsi.org/saref4agri/isLocatedIn1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1s at least 1 http://www.opengis.net/ont/geosparql#Feature and at most * http://www.opengis.net/ont/geosparql#Feature.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/3myTPfIhhttps://saref.etsi.org/saref4agri/isLocatedIn1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MhaLiParhttps://saref.etsi.org/saref4agri/isLocatedIn1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1.
+Each http://www.opengis.net/ont/geosparql#Feature http://crowd.fi.uncoma.edu.ar/IMPORT/MhaLiParhttps://saref.etsi.org/saref4agri/isLocatedIn1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MjLYJsyKhttp://www.w3.org/ns/ssn/deployedSystem1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment http://crowd.fi.uncoma.edu.ar/IMPORT/MjLYJsyKhttp://www.w3.org/ns/ssn/deployedSystem1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1s at least 1 http://www.w3.org/ns/ssn/System and at most * http://www.w3.org/ns/ssn/System.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/MjLYJsyKhttp://www.w3.org/ns/ssn/deployedSystem1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/QU74950Shttp://www.w3.org/ns/ssn/deployedSystem1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1.
+Each http://www.w3.org/ns/ssn/System http://crowd.fi.uncoma.edu.ar/IMPORT/QU74950Shttp://www.w3.org/ns/ssn/deployedSystem1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/XJAUZNPHhttps://saref.etsi.org/saref4agri/managesFarm1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding http://crowd.fi.uncoma.edu.ar/IMPORT/XJAUZNPHhttps://saref.etsi.org/saref4agri/managesFarm1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1s at least 1 https://saref.etsi.org/saref4agri/Farm and at most * https://saref.etsi.org/saref4agri/Farm.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/XJAUZNPHhttps://saref.etsi.org/saref4agri/managesFarm1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/U0ghWCMYhttps://saref.etsi.org/saref4agri/managesFarm1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1.
+Each https://saref.etsi.org/saref4agri/Farm http://crowd.fi.uncoma.edu.ar/IMPORT/U0ghWCMYhttps://saref.etsi.org/saref4agri/managesFarm1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ypJIm9frhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.1 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.
+Each http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment http://crowd.fi.uncoma.edu.ar/IMPORT/ypJIm9frhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.1 http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1s at least 1 http://www.opengis.net/ont/geosparql#SpatialObject and at most * http://www.opengis.net/ont/geosparql#SpatialObject.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/ypJIm9frhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.1 is Mandatory.
+Http://crowd.fi.uncoma.edu.ar/IMPORT/HRUsazFIhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.2 is a role in a relationship http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.
+Each http://www.opengis.net/ont/geosparql#SpatialObject http://crowd.fi.uncoma.edu.ar/IMPORT/HRUsazFIhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.2 http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1s at least 0 http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment and at most * http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment.

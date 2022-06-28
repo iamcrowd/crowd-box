@@ -1,0 +1,651 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"http://qudt.org/schema/qudt/DateTimeStringEncodingType",
+			"http://org.semanticweb.owlapi/error#Error127",
+			"http://qudt.org/schema/qudt/Concept",
+			"http://org.semanticweb.owlapi/error#Error128",
+			"http://qudt.org/schema/qudt/Quantity",
+			"http://qudt.org/schema/qudt/Quantifiable",
+			"http://qudt.org/schema/qudt/UserQuantityKind",
+			"http://qudt.org/schema/qudt/AbstractQuantityKind",
+			"http://qudt.org/schema/qudt/ScalarDatatype",
+			"http://qudt.org/schema/qudt/Datatype",
+			"http://qudt.org/schema/qudt/SystemOfQuantityKinds",
+			"http://qudt.org/schema/qudt/valueUnion",
+			"http://www.w3.org/2000/01/rdf-schema#Resource",
+			"http://qudt.org/schema/qudt/Citation",
+			"http://qudt.org/schema/qudt/IntegerEncodingType",
+			"http://qudt.org/schema/qudt/Encoding",
+			"http://qudt.org/schema/qudt/SignednessType",
+			"http://qudt.org/schema/qudt/EnumeratedValue",
+			"http://qudt.org/schema/qudt/MathFunctionType",
+			"http://qudt.org/schema/qudt/EnumerationScale",
+			"http://www.linkedmodel.org/schema/dtype#Enumeration",
+			"http://qudt.org/schema/qudt/Figure",
+			"http://qudt.org/schema/qudt/Rule",
+			"http://org.semanticweb.owlapi/error#Error132",
+			"http://qudt.org/schema/qudt/RuleType",
+			"http://qudt.org/schema/qudt/OrderedType",
+			"http://qudt.org/schema/qudt/NIST_SP811_Comment",
+			"http://qudt.org/schema/qudt/Comment",
+			"http://qudt.org/schema/qudt/DimensionlessUnit",
+			"http://qudt.org/schema/qudt/Unit",
+			"http://qudt.org/schema/qudt/RatioScale",
+			"http://qudt.org/schema/qudt/Scale",
+			"http://qudt.org/schema/qudt/UCUMcs-term",
+			"http://qudt.org/schema/qudt/LatexString",
+			"http://www.w3.org/2001/XMLSchema#string",
+			"http://qudt.org/schema/qudt/QuantityKind",
+			"http://qudt.org/schema/qudt/Verifiable",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-LH",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS",
+			"http://qudt.org/schema/qudt/DerivedUnit",
+			"http://qudt.org/schema/qudt/Aspect",
+			"http://qudt.org/schema/qudt/QuantityType",
+			"http://qudt.org/schema/qudt/CharEncodingType",
+			"http://qudt.org/schema/qudt/Enumeration",
+			"http://qudt.org/schema/qudt/CurrencyUnit",
+			"http://org.semanticweb.owlapi/error#Error131",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_ISO",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector",
+			"http://qudt.org/schema/qudt/AspectClass",
+			"http://www.w3.org/2000/01/rdf-schema#Class",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-GAUSS",
+			"http://qudt.org/schema/qudt/PhysicalConstant",
+			"http://qudt.org/schema/qudt/UCUMcs",
+			"http://qudt.org/schema/qudt/ByteEncodingType",
+			"http://qudt.org/schema/qudt/Symbol",
+			"http://qudt.org/schema/qudt/NominalScale",
+			"http://qudt.org/schema/qudt/ConstantValue",
+			"http://qudt.org/schema/qudt/QuantityValue",
+			"http://qudt.org/schema/qudt/integerPercentage",
+			"http://www.w3.org/2001/XMLSchema#integer",
+			"http://qudt.org/schema/qudt/DecimalPrefix",
+			"http://qudt.org/schema/qudt/Prefix",
+			"http://org.semanticweb.owlapi/error#Error126",
+			"http://qudt.org/schema/qudt/floatPercentage",
+			"http://qudt.org/schema/qudt/EndianType",
+			"http://qudt.org/schema/qudt/BinaryPrefix",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-EMU",
+			"http://qudt.org/schema/qudt/IntervalScale",
+			"http://www.w3.org/2001/XMLSchema#float",
+			"http://org.semanticweb.owlapi/error#Error130",
+			"http://qudt.org/schema/qudt/BitEncodingType",
+			"http://qudt.org/schema/qudt/StringEncodingType",
+			"http://qudt.org/schema/qudt/Organization",
+			"http://qudt.org/schema/qudt/Discipline",
+			"http://qudt.org/schema/qudt/LogarithmicUnit",
+			"http://qudt.org/schema/qudt/BooleanEncodingType",
+			"http://qudt.org/schema/qudt/UCUMci-term",
+			"http://qudt.org/schema/qudt/ScaleType",
+			"http://qudt.org/schema/qudt/Statement",
+			"http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+			"http://qudt.org/schema/qudt/FloatingPointEncodingType",
+			"http://qudt.org/schema/qudt/CountingUnit",
+			"http://qudt.org/schema/qudt/UCUMci",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_Imperial",
+			"http://org.semanticweb.owlapi/error#Error124",
+			"http://org.semanticweb.owlapi/error#Error129",
+			"http://qudt.org/schema/qudt/OrdinalScale",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-ESU",
+			"http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI",
+			"http://qudt.org/schema/qudt/StructuredDatatype",
+			"http://org.semanticweb.owlapi/error#Error123",
+			"http://www.linkedmodel.org/schema/dtype#EnumeratedValue",
+			"http://www.w3.org/2001/XMLSchema#anySimpleType",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$",
+			"http://qudt.org/schema/qudt/DataEncoding",
+			"http://qudt.org/schema/qudt/CardinalityType",
+			"http://qudt.org/schema/qudt/SystemOfUnits",
+			"http://qudt.org/schema/qudt/BaseDimensionMagnitude",
+			"http://org.semanticweb.owlapi/error#Error125"
+		]
+	},
+	"Role": [],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": []
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [
+			{
+				"entities": [
+					"http://www.linkedmodel.org/schema/dtype#EnumeratedValue",
+					"http://www.w3.org/2001/XMLSchema#anySimpleType"
+				],
+				"name": "wUUYpDTK"
+			}
+		],
+		"Mandatory constraints": {
+			"Mandatory": []
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "http://qudt.org/schema/qudt/DateTimeStringEncodingType",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error127,http://qudt.org/schema/qudt/DateTimeStringEncodingType)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error127"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Concept",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error128,http://qudt.org/schema/qudt/Concept)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error128"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Quantity",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Quantifiable,http://qudt.org/schema/qudt/Quantity)",
+				"entity parent": "http://qudt.org/schema/qudt/Quantifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/UserQuantityKind",
+				"name": "Subsumption(http://qudt.org/schema/qudt/AbstractQuantityKind,http://qudt.org/schema/qudt/UserQuantityKind)",
+				"entity parent": "http://qudt.org/schema/qudt/AbstractQuantityKind"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/ScalarDatatype",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Datatype,http://qudt.org/schema/qudt/ScalarDatatype)",
+				"entity parent": "http://qudt.org/schema/qudt/Datatype"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/SystemOfQuantityKinds",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/SystemOfQuantityKinds)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/valueUnion",
+				"name": "Subsumption(http://www.w3.org/2000/01/rdf-schema#Resource,http://qudt.org/schema/qudt/valueUnion)",
+				"entity parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Citation",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Citation)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/IntegerEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/IntegerEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/SignednessType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/SignednessType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/MathFunctionType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/MathFunctionType)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Datatype",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Datatype)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/EnumerationScale",
+				"name": "Subsumption(http://www.linkedmodel.org/schema/dtype#Enumeration,http://qudt.org/schema/qudt/EnumerationScale)",
+				"entity parent": "http://www.linkedmodel.org/schema/dtype#Enumeration"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Figure",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Figure)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Rule",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error132,http://qudt.org/schema/qudt/Rule)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error132"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/RuleType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/RuleType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/OrderedType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/OrderedType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/NIST_SP811_Comment",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Comment,http://qudt.org/schema/qudt/NIST_SP811_Comment)",
+				"entity parent": "http://qudt.org/schema/qudt/Comment"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/DimensionlessUnit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Unit,http://qudt.org/schema/qudt/DimensionlessUnit)",
+				"entity parent": "http://qudt.org/schema/qudt/Unit"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/RatioScale",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Scale,http://qudt.org/schema/qudt/RatioScale)",
+				"entity parent": "http://qudt.org/schema/qudt/Scale"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/UCUMcs-term",
+				"name": "Subsumption(http://www.w3.org/2000/01/rdf-schema#Resource,http://qudt.org/schema/qudt/UCUMcs-term)",
+				"entity parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/LatexString",
+				"name": "Subsumption(http://www.w3.org/2001/XMLSchema#string,http://qudt.org/schema/qudt/LatexString)",
+				"entity parent": "http://www.w3.org/2001/XMLSchema#string"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Rule",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Rule)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKind",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Verifiable,http://qudt.org/schema/qudt/QuantityKind)",
+				"entity parent": "http://qudt.org/schema/qudt/Verifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-LH",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS,http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-LH)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/DerivedUnit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Unit,http://qudt.org/schema/qudt/DerivedUnit)",
+				"entity parent": "http://qudt.org/schema/qudt/Unit"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Verifiable",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Aspect,http://qudt.org/schema/qudt/Verifiable)",
+				"entity parent": "http://qudt.org/schema/qudt/Aspect"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/QuantityType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/CharEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/CharEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Enumeration",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Enumeration)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Quantifiable",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Aspect,http://qudt.org/schema/qudt/Quantifiable)",
+				"entity parent": "http://qudt.org/schema/qudt/Aspect"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/CurrencyUnit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/DimensionlessUnit,http://qudt.org/schema/qudt/CurrencyUnit)",
+				"entity parent": "http://qudt.org/schema/qudt/DimensionlessUnit"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKind",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error131,http://qudt.org/schema/qudt/QuantityKind)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error131"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_ISO",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector,http://qudt.org/schema/qudt/QuantityKindDimensionVector_ISO)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/AspectClass",
+				"name": "Subsumption(http://www.w3.org/2000/01/rdf-schema#Class,http://qudt.org/schema/qudt/AspectClass)",
+				"entity parent": "http://www.w3.org/2000/01/rdf-schema#Class"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-GAUSS",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS,http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-GAUSS)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/PhysicalConstant",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Quantity,http://qudt.org/schema/qudt/PhysicalConstant)",
+				"entity parent": "http://qudt.org/schema/qudt/Quantity"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector,http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/UCUMcs",
+				"name": "Subsumption(http://www.w3.org/2000/01/rdf-schema#Resource,http://qudt.org/schema/qudt/UCUMcs)",
+				"entity parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/ByteEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/ByteEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/EnumerationScale",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Scale,http://qudt.org/schema/qudt/EnumerationScale)",
+				"entity parent": "http://qudt.org/schema/qudt/Scale"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Symbol",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Symbol)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/NominalScale",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Scale,http://qudt.org/schema/qudt/NominalScale)",
+				"entity parent": "http://qudt.org/schema/qudt/Scale"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/ConstantValue",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityValue,http://qudt.org/schema/qudt/ConstantValue)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Enumeration",
+				"name": "Subsumption(http://www.linkedmodel.org/schema/dtype#Enumeration,http://qudt.org/schema/qudt/Enumeration)",
+				"entity parent": "http://www.linkedmodel.org/schema/dtype#Enumeration"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/integerPercentage",
+				"name": "Subsumption(http://www.w3.org/2001/XMLSchema#integer,http://qudt.org/schema/qudt/integerPercentage)",
+				"entity parent": "http://www.w3.org/2001/XMLSchema#integer"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/DecimalPrefix",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Prefix,http://qudt.org/schema/qudt/DecimalPrefix)",
+				"entity parent": "http://qudt.org/schema/qudt/Prefix"
+			},
+			{
+				"entity child": "http://org.semanticweb.owlapi/error#Error126",
+				"name": "Subsumption(http://qudt.org/schema/qudt/floatPercentage,http://org.semanticweb.owlapi/error#Error126)",
+				"entity parent": "http://qudt.org/schema/qudt/floatPercentage"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/floatPercentage",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error126,http://qudt.org/schema/qudt/floatPercentage)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error126"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityValue",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Quantifiable,http://qudt.org/schema/qudt/QuantityValue)",
+				"entity parent": "http://qudt.org/schema/qudt/Quantifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/EndianType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/EndianType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Encoding",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Encoding)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/BinaryPrefix",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Prefix,http://qudt.org/schema/qudt/BinaryPrefix)",
+				"entity parent": "http://qudt.org/schema/qudt/Prefix"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-EMU",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS,http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-EMU)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Comment",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Verifiable,http://qudt.org/schema/qudt/Comment)",
+				"entity parent": "http://qudt.org/schema/qudt/Verifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/AbstractQuantityKind",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/AbstractQuantityKind)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Scale",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Scale)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/IntervalScale",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Scale,http://qudt.org/schema/qudt/IntervalScale)",
+				"entity parent": "http://qudt.org/schema/qudt/Scale"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/floatPercentage",
+				"name": "Subsumption(http://www.w3.org/2001/XMLSchema#float,http://qudt.org/schema/qudt/floatPercentage)",
+				"entity parent": "http://www.w3.org/2001/XMLSchema#float"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Comment",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error130,http://qudt.org/schema/qudt/Comment)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error130"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityValue",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/QuantityValue)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/BitEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/BitEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/DateTimeStringEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/StringEncodingType,http://qudt.org/schema/qudt/DateTimeStringEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/StringEncodingType"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKind",
+				"name": "Subsumption(http://qudt.org/schema/qudt/AbstractQuantityKind,http://qudt.org/schema/qudt/QuantityKind)",
+				"entity parent": "http://qudt.org/schema/qudt/AbstractQuantityKind"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Organization",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Organization)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Discipline",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Discipline)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/LogarithmicUnit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/DimensionlessUnit,http://qudt.org/schema/qudt/LogarithmicUnit)",
+				"entity parent": "http://qudt.org/schema/qudt/DimensionlessUnit"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/BooleanEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/BooleanEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/UCUMci-term",
+				"name": "Subsumption(http://www.w3.org/2000/01/rdf-schema#Resource,http://qudt.org/schema/qudt/UCUMci-term)",
+				"entity parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/ScaleType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/ScaleType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Unit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Unit)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Statement",
+				"name": "Subsumption(http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement,http://qudt.org/schema/qudt/Statement)",
+				"entity parent": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/FloatingPointEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/FloatingPointEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Prefix",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Verifiable,http://qudt.org/schema/qudt/Prefix)",
+				"entity parent": "http://qudt.org/schema/qudt/Verifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/CountingUnit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/DimensionlessUnit,http://qudt.org/schema/qudt/CountingUnit)",
+				"entity parent": "http://qudt.org/schema/qudt/DimensionlessUnit"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/UCUMci",
+				"name": "Subsumption(http://www.w3.org/2000/01/rdf-schema#Resource,http://qudt.org/schema/qudt/UCUMci)",
+				"entity parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_Imperial",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector,http://qudt.org/schema/qudt/QuantityKindDimensionVector_Imperial)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/EnumeratedValue",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Datatype,http://qudt.org/schema/qudt/EnumeratedValue)",
+				"entity parent": "http://qudt.org/schema/qudt/Datatype"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Unit",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error124,http://qudt.org/schema/qudt/Unit)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error124"
+			},
+			{
+				"entity child": "http://org.semanticweb.owlapi/error#Error129",
+				"name": "Subsumption(http://qudt.org/schema/qudt/integerPercentage,http://org.semanticweb.owlapi/error#Error129)",
+				"entity parent": "http://qudt.org/schema/qudt/integerPercentage"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/integerPercentage",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error129,http://qudt.org/schema/qudt/integerPercentage)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error129"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Unit",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Verifiable,http://qudt.org/schema/qudt/Unit)",
+				"entity parent": "http://qudt.org/schema/qudt/Verifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/OrdinalScale",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Scale,http://qudt.org/schema/qudt/OrdinalScale)",
+				"entity parent": "http://qudt.org/schema/qudt/Scale"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-ESU",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS,http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-ESU)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/QuantityKindDimensionVector)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI",
+				"name": "Subsumption(http://qudt.org/schema/qudt/QuantityKindDimensionVector,http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI)",
+				"entity parent": "http://qudt.org/schema/qudt/QuantityKindDimensionVector"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/StructuredDatatype",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Datatype,http://qudt.org/schema/qudt/StructuredDatatype)",
+				"entity parent": "http://qudt.org/schema/qudt/Datatype"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Datatype",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error123,http://qudt.org/schema/qudt/Datatype)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error123"
+			},
+			{
+				"entity child": "http://www.linkedmodel.org/schema/dtype#EnumeratedValue",
+				"completeness constraints": "wUUYpDTK",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$,http://www.linkedmodel.org/schema/dtype#EnumeratedValue)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$"
+			},
+			{
+				"entity child": "http://www.w3.org/2001/XMLSchema#anySimpleType",
+				"completeness constraints": "wUUYpDTK",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$,http://www.w3.org/2001/XMLSchema#anySimpleType)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/valueUnion",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$,http://qudt.org/schema/qudt/valueUnion)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/UNION%http://www.linkedmodel.org/schema/dtype#EnumeratedValue$http://www.w3.org/2001/XMLSchema#anySimpleType$"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Prefix",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Prefix)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Rule",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Verifiable,http://qudt.org/schema/qudt/Rule)",
+				"entity parent": "http://qudt.org/schema/qudt/Verifiable"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/DataEncoding",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Aspect,http://qudt.org/schema/qudt/DataEncoding)",
+				"entity parent": "http://qudt.org/schema/qudt/Aspect"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/EnumeratedValue",
+				"name": "Subsumption(http://www.linkedmodel.org/schema/dtype#EnumeratedValue,http://qudt.org/schema/qudt/EnumeratedValue)",
+				"entity parent": "http://www.linkedmodel.org/schema/dtype#EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/CardinalityType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/EnumeratedValue,http://qudt.org/schema/qudt/CardinalityType)",
+				"entity parent": "http://qudt.org/schema/qudt/EnumeratedValue"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/SystemOfUnits",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/SystemOfUnits)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/BaseDimensionMagnitude",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/BaseDimensionMagnitude)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/StringEncodingType",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Encoding,http://qudt.org/schema/qudt/StringEncodingType)",
+				"entity parent": "http://qudt.org/schema/qudt/Encoding"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/StructuredDatatype",
+				"name": "Subsumption(http://org.semanticweb.owlapi/error#Error125,http://qudt.org/schema/qudt/StructuredDatatype)",
+				"entity parent": "http://org.semanticweb.owlapi/error#Error125"
+			},
+			{
+				"entity child": "http://qudt.org/schema/qudt/Quantity",
+				"name": "Subsumption(http://qudt.org/schema/qudt/Concept,http://qudt.org/schema/qudt/Quantity)",
+				"entity parent": "http://qudt.org/schema/qudt/Concept"
+			}
+		],
+		"Relationship": []
+	}
+}

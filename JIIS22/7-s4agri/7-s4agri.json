@@ -1,0 +1,2253 @@
+{
+	"Entity type": {
+		"Value property": {
+			"Value type": []
+		},
+		"Data type": [],
+		"Object type": [
+			"http://www.opengis.net/ont/geosparql#Feature",
+			"http://www.opengis.net/ont/geosparql#SpatialObject",
+			"https://saref.etsi.org/saref4agri/WateringValve",
+			"https://saref.etsi.org/core/Actuator",
+			"https://saref.etsi.org/saref4agri/Deployment",
+			"http://www.w3.org/ns/ssn/Deployment",
+			"https://saref.etsi.org/saref4agri/Crop",
+			"https://saref.etsi.org/core/FeatureOfInterest",
+			"https://saref.etsi.org/saref4agri/AnimalGroup",
+			"https://saref.etsi.org/saref4agri/Thermometer",
+			"https://saref.etsi.org/core/Sensor",
+			"https://saref.etsi.org/saref4agri/WateringGun",
+			"https://saref.etsi.org/saref4agri/Pluviometer",
+			"https://saref.etsi.org/saref4agri/BuildingSpace",
+			"https://saref.etsi.org/saref4agri/WateringSystem",
+			"http://www.w3.org/ns/ssn/System",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment",
+			"http://www.w3.org/ns/sosa/Platform",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"http://xmlns.com/foaf/0.1/Agent",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent",
+			"http://www.w3.org/2006/time#Instant",
+			"http://www.w3.org/2006/time#TemporalEntity",
+			"https://saref.etsi.org/saref4agri/Parcel",
+			"http://www.opengis.net/ont/geosparql#Geometry",
+			"https://saref.etsi.org/saref4agri/Building",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building",
+			"https://crowd-app.fi.uncoma.edu.ar#FakeTop",
+			"https://saref.etsi.org/saref4agri/WeatherStation",
+			"https://saref.etsi.org/saref4agri/MovementActivitySensor",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel",
+			"https://saref.etsi.org/saref4agri/Animal",
+			"https://saref.etsi.org/core/Humidity",
+			"https://saref.etsi.org/core/UnitOfMeasure",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure",
+			"https://saref.etsi.org/saref4agri/Farm",
+			"https://saref.etsi.org/saref4agri/EatingActivitySensor",
+			"http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point",
+			"https://saref.etsi.org/core/Measurement",
+			"https://saref.etsi.org/core/Property",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm",
+			"https://saref.etsi.org/saref4agri/MilkingSensor",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel",
+			"https://saref.etsi.org/core/Temperature",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal",
+			"http://purl.obolibrary.org/obo/TAXRANK_0000000",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure",
+			"https://saref.etsi.org/saref4agri/SoilTensiometer",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature",
+			"https://saref.etsi.org/core/Time",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment",
+			"https://saref.etsi.org/saref4agri/WeightSensor",
+			"http://xmlns.com/foaf/0.1/Person",
+			"https://saref.etsi.org/saref4agri/Platform",
+			"https://saref.etsi.org/core/Device",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel",
+			"https://saref.etsi.org/saref4agri/Farmer",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop",
+			"https://saref.etsi.org/saref4agri/FarmHolding",
+			"https://schema.org/Organization",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal",
+			"http://www.w3.org/2006/time#Interval",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm",
+			"https://saref.etsi.org/saref4agri/Soil",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement",
+			"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time"
+		]
+	},
+	"Role": [
+		{
+			"object type cardinality": [
+				"Ust0HjHo"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/6UeJc3rIhttp://www.w3.org/ns/ssn/deployedOnPlatform.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://www.w3.org/ns/ssn/deployedOnPlatform",
+			"mandatory": "mandatoryXVi1"
+		},
+		{
+			"object type cardinality": [
+				"g6kPEfkc"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ApNi1hzyhttp://www.w3.org/ns/ssn/deployedOnPlatform.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://www.w3.org/ns/ssn/deployedOnPlatform"
+		},
+		{
+			"object type cardinality": [
+				"LbmC95Dh"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qbgKYRp2http://www.w3.org/ns/ssn/deployedOnPlatform1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1",
+			"mandatory": "mandatoryaCm3"
+		},
+		{
+			"object type cardinality": [
+				"NfoHVowQ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/08iDYkbghttp://www.w3.org/ns/ssn/deployedOnPlatform1.2",
+			"entity type": "http://www.w3.org/ns/sosa/Platform",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1"
+		},
+		{
+			"object type cardinality": [
+				"RWyqANoo"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/6hZHOrjOhttp://xmlns.com/foaf/0.1/member.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://xmlns.com/foaf/0.1/member",
+			"mandatory": "mandatorykpZW"
+		},
+		{
+			"object type cardinality": [
+				"xKfQwFKI"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/nzvTt6Uqhttp://xmlns.com/foaf/0.1/member.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://xmlns.com/foaf/0.1/member"
+		},
+		{
+			"object type cardinality": [
+				"rKVTAPAF"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/FlEeDvMahttp://xmlns.com/foaf/0.1/member1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1",
+			"mandatory": "mandatoryoxNL"
+		},
+		{
+			"object type cardinality": [
+				"DwAppef4"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/XDFKEGachttp://xmlns.com/foaf/0.1/member1.2",
+			"entity type": "http://xmlns.com/foaf/0.1/Agent",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1"
+		},
+		{
+			"object type cardinality": [
+				"oTQxPvWi"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/wJlUvY4ihttps://saref.etsi.org/saref4agri/contains.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/contains",
+			"mandatory": "mandatory9JY6"
+		},
+		{
+			"object type cardinality": [
+				"ATzv7Ogt"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/7NAMgm7Mhttps://saref.etsi.org/saref4agri/contains.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/contains"
+		},
+		{
+			"object type cardinality": [
+				"aNglz8D7"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/5nCapGcehttps://saref.etsi.org/saref4agri/contains1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1",
+			"mandatory": "mandatoryVGOu"
+		},
+		{
+			"object type cardinality": [
+				"Ze3CTifK"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/0IJsapOxhttps://saref.etsi.org/saref4agri/contains1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/Parcel",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1"
+		},
+		{
+			"object type cardinality": [
+				"Do9K9nUR"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1QcqWFJ9https://saref.etsi.org/saref4agri/contains1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1",
+			"mandatory": "mandatoryovDh"
+		},
+		{
+			"object type cardinality": [
+				"EFOaGl4T"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/rpDH2YADhttps://saref.etsi.org/saref4agri/contains1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/BuildingSpace",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1"
+		},
+		{
+			"object type cardinality": [
+				"0jAbhP6h"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/yul7FEFwhttps://saref.etsi.org/saref4agri/hasMember.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/hasMember",
+			"mandatory": "mandatory2fyI"
+		},
+		{
+			"object type cardinality": [
+				"zC8PnW3Y"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/EVVGpNcuhttps://saref.etsi.org/saref4agri/hasMember.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/hasMember"
+		},
+		{
+			"object type cardinality": [
+				"E6IpdsDN"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/tQLNWhJShttps://saref.etsi.org/saref4agri/hasMember1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1",
+			"mandatory": "mandatorygqZ5"
+		},
+		{
+			"object type cardinality": [
+				"qb5GiiR7"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/uL7pj7DUhttps://saref.etsi.org/saref4agri/hasMember1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/Animal",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1"
+		},
+		{
+			"object type cardinality": [
+				"rV2aDN6I"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/PaBSqu8mhttp://purl.obolibrary.org/obo/TAXRANK_1000000.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://purl.obolibrary.org/obo/TAXRANK_1000000",
+			"mandatory": "mandatorycL5Q"
+		},
+		{
+			"object type cardinality": [
+				"pA2MLVuD"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/oYtCmOq0http://purl.obolibrary.org/obo/TAXRANK_1000000.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://purl.obolibrary.org/obo/TAXRANK_1000000"
+		},
+		{
+			"object type cardinality": [
+				"wTQ6rACZ"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/xQ8FcTgZhttp://purl.obolibrary.org/obo/TAXRANK_10000001.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001",
+			"mandatory": "mandatoryEMcg"
+		},
+		{
+			"object type cardinality": [
+				"lqAF80rV"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/rsuEkeKMhttp://purl.obolibrary.org/obo/TAXRANK_10000001.2",
+			"entity type": "http://purl.obolibrary.org/obo/TAXRANK_0000000",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001"
+		},
+		{
+			"object type cardinality": [
+				"HDYZ7XMl"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/IL1PFEC4https://saref.etsi.org/saref4agri/isLocatedIn.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/isLocatedIn",
+			"mandatory": "mandatoryq8Y1"
+		},
+		{
+			"object type cardinality": [
+				"tumJCej0"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/eRTswvEmhttps://saref.etsi.org/saref4agri/isLocatedIn.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/isLocatedIn"
+		},
+		{
+			"object type cardinality": [
+				"QhSVwkPs"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/2xE9eGG6https://saref.etsi.org/saref4agri/isLocatedIn1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1",
+			"mandatory": "mandatoryToQG"
+		},
+		{
+			"object type cardinality": [
+				"ztWm8ge4"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/5nnjH3Lmhttps://saref.etsi.org/saref4agri/isLocatedIn1.2",
+			"entity type": "http://www.opengis.net/ont/geosparql#Feature",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1"
+		},
+		{
+			"object type cardinality": [
+				"ueZZL8pk"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/LVH8L7EFhttps://saref.etsi.org/saref4agri/contains1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1",
+			"mandatory": "mandatoryEHyf"
+		},
+		{
+			"object type cardinality": [
+				"x59nsbqp"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/nv5TNNmShttps://saref.etsi.org/saref4agri/contains1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/Building",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1"
+		},
+		{
+			"object type cardinality": [
+				"KsUdIqop"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/eRDzxUyZhttps://saref.etsi.org/saref4agri/isMemberOf.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/isMemberOf",
+			"mandatory": "mandatory00vA"
+		},
+		{
+			"object type cardinality": [
+				"FZRFQnzI"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/JnVkyTxEhttps://saref.etsi.org/saref4agri/isMemberOf.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/isMemberOf"
+		},
+		{
+			"object type cardinality": [
+				"fJehpDfj"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/GIyAKPMZhttps://saref.etsi.org/saref4agri/isMemberOf1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1",
+			"mandatory": "mandatoryCf8V"
+		},
+		{
+			"object type cardinality": [
+				"S533Lt4w"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ZSwZv1pChttps://saref.etsi.org/saref4agri/isMemberOf1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/AnimalGroup",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1"
+		},
+		{
+			"object type cardinality": [
+				"e3vz4LtP"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ibs3w04Chttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/hasDeploymentPeriod",
+			"mandatory": "mandatoryOa1K"
+		},
+		{
+			"object type cardinality": [
+				"Ooem2bKs"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/SCC7Y6hDhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/hasDeploymentPeriod"
+		},
+		{
+			"object type cardinality": [
+				"Sv5AC6Qm"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/xIPz9F7vhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1",
+			"mandatory": "mandatory3ENH"
+		},
+		{
+			"object type cardinality": [
+				"pSivC6eS"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/stZB9Khmhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.2",
+			"entity type": "http://www.w3.org/2006/time#TemporalEntity",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1"
+		},
+		{
+			"object type cardinality": [
+				"pRq1Aq00"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/O3EHD8EWhttps://saref.etsi.org/saref4agri/contains1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1",
+			"mandatory": "mandatory0cAh"
+		},
+		{
+			"object type cardinality": [
+				"viNpK2FX"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/1PMzymHAhttps://saref.etsi.org/saref4agri/contains1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/Crop",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1"
+		},
+		{
+			"object type cardinality": [
+				"5phnZJzm"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/j1No7MHKhttps://saref.etsi.org/saref4agri/managesFarm.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/managesFarm",
+			"mandatory": "mandatoryw7Sr"
+		},
+		{
+			"object type cardinality": [
+				"QlHlbhxg"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/2WVYUolChttps://saref.etsi.org/saref4agri/managesFarm.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/managesFarm"
+		},
+		{
+			"object type cardinality": [
+				"dN2wfUz9"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/qDStR10Ghttps://saref.etsi.org/saref4agri/managesFarm1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1",
+			"mandatory": "mandatoryFmEM"
+		},
+		{
+			"object type cardinality": [
+				"X8Pdxuah"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/pg3qYPj9https://saref.etsi.org/saref4agri/managesFarm1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/Farm",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1"
+		},
+		{
+			"object type cardinality": [
+				"LNwUFX0I"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/FIEvVWi8http://purl.obolibrary.org/obo/TAXRANK_10000001.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001",
+			"mandatory": "mandatorytNDc"
+		},
+		{
+			"object type cardinality": [
+				"nafU35Np"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/mooZZ9Hdhttp://purl.obolibrary.org/obo/TAXRANK_10000001.2",
+			"entity type": "http://purl.obolibrary.org/obo/TAXRANK_0000000",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001"
+		},
+		{
+			"object type cardinality": [
+				"VsSVA7M0"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/3myTPfIhhttps://saref.etsi.org/saref4agri/isLocatedIn1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1",
+			"mandatory": "mandatoryIP3x"
+		},
+		{
+			"object type cardinality": [
+				"vjfvSmpg"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/MhaLiParhttps://saref.etsi.org/saref4agri/isLocatedIn1.2",
+			"entity type": "http://www.opengis.net/ont/geosparql#Feature",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1"
+		},
+		{
+			"object type cardinality": [
+				"D87hNGOC"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/DaI8izBshttp://www.w3.org/ns/ssn/deployedSystem.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "http://www.w3.org/ns/ssn/deployedSystem",
+			"mandatory": "mandatoryTDVL"
+		},
+		{
+			"object type cardinality": [
+				"wDREiV1X"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/Jk1J4giWhttp://www.w3.org/ns/ssn/deployedSystem.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "http://www.w3.org/ns/ssn/deployedSystem"
+		},
+		{
+			"object type cardinality": [
+				"uVUyHbyI"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/MjLYJsyKhttp://www.w3.org/ns/ssn/deployedSystem1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1",
+			"mandatory": "mandatoryQHtC"
+		},
+		{
+			"object type cardinality": [
+				"oPSfxmGD"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/QU74950Shttp://www.w3.org/ns/ssn/deployedSystem1.2",
+			"entity type": "http://www.w3.org/ns/ssn/System",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1"
+		},
+		{
+			"object type cardinality": [
+				"ibygO6k8"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/XJAUZNPHhttps://saref.etsi.org/saref4agri/managesFarm1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1",
+			"mandatory": "mandatorytDBj"
+		},
+		{
+			"object type cardinality": [
+				"GgaomBxt"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/U0ghWCMYhttps://saref.etsi.org/saref4agri/managesFarm1.2",
+			"entity type": "https://saref.etsi.org/saref4agri/Farm",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1"
+		},
+		{
+			"object type cardinality": [
+				"NE1DfkyN"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+			"relationship": "https://saref.etsi.org/saref4agri/isDeployedAtSpace",
+			"mandatory": "mandatoryJ2nc"
+		},
+		{
+			"object type cardinality": [
+				"kBsOO7Mc"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/QUjhfkJHhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.2",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran",
+			"relationship": "https://saref.etsi.org/saref4agri/isDeployedAtSpace"
+		},
+		{
+			"object type cardinality": [
+				"VO1DBtLM"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/ypJIm9frhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.1",
+			"entity type": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1",
+			"mandatory": "mandatoryIKIC"
+		},
+		{
+			"object type cardinality": [
+				"UXnWEDMP"
+			],
+			"rolename": "http://crowd.fi.uncoma.edu.ar/IMPORT/HRUsazFIhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.2",
+			"entity type": "http://www.opengis.net/ont/geosparql#SpatialObject",
+			"relationship": "http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1"
+		}
+	],
+	"Constraints": {
+		"Cardinality constraints": {
+			"Attibutive property cardinality": [],
+			"Object type cardinality": [
+				{
+					"name": "Ust0HjHo",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "g6kPEfkc",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "LbmC95Dh",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "NfoHVowQ",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "RWyqANoo",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "xKfQwFKI",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "rKVTAPAF",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "DwAppef4",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "oTQxPvWi",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "ATzv7Ogt",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "aNglz8D7",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Ze3CTifK",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "TpXs9cQD",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "hiVLLxz9",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "Do9K9nUR",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "EFOaGl4T",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "0jAbhP6h",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "zC8PnW3Y",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "E6IpdsDN",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "qb5GiiR7",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "rV2aDN6I",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "pA2MLVuD",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "wTQ6rACZ",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "lqAF80rV",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "HDYZ7XMl",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "tumJCej0",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "QhSVwkPs",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "ztWm8ge4",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "4ZMdmRNR",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "XUVaQ7fp",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "ueZZL8pk",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "x59nsbqp",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "KsUdIqop",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "FZRFQnzI",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "fJehpDfj",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "S533Lt4w",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "e3vz4LtP",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Ooem2bKs",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "Sv5AC6Qm",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "pSivC6eS",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "wvKK1RTL",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "SeDMehzc",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "pRq1Aq00",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "viNpK2FX",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "5phnZJzm",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "QlHlbhxg",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "dN2wfUz9",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "X8Pdxuah",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "rtMh8qzj",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "Y2xOuV9i",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "LNwUFX0I",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "nafU35Np",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "zEr8qgF9",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "54bp09zp",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "VsSVA7M0",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "vjfvSmpg",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "D87hNGOC",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "wDREiV1X",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "uVUyHbyI",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "oPSfxmGD",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "1w7AauJz",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "8VSN8Tfz",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "ibygO6k8",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "GgaomBxt",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "NE1DfkyN",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "kBsOO7Mc",
+					"maximum": "*",
+					"minimum": "0"
+				},
+				{
+					"name": "VO1DBtLM",
+					"maximum": "*",
+					"minimum": "1"
+				},
+				{
+					"name": "UXnWEDMP",
+					"maximum": "*",
+					"minimum": "0"
+				}
+			]
+		},
+		"Disjointness constraints": {
+			"Disjoint object type": [
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building",
+						"https://saref.etsi.org/saref4agri/Building"
+					],
+					"name": "CcJZRiIa"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel",
+						"https://saref.etsi.org/saref4agri/Parcel"
+					],
+					"name": "UihFvrmz"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure",
+						"https://saref.etsi.org/core/UnitOfMeasure"
+					],
+					"name": "3ZRDZZGd"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace",
+						"https://saref.etsi.org/saref4agri/BuildingSpace"
+					],
+					"name": "TS8viCPu"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point",
+						"http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+					],
+					"name": "KBbYPlPW"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property",
+						"https://saref.etsi.org/core/Property"
+					],
+					"name": "Cfttxvm3"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace",
+						"https://saref.etsi.org/saref4agri/BuildingSpace"
+					],
+					"name": "hUTt2lr5"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel",
+						"https://saref.etsi.org/saref4agri/Parcel"
+					],
+					"name": "lCG84xu0"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure",
+						"https://saref.etsi.org/core/UnitOfMeasure"
+					],
+					"name": "GuZtpmw6"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building",
+						"https://saref.etsi.org/saref4agri/Building"
+					],
+					"name": "ndfaWq5d"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure",
+						"https://saref.etsi.org/core/UnitOfMeasure"
+					],
+					"name": "UhZaTQmk"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature",
+						"https://saref.etsi.org/core/Temperature"
+					],
+					"name": "899Ru78P"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure",
+						"https://saref.etsi.org/core/UnitOfMeasure"
+					],
+					"name": "zSWfAwjd"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm",
+						"https://saref.etsi.org/saref4agri/Farm"
+					],
+					"name": "QOQeN9HX"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry",
+						"http://www.opengis.net/ont/geosparql#Geometry"
+					],
+					"name": "U4dySxYn"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure",
+						"https://saref.etsi.org/core/UnitOfMeasure"
+					],
+					"name": "7QzEddCR"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm",
+						"https://saref.etsi.org/saref4agri/Farm"
+					],
+					"name": "GymWKCBj"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement",
+						"https://saref.etsi.org/core/Measurement"
+					],
+					"name": "j6jIEk2a"
+				},
+				{
+					"entities": [
+						"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time",
+						"https://saref.etsi.org/core/Time"
+					],
+					"name": "LAvZy724"
+				}
+			],
+			"Disjoint role": []
+		},
+		"Completeness constraints": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building",
+					"https://saref.etsi.org/saref4agri/Building"
+				],
+				"name": "FnS81l8Z"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel",
+					"https://saref.etsi.org/saref4agri/Parcel"
+				],
+				"name": "8d81LiQG"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure",
+					"https://saref.etsi.org/core/UnitOfMeasure"
+				],
+				"name": "nVVLeHv9"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace",
+					"https://saref.etsi.org/saref4agri/BuildingSpace"
+				],
+				"name": "HanPXJTL"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point",
+					"http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+				],
+				"name": "SlDiyvOt"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property",
+					"https://saref.etsi.org/core/Property"
+				],
+				"name": "EavkOkME"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace",
+					"https://saref.etsi.org/saref4agri/BuildingSpace"
+				],
+				"name": "XGDgK6uW"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel",
+					"https://saref.etsi.org/saref4agri/Parcel"
+				],
+				"name": "Q4yd65pa"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure",
+					"https://saref.etsi.org/core/UnitOfMeasure"
+				],
+				"name": "jvo2YzvH"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building",
+					"https://saref.etsi.org/saref4agri/Building"
+				],
+				"name": "RkAnff6H"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure",
+					"https://saref.etsi.org/core/UnitOfMeasure"
+				],
+				"name": "reAyMYMs"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature",
+					"https://saref.etsi.org/core/Temperature"
+				],
+				"name": "5SU17kvv"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure",
+					"https://saref.etsi.org/core/UnitOfMeasure"
+				],
+				"name": "tbcp2LEn"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm",
+					"https://saref.etsi.org/saref4agri/Farm"
+				],
+				"name": "mR89dLQy"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry",
+					"http://www.opengis.net/ont/geosparql#Geometry"
+				],
+				"name": "PdW5HpPe"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure",
+					"https://saref.etsi.org/core/UnitOfMeasure"
+				],
+				"name": "Q2j1NCj3"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm",
+					"https://saref.etsi.org/saref4agri/Farm"
+				],
+				"name": "F2HujAO6"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement",
+					"https://saref.etsi.org/core/Measurement"
+				],
+				"name": "pDVOUg59"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time",
+					"https://saref.etsi.org/core/Time"
+				],
+				"name": "SzNul6co"
+			}
+		],
+		"Mandatory constraints": {
+			"Mandatory": [
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/6UeJc3rIhttp://www.w3.org/ns/ssn/deployedOnPlatform.1",
+					"name": "mandatoryXVi1"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/qbgKYRp2http://www.w3.org/ns/ssn/deployedOnPlatform1.1",
+					"name": "mandatoryaCm3"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/6hZHOrjOhttp://xmlns.com/foaf/0.1/member.1",
+					"name": "mandatorykpZW"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/FlEeDvMahttp://xmlns.com/foaf/0.1/member1.1",
+					"name": "mandatoryoxNL"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/wJlUvY4ihttps://saref.etsi.org/saref4agri/contains.1",
+					"name": "mandatory9JY6"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/5nCapGcehttps://saref.etsi.org/saref4agri/contains1.1",
+					"name": "mandatoryVGOu"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/1QcqWFJ9https://saref.etsi.org/saref4agri/contains1.1",
+					"name": "mandatoryovDh"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/yul7FEFwhttps://saref.etsi.org/saref4agri/hasMember.1",
+					"name": "mandatory2fyI"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/tQLNWhJShttps://saref.etsi.org/saref4agri/hasMember1.1",
+					"name": "mandatorygqZ5"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/PaBSqu8mhttp://purl.obolibrary.org/obo/TAXRANK_1000000.1",
+					"name": "mandatorycL5Q"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/xQ8FcTgZhttp://purl.obolibrary.org/obo/TAXRANK_10000001.1",
+					"name": "mandatoryEMcg"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/IL1PFEC4https://saref.etsi.org/saref4agri/isLocatedIn.1",
+					"name": "mandatoryq8Y1"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/2xE9eGG6https://saref.etsi.org/saref4agri/isLocatedIn1.1",
+					"name": "mandatoryToQG"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/LVH8L7EFhttps://saref.etsi.org/saref4agri/contains1.1",
+					"name": "mandatoryEHyf"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/eRDzxUyZhttps://saref.etsi.org/saref4agri/isMemberOf.1",
+					"name": "mandatory00vA"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/GIyAKPMZhttps://saref.etsi.org/saref4agri/isMemberOf1.1",
+					"name": "mandatoryCf8V"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ibs3w04Chttps://saref.etsi.org/saref4agri/hasDeploymentPeriod.1",
+					"name": "mandatoryOa1K"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/xIPz9F7vhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1.1",
+					"name": "mandatory3ENH"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/O3EHD8EWhttps://saref.etsi.org/saref4agri/contains1.1",
+					"name": "mandatory0cAh"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/j1No7MHKhttps://saref.etsi.org/saref4agri/managesFarm.1",
+					"name": "mandatoryw7Sr"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/qDStR10Ghttps://saref.etsi.org/saref4agri/managesFarm1.1",
+					"name": "mandatoryFmEM"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/FIEvVWi8http://purl.obolibrary.org/obo/TAXRANK_10000001.1",
+					"name": "mandatorytNDc"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/3myTPfIhhttps://saref.etsi.org/saref4agri/isLocatedIn1.1",
+					"name": "mandatoryIP3x"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/DaI8izBshttp://www.w3.org/ns/ssn/deployedSystem.1",
+					"name": "mandatoryTDVL"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/MjLYJsyKhttp://www.w3.org/ns/ssn/deployedSystem1.1",
+					"name": "mandatoryQHtC"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/XJAUZNPHhttps://saref.etsi.org/saref4agri/managesFarm1.1",
+					"name": "mandatorytDBj"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/jeROpfnUhttps://saref.etsi.org/saref4agri/isDeployedAtSpace.1",
+					"name": "mandatoryJ2nc"
+				},
+				{
+					"declared on": "http://crowd.fi.uncoma.edu.ar/IMPORT/ypJIm9frhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1.1",
+					"name": "mandatoryIKIC"
+				}
+			]
+		}
+	},
+	"Relationship": {
+		"Attributive property": {
+			"Attributive property": [],
+			"Attribute": {
+				"Attribute": [],
+				"Mapped to": []
+			}
+		},
+		"Subsumption": [
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Feature",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#SpatialObject,http://www.opengis.net/ont/geosparql#Feature)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#SpatialObject"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/WateringValve",
+				"name": "Subsumption(https://saref.etsi.org/core/Actuator,https://saref.etsi.org/saref4agri/WateringValve)",
+				"entity parent": "https://saref.etsi.org/core/Actuator"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://www.w3.org/ns/ssn/Deployment,https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://www.w3.org/ns/ssn/Deployment"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Crop",
+				"name": "Subsumption(https://saref.etsi.org/core/FeatureOfInterest,https://saref.etsi.org/saref4agri/Crop)",
+				"entity parent": "https://saref.etsi.org/core/FeatureOfInterest"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/AnimalGroup",
+				"name": "Subsumption(https://saref.etsi.org/core/FeatureOfInterest,https://saref.etsi.org/saref4agri/AnimalGroup)",
+				"entity parent": "https://saref.etsi.org/core/FeatureOfInterest"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Thermometer",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/Thermometer)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/WateringGun",
+				"name": "Subsumption(https://saref.etsi.org/core/Actuator,https://saref.etsi.org/saref4agri/WateringGun)",
+				"entity parent": "https://saref.etsi.org/core/Actuator"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Pluviometer",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/Pluviometer)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/BuildingSpace",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#Feature,https://saref.etsi.org/saref4agri/BuildingSpace)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#Feature"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/WateringSystem",
+				"name": "Subsumption(http://www.w3.org/ns/ssn/System,https://saref.etsi.org/saref4agri/WateringSystem)",
+				"entity parent": "http://www.w3.org/ns/ssn/System"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment,https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/GCS5dVQj",
+				"entity parent": "http://www.w3.org/ns/ssn/deployedOnPlatform"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Agent",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent,http://xmlns.com/foaf/0.1/Agent)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/vTBiazop",
+				"entity parent": "http://xmlns.com/foaf/0.1/member"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Instant",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalEntity,http://www.w3.org/2006/time#Instant)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalEntity"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Parcel",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#Feature,https://saref.etsi.org/saref4agri/Parcel)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#Feature"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building",
+				"disjointness constraints": "CcJZRiIa",
+				"completeness constraints": "FnS81l8Z",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Geometry",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building,http://www.opengis.net/ont/geosparql#Geometry)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Building"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Building",
+				"disjointness constraints": "CcJZRiIa",
+				"completeness constraints": "FnS81l8Z",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/saref4agri/Building)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/WeatherStation",
+				"name": "Subsumption(http://www.w3.org/ns/ssn/System,https://saref.etsi.org/saref4agri/WeatherStation)",
+				"entity parent": "http://www.w3.org/ns/ssn/System"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/MovementActivitySensor",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/MovementActivitySensor)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel",
+				"disjointness constraints": "UihFvrmz",
+				"completeness constraints": "8d81LiQG",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Geometry",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel,http://www.opengis.net/ont/geosparql#Geometry)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Parcel"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Parcel",
+				"disjointness constraints": "UihFvrmz",
+				"completeness constraints": "8d81LiQG",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/saref4agri/Parcel)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(https://saref.etsi.org/core/FeatureOfInterest,https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "https://saref.etsi.org/core/FeatureOfInterest"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure",
+				"disjointness constraints": "3ZRDZZGd",
+				"completeness constraints": "nVVLeHv9",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Humidity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure,https://saref.etsi.org/core/Humidity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_UnitOfMeasure"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/UnitOfMeasure",
+				"disjointness constraints": "3ZRDZZGd",
+				"completeness constraints": "nVVLeHv9",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/core/UnitOfMeasure)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Building",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#Feature,https://saref.etsi.org/saref4agri/Building)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#Feature"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Farm",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#Feature,https://saref.etsi.org/saref4agri/Farm)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#Feature"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/EatingActivitySensor",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/EatingActivitySensor)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace",
+				"disjointness constraints": "TS8viCPu",
+				"completeness constraints": "HanPXJTL",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace,http://www.w3.org/2003/01/geo/wgs84_pos#Point)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_BuildingSpace"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/BuildingSpace",
+				"disjointness constraints": "TS8viCPu",
+				"completeness constraints": "HanPXJTL",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/saref4agri/BuildingSpace)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point",
+				"disjointness constraints": "KBbYPlPW",
+				"completeness constraints": "SlDiyvOt",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Feature",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point,http://www.opengis.net/ont/geosparql#Feature)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Point"
+			},
+			{
+				"entity child": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+				"disjointness constraints": "KBbYPlPW",
+				"completeness constraints": "SlDiyvOt",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://www.w3.org/2003/01/geo/wgs84_pos#Point)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property",
+				"disjointness constraints": "Cfttxvm3",
+				"completeness constraints": "EavkOkME",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Measurement",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property,https://saref.etsi.org/core/Measurement)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Property"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Property",
+				"disjointness constraints": "Cfttxvm3",
+				"completeness constraints": "EavkOkME",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/core/Property)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace",
+				"disjointness constraints": "hUTt2lr5",
+				"completeness constraints": "XGDgK6uW",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Geometry",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace,http://www.opengis.net/ont/geosparql#Geometry)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_BuildingSpace"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Farm",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm,https://saref.etsi.org/saref4agri/Farm)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/BPwsOtOZ",
+				"entity parent": "https://saref.etsi.org/saref4agri/contains"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/MilkingSensor",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/MilkingSensor)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Building",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building,https://saref.etsi.org/saref4agri/Building)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/FW1z3Ueb",
+				"entity parent": "https://saref.etsi.org/saref4agri/contains"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/AnimalGroup",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup,https://saref.etsi.org/saref4agri/AnimalGroup)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/JwMAohGS",
+				"entity parent": "https://saref.etsi.org/saref4agri/hasMember"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel",
+				"disjointness constraints": "lCG84xu0",
+				"completeness constraints": "Q4yd65pa",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel,http://www.w3.org/2003/01/geo/wgs84_pos#Point)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Parcel"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure",
+				"disjointness constraints": "GuZtpmw6",
+				"completeness constraints": "jvo2YzvH",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Temperature",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure,https://saref.etsi.org/core/Temperature)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Temperature_NOT_UnitOfMeasure"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal,https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/wnugkkwx",
+				"entity parent": "http://purl.obolibrary.org/obo/TAXRANK_1000000"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building",
+				"disjointness constraints": "ndfaWq5d",
+				"completeness constraints": "RkAnff6H",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building,http://www.w3.org/2003/01/geo/wgs84_pos#Point)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Building"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure",
+				"disjointness constraints": "UhZaTQmk",
+				"completeness constraints": "reAyMYMs",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Measurement",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure,https://saref.etsi.org/core/Measurement)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_UnitOfMeasure"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/SoilTensiometer",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/SoilTensiometer)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/AnimalGroup",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup,https://saref.etsi.org/saref4agri/AnimalGroup)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/lKWGoSU0",
+				"entity parent": "https://saref.etsi.org/saref4agri/isLocatedIn"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Geometry",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#SpatialObject,http://www.opengis.net/ont/geosparql#Geometry)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#SpatialObject"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature",
+				"disjointness constraints": "899Ru78P",
+				"completeness constraints": "5SU17kvv",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Measurement",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature,https://saref.etsi.org/core/Measurement)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Temperature"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Temperature",
+				"disjointness constraints": "899Ru78P",
+				"completeness constraints": "5SU17kvv",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/core/Temperature)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure",
+				"disjointness constraints": "zSWfAwjd",
+				"completeness constraints": "tbcp2LEn",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Time",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure,https://saref.etsi.org/core/Time)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Time_NOT_UnitOfMeasure"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/X2gT1Awg",
+				"entity parent": "https://saref.etsi.org/saref4agri/contains"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Humidity",
+				"name": "Subsumption(https://saref.etsi.org/core/Property,https://saref.etsi.org/core/Humidity)",
+				"entity parent": "https://saref.etsi.org/core/Property"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal,https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/rg96NlFM",
+				"entity parent": "https://saref.etsi.org/saref4agri/isMemberOf"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment,https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/JsnH5ezY",
+				"entity parent": "https://saref.etsi.org/saref4agri/hasDeploymentPeriod"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/WeightSensor",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/WeightSensor)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "http://xmlns.com/foaf/0.1/Person",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,http://xmlns.com/foaf/0.1/Person)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Platform",
+				"name": "Subsumption(http://www.w3.org/ns/sosa/Platform,https://saref.etsi.org/saref4agri/Platform)",
+				"entity parent": "http://www.w3.org/ns/sosa/Platform"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Device",
+				"name": "Subsumption(http://www.w3.org/ns/ssn/System,https://saref.etsi.org/core/Device)",
+				"entity parent": "http://www.w3.org/ns/ssn/System"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/WeatherStation",
+				"name": "Subsumption(https://saref.etsi.org/core/Sensor,https://saref.etsi.org/saref4agri/WeatherStation)",
+				"entity parent": "https://saref.etsi.org/core/Sensor"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Parcel",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel,https://saref.etsi.org/saref4agri/Parcel)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/gPtztjzt",
+				"entity parent": "https://saref.etsi.org/saref4agri/contains"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Farmer",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Person,https://saref.etsi.org/saref4agri/Farmer)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Person"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Time",
+				"name": "Subsumption(https://saref.etsi.org/core/Property,https://saref.etsi.org/core/Time)",
+				"entity parent": "https://saref.etsi.org/core/Property"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Farmer",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer,https://saref.etsi.org/saref4agri/Farmer)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/54P6Vl8I",
+				"entity parent": "https://saref.etsi.org/saref4agri/managesFarm"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Crop",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop,https://saref.etsi.org/saref4agri/Crop)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/mpxo5H8k",
+				"entity parent": "http://purl.obolibrary.org/obo/TAXRANK_1000000"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Actuator",
+				"name": "Subsumption(https://saref.etsi.org/core/Device,https://saref.etsi.org/core/Actuator)",
+				"entity parent": "https://saref.etsi.org/core/Device"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/FarmHolding",
+				"name": "Subsumption(https://schema.org/Organization,https://saref.etsi.org/saref4agri/FarmHolding)",
+				"entity parent": "https://schema.org/Organization"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Animal",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal,https://saref.etsi.org/saref4agri/Animal)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/gJDzAZM9",
+				"entity parent": "https://saref.etsi.org/saref4agri/isLocatedIn"
+			},
+			{
+				"entity child": "http://www.w3.org/2006/time#Interval",
+				"name": "Subsumption(http://www.w3.org/2006/time#TemporalEntity,http://www.w3.org/2006/time#Interval)",
+				"entity parent": "http://www.w3.org/2006/time#TemporalEntity"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm",
+				"disjointness constraints": "QOQeN9HX",
+				"completeness constraints": "mR89dLQy",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Geometry",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm,http://www.opengis.net/ont/geosparql#Geometry)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Geometry_NOT_Farm"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Farm",
+				"disjointness constraints": "QOQeN9HX",
+				"completeness constraints": "mR89dLQy",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/saref4agri/Farm)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Soil",
+				"name": "Subsumption(https://saref.etsi.org/core/FeatureOfInterest,https://saref.etsi.org/saref4agri/Soil)",
+				"entity parent": "https://saref.etsi.org/core/FeatureOfInterest"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment,https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/rjPx6CO7",
+				"entity parent": "http://www.w3.org/ns/ssn/deployedSystem"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/FarmHolding",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding,https://saref.etsi.org/saref4agri/FarmHolding)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/zu78DO7w",
+				"entity parent": "https://saref.etsi.org/saref4agri/managesFarm"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry",
+				"disjointness constraints": "U4dySxYn",
+				"completeness constraints": "PdW5HpPe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Feature",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry,http://www.opengis.net/ont/geosparql#Feature)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Feature_NOT_Geometry"
+			},
+			{
+				"entity child": "http://www.opengis.net/ont/geosparql#Geometry",
+				"disjointness constraints": "U4dySxYn",
+				"completeness constraints": "PdW5HpPe",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://www.opengis.net/ont/geosparql#Geometry)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure",
+				"disjointness constraints": "7QzEddCR",
+				"completeness constraints": "Q2j1NCj3",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Property",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure,https://saref.etsi.org/core/Property)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Property_NOT_UnitOfMeasure"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Temperature",
+				"name": "Subsumption(https://saref.etsi.org/core/Property,https://saref.etsi.org/core/Temperature)",
+				"entity parent": "https://saref.etsi.org/core/Property"
+			},
+			{
+				"entity child": "https://schema.org/Organization",
+				"name": "Subsumption(http://xmlns.com/foaf/0.1/Agent,https://schema.org/Organization)",
+				"entity parent": "http://xmlns.com/foaf/0.1/Agent"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm",
+				"disjointness constraints": "GymWKCBj",
+				"completeness constraints": "F2HujAO6",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm,http://www.w3.org/2003/01/geo/wgs84_pos#Point)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Point_NOT_Farm"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Sensor",
+				"name": "Subsumption(https://saref.etsi.org/core/Device,https://saref.etsi.org/core/Sensor)",
+				"entity parent": "https://saref.etsi.org/core/Device"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom,http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom"
+			},
+			{
+				"entity child": "https://saref.etsi.org/saref4agri/Deployment",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment,https://saref.etsi.org/saref4agri/Deployment)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1",
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Vxv7TEi2",
+				"entity parent": "https://saref.etsi.org/saref4agri/isDeployedAtSpace"
+			},
+			{
+				"entity child": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+				"name": "Subsumption(http://www.opengis.net/ont/geosparql#Geometry,http://www.w3.org/2003/01/geo/wgs84_pos#Point)",
+				"entity parent": "http://www.opengis.net/ont/geosparql#Geometry"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement",
+				"disjointness constraints": "j6jIEk2a",
+				"completeness constraints": "pDVOUg59",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Humidity",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement,https://saref.etsi.org/core/Humidity)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Humidity_NOT_Measurement"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Measurement",
+				"disjointness constraints": "j6jIEk2a",
+				"completeness constraints": "pDVOUg59",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/core/Measurement)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time",
+				"disjointness constraints": "LAvZy724",
+				"completeness constraints": "SzNul6co",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Measurement",
+				"name": "Subsumption(http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time,https://saref.etsi.org/core/Measurement)",
+				"entity parent": "http://crowd.fi.uncoma.edu.ar/IMPORT/Measurement_NOT_Time"
+			},
+			{
+				"entity child": "https://saref.etsi.org/core/Time",
+				"disjointness constraints": "LAvZy724",
+				"completeness constraints": "SzNul6co",
+				"name": "Subsumption(https://crowd-app.fi.uncoma.edu.ar#FakeTop,https://saref.etsi.org/core/Time)",
+				"entity parent": "https://crowd-app.fi.uncoma.edu.ar#FakeTop"
+			}
+		],
+		"Relationship": [
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://www.w3.org/ns/ssn/deployedOnPlatform"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedOnPlatform%https://saref.etsi.org/saref4agri/Deployment",
+					"http://www.w3.org/ns/sosa/Platform"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/Ebk1SgpIhttp://www.w3.org/ns/ssn/deployedOnPlatform1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://xmlns.com/foaf/0.1/member"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://xmlns.com/foaf/0.1/member%http://xmlns.com/foaf/0.1/Agent",
+					"http://xmlns.com/foaf/0.1/Agent"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/uPYXzTZmhttp://xmlns.com/foaf/0.1/member1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/contains"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm",
+					"https://saref.etsi.org/saref4agri/Parcel"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/D9WjUcX1https://saref.etsi.org/saref4agri/contains1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Building",
+					"https://saref.etsi.org/saref4agri/BuildingSpace"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/NGouCkJphttps://saref.etsi.org/saref4agri/contains1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/hasMember"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasMember%https://saref.etsi.org/saref4agri/AnimalGroup",
+					"https://saref.etsi.org/saref4agri/Animal"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/I9P0uUFGhttps://saref.etsi.org/saref4agri/hasMember1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://purl.obolibrary.org/obo/TAXRANK_1000000"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Animal",
+					"http://purl.obolibrary.org/obo/TAXRANK_0000000"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/KoAz0EIqhttp://purl.obolibrary.org/obo/TAXRANK_10000001"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/isLocatedIn"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/AnimalGroup",
+					"http://www.opengis.net/ont/geosparql#Feature"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/1ZI6EIr6https://saref.etsi.org/saref4agri/isLocatedIn1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Farm",
+					"https://saref.etsi.org/saref4agri/Building"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/BKIp3ChNhttps://saref.etsi.org/saref4agri/contains1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/isMemberOf"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isMemberOf%https://saref.etsi.org/saref4agri/Animal",
+					"https://saref.etsi.org/saref4agri/AnimalGroup"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/4nrLgeT8https://saref.etsi.org/saref4agri/isMemberOf1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/hasDeploymentPeriod"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/hasDeploymentPeriod%https://saref.etsi.org/saref4agri/Deployment",
+					"http://www.w3.org/2006/time#TemporalEntity"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/PjBiJ13nhttps://saref.etsi.org/saref4agri/hasDeploymentPeriod1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/contains%https://saref.etsi.org/saref4agri/Parcel",
+					"https://saref.etsi.org/saref4agri/Crop"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/nBZBd8uAhttps://saref.etsi.org/saref4agri/contains1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/managesFarm"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/Farmer",
+					"https://saref.etsi.org/saref4agri/Farm"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/pzYOUZOxhttps://saref.etsi.org/saref4agri/managesFarm1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://purl.obolibrary.org/obo/TAXRANK_1000000%https://saref.etsi.org/saref4agri/Crop",
+					"http://purl.obolibrary.org/obo/TAXRANK_0000000"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/KjuorHibhttp://purl.obolibrary.org/obo/TAXRANK_10000001"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isLocatedIn%https://saref.etsi.org/saref4agri/Animal",
+					"http://www.opengis.net/ont/geosparql#Feature"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/H4t4zmrwhttps://saref.etsi.org/saref4agri/isLocatedIn1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "http://www.w3.org/ns/ssn/deployedSystem"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/http://www.w3.org/ns/ssn/deployedSystem%https://saref.etsi.org/saref4agri/Deployment",
+					"http://www.w3.org/ns/ssn/System"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/0u09KOhFhttp://www.w3.org/ns/ssn/deployedSystem1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/managesFarm%https://saref.etsi.org/saref4agri/FarmHolding",
+					"https://saref.etsi.org/saref4agri/Farm"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/lW43m5mahttps://saref.etsi.org/saref4agri/managesFarm1"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Dom",
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/%Ran"
+				],
+				"name": "https://saref.etsi.org/saref4agri/isDeployedAtSpace"
+			},
+			{
+				"entities": [
+					"http://crowd.fi.uncoma.edu.ar/IMPORT/https://saref.etsi.org/saref4agri/isDeployedAtSpace%https://saref.etsi.org/saref4agri/Deployment",
+					"http://www.opengis.net/ont/geosparql#SpatialObject"
+				],
+				"name": "http://crowd.fi.uncoma.edu.ar/IMPORT/XHd2nWbBhttps://saref.etsi.org/saref4agri/isDeployedAtSpace1"
+			}
+		]
+	}
+}

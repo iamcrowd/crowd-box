@@ -1,0 +1,1011 @@
+\documentclass[sn-mathphys]{sn-jnl}
+
+\jyear{2022}%
+
+\usepackage{lineno}
+\modulolinenumbers[5]
+
+\usepackage{lscape,pdflscape}
+
+\usepackage{amsmath}
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{paralist}
+%\usepackage[ruled,vlined,noresetcount]{algorithm2e}
+\usepackage{bbding}
+
+\usepackage{soul,color}
+\sethlcolor{green}
+\usepackage{xspace}
+
+\usepackage{extarrows}
+\usepackage{arydshln}
+
+%\newtheorem{thm}{\textsc{Theorem}}
+%\newtheorem{defs}{\textbf{Definition}}
+
+\newtheorem{ex}{\textbf{Example}}
+
+
+%\newcommand{\SO}{$^s\mathcal{O}$\xspace}
+%\newcommand{\SDO}{$^s\mathcal{O}_d$\xspace}
+%\newcommand{\SFO}{$^s\mathcal{O}_f$\xspace}
+%\newcommand{\TO}{$^t\mathcal{O}$\xspace}
+%\newcommand{\TDO}{$^t\mathcal{O}_d$\xspace}
+%\newcommand{\TFO}{$^t\mathcal{O}_f$\xspace}
+
+\newcommand{\crowd}{{\sf crowd}\xspace}
+\newcommand{\crowdone}{{\sf crowd 1.0}\xspace}
+\newcommand{\crowdtwo}{{\sf crowd 2.0}\xspace}
+
+\newcommand{\bfkframe}{{\sf FaCIL}\xspace}
+
+%\renewcommand{\baselinestretch}{.99}
+%\input{macros}
+
+\raggedbottom
+
+\begin{document}
+
+\title[A Framework for Interoperability Between Models with Hybrid Tools]{A Framework for Interoperability Between Models with Hybrid Tools}
+%mk: removed the 'Semantic' as per last meeting
+
+\author*[1,2]{\fnm{Germán} \sur{Braun}}\email{german.braun@fi.uncoma.edu.ar}
+%\ead{mkeet@cs.uct.ac.za}
+
+\author[3,4]{\fnm{Pablo Rubén} \sur{Fillottrani}}\email{prf@cs.uns.edu.ar}
+\equalcont{These authors contributed equally to this work.}
+
+\author[5]{\fnm{C. Maria} \sur{Keet}}\email{mkeet@cs.uct.ac.za}
+\equalcont{These authors contributed equally to this work.}
+
+\affil*[1]{Universidad Nacional del Comahue, Buenos Aires 1400, Argentina}
+
+\affil[2]{Consejo Nacional de Investigaciones Científicas y Técnicas, Godoy Cruz 2290 (C1425FQB), Buenos Aires, Argentina}
+
+\affil[3]{Universidad Nacional del Sur, San Andrés 800, Bahía Blanca, Argentina}
+
+\affil[4]{Comisión de Investigaciones Científicas de la provincia de Buenos Aires, calle 526 e/10 y 11, La Plata, Argentina}
+
+\affil[5]{Department of Computer Science, University of Cape Town, 18 University Avenue, Rondebosch, Cape Town, 7700, South Africa}
+
+        
+
+\maketitle
+
+
+
+
+\section{Interoperability Rules for {\sf crowd 2.0}}
+\label{interrules}
+\setlength{\dashlinedash}{1pt}
+\setlength{\dashlinegap}{2pt}
+
+This document includes the set of Interoperability Rules currently implemented in the tool \crowdtwo\footnote{\url{https://crowd-app.fi.uncoma.edu.ar/}} 
+The set is divided into the following subsets: UML/KF, ER/KF, ORM2/KF, MM/MM, DL/KF, KF/DL and KF/CNL rules. The first three subset also include the respective KF/UML, KF/ER and KF/ORM2 rules.
+
+Each rule is schematized as follows.
+\\ \
+
+({\bf Name}) Origin primitive $\overset{\text{Rule}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Target primitive}\\
+\hspace*{0.3cm}in: Rule inputs\\
+\hspace*{0.5cm}out: {\tt Rule outputs}\\
+
+where:
+
+\begin{itemize}
+\item \textbf{Origin primitive}: it is the primitive name to be mapped to the target language.
+\item \textbf{Rule}: it indicates the type of rule (UML/KF, ER/KF, ORM2/KF, MM/MM, DL/KF, KF/DL, KF/CNL, KF/UML, KF/ER or KF/ORM2)
+\item \textbf{Target primitive}: it is the primitive name in the target language.
+\item \textbf{Rule inputs}: set of entities, relationships and constraints required by the origin primitive for mapping to the target primitive in the respective language.
+\item \textbf{Rule inputs}: set of entities, relationships and constraints mapped in the target language.
+\end{itemize}
+ 
+
+%({\bf MM-UC-1}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Uniqueness constraint}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, 0, 1)} \\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(Role, 1)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf MM-UC-2}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Uniqueness constraint}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, 0, *)} \\
+%\hspace*{0.5cm}out:{\tt  UniquenessConstraint(Role, *)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf MM-UC-3}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Uniqueness constraint $\wedge$ Mandatory}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt Mandatory(Role)} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, 1, *)} \\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(Role, *) }\\
+%\hspace*{0.5cm}out:  {\tt Mandatory(Role)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf MM-UC-4}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Uniqueness constraint $\wedge$ Mandatory}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt Mandatory(Role)} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, 1, 1)} \\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(Role, 1) }\\
+%\hspace*{0.5cm}out:  {\tt Mandatory(Role)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf MM-FC-1}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Frequency constraint $\wedge$ Uniqueness constraint}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt Mandatory(Role)} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, 0, max)} \hfill {\it // max $>$ 1}\\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(Role, *) }\\
+%\hspace*{0.5cm}out:  {\tt Frequency(Role, $\leq$ max)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf MM-FC-2}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Frequency constraint $\wedge$ Uniqueness constraint $\wedge$ Mandatory}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt Mandatory(Role)} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, min, *)} \hfill {\it // min $>$ 1}\\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(Role, *) }\\
+%\hspace*{0.5cm}out: {\tt Mandatory(Role)} \\
+%\hspace*{0.5cm}out:  {\tt Frequency(Role, $\geq$ min)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf MM-FC-3}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Frequency constraint $\wedge$ Uniqueness constraint $\wedge$ Mandatory}\\
+%\hspace*{0.3cm}in: {\tt Role} \\
+%\hspace*{0.3cm}in: {\tt Mandatory(Role)} \\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, min, max)} \hfill {\it // min, max $>$ 1, min $>$ max}\\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(Role, *) }\\
+%\hspace*{0.5cm}out: {\tt Mandatory(Role)} \\
+%\hspace*{0.5cm}out:  {\tt Frequency(Role, min, max)}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+%------------------------------------------------------------------------------
+%\\ \
+%\section{Interoperability Rules}
+\subsection{\colorbox{lightgray}{\em UML/KF Rules}}
+%\footnotesize
+
+({\bf UML-O1}) Class $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Object Type}\\
+\hspace*{0.3cm}in: Class\\
+\hspace*{0.5cm}out: {\tt Object Type}\\
+
+({\bf UML-1O}) {\tt Object Type} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}${Class}\\
+\hspace*{0.3cm}in: {\tt Object Type}\\
+\hspace*{0.5cm}out: Class\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-R1}) Association end $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Role}\\
+\hspace*{0.3cm}in: Association end\\
+\hspace*{0.3cm}in: Association(Association end: Class, \_\_)\\
+\hspace*{0.3cm}in: MultiplicityConstraint(Association end, min, max)\\
+\hspace*{0.5cm}out: Association end $\rightarrow$ {\tt Role}\\
+\hspace*{0.5cm}out: {\tt UML-O1(Class)}\\
+\hspace*{0.5cm}out: {\tt UML-A1(Association)}\\
+\hspace*{0.5cm}out: {\tt  UML-MC1(MultiplicityConstraint)}\\
+\hspace*{0.5cm}out: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+
+({\bf UML-1R}) {\tt Role} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}${ Association end\\
+\hspace*{0.3cm}in: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, \_\_)}\\
+\hspace*{0.3cm}in: {\tt CardinalityConstraint(Role, min, max)}\\
+\hspace*{0.5cm}out: {\tt Role} $\rightarrow$ {Association end}\\
+\hspace*{0.5cm}out: {UML-1O(Object type)}\\
+\hspace*{0.5cm}out: {UML-1A(Relationship)}\\
+\hspace*{0.5cm}out: {UML-1MC(CardinalityConstraint)}\\
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-DT1}) Data type $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Data type}\\
+\hspace*{0.3cm}in: Data type\\
+\hspace*{0.5cm}out: {\tt Data type}\\
+
+({\bf UML-1DT}) {\tt Data type} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ Data type\\
+\hspace*{0.3cm}in: {\tt Data type}\\
+\hspace*{0.5cm}out: Data type\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-M1}) Mandatory role $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Mandatory}\\
+\hspace*{0.3cm}in: MultiplicityConstraint(Association end, 1, max)\\
+%\hspace*{0.5cm}out: {\bf UML-R1(Association end)} \\
+\hspace*{0.5cm}out: {\tt Mandatory(UML-R1(Association end))}\\
+
+({\bf UML-1M}) {\tt Mandatory} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}${Mandatory role}\\
+\hspace*{0.3cm}in: {\tt Mandatory(Role)}\\
+%\hspace*{0.5cm}out: {\bf UML-1R(Role)} \\
+\hspace*{0.5cm}out: {MultiplicityConstraint(UML-1R(Role), 1, \_\_)}\\
+
+%\nb{En UML-1M out no debería ser de 1 a max?}
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-S1}) {Subclass} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsumption}\\
+\hspace*{0.3cm}in: {Subclass(Child: Class, Parent : Class)} \\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child: UML-O1(Class), Parent: UML-O1(Class))}\\
+
+
+({\bf UML-1S}) {{\tt Subsumption} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Subclass}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child: Object type, Parent: Object type)} \\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+\hspace*{0.5cm}out:  {Subclass(Child: UML-1O(Object type), Parent: UML-1O(Object type))}\\
+ 
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-C1}) {Complete} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Completeness constraint}\\
+\hspace*{0.3cm}in: {Subclass(Child-1: Class, Parent: Class)} \\
+\hspace*{0.3cm}in: {Subclass(Child-2: Class, Parent: Class)} \\
+\hspace*{0.3cm}in: {Complete(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {\tt UML-S1(Subclass)}\\
+\hspace*{0.5cm}out:  {\tt UML-S1(Subclass)}\\
+\hspace*{0.5cm}out:  {\tt CompletenessConstraint(Child-1: Object type, Child-2: Object type)}\\
+
+({\bf UML-1C}) {\tt Completeness constraint} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Complete}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt CompletenessConstraint(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {UML-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {UML-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {Complete(Child-1: Class, Child-2: Class)}\\
+
+%\nb{En UML-C1 out el parametro Subclass no debería tener sus parametros también? ej: UML-S1(Subclass(Child-1, Parent))
+%Y lo mismo para UML-1C pero con Subsumption}
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-D1}) {Disjoint} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Disjoint object type}\\
+\hspace*{0.3cm}in: {Subclass(Child-1: Class, Parent: Class)} \\
+\hspace*{0.3cm}in: {Subclass(Child-2: Class, Parent: Class)} \\
+\hspace*{0.3cm}in: {Disjoint(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {\tt UML-S1(Subclass)}\\
+\hspace*{0.5cm}out:  {\tt UML-S1(Subclass)}\\
+\hspace*{0.5cm}out:  {\tt DisjointObjectType(Child-1: Object type, Child-2: Object type)}\\
+
+({\bf UML-1D}) {\tt Disjoint object type} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Disjoint}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt DisjointObjectType(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {UML-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {UML-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {Disjoint(Child-1: Class, Child-2: Class)}\\
+
+%\nb{Lo mismo que para UML-C1}
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-ATT1}) {Attribute} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Attribute}\\
+\hspace*{0.3cm}in: Attribute(Class, Data type)\\
+\hspace*{0.5cm}out: {\tt Attribute(UML-O1(Class), UML-DT1(Datatype))}\\
+
+({\bf UML-1ATT}) {\tt Attribute} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Attribute}\\
+\hspace*{0.3cm}in: {\tt Attribute(Object type, Data type)}\\
+\hspace*{0.5cm}out: {\tt Attribute(UML-1O(Object type), UML-1DT(Datatype))}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-A1}) {Association} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Relationship}\\
+\hspace*{0.3cm}in: {Association(Association end: Class, Association end: Class)} \\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)}\\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)}\\
+\hspace*{0.5cm}out:  {Association} $\rightarrow$ {\tt Relationship}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+\hspace*{0.5cm}out:  {\tt Relationship(UML-R1(Association end):UML-O1(Class), UML-R1(Association end):UML-O1(Class))}\\
+
+({\bf UML-1A}) {\tt Relationship} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Association}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, Role: Object type)} \\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)}\\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)}\\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Association}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+\hspace*{0.5cm}out:  {Association(UML-1R(Role):UML-1O(Object type), UML-1R(Role):UML-1O(Object type))}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-MC1}) {Multiplicity constraint} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Object type cardinality constraint}\\
+\hspace*{0.3cm}in: {MultiplicityConstraint(Association end, min, max)} \\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)} \\
+\hspace*{0.5cm}out:  {\tt ObjectTypeCardinalityConstraint(UML-R1(Association end), min, max)}\\
+
+({\bf UML-1MC}) {\tt Object type cardinality constraint} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Multiplicity constraint}\\
+\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, min, max)} \\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)} \\
+\hspace*{0.5cm}out:  {MultiplicityConstraint(UML-1R(Role), min, max)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-SA1}) {Subtyping of Association} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Sub - relationship}\\
+\hspace*{0.3cm}in: {Subtyping(Child: Association, Parent: Association)} \\
+\hspace*{0.5cm}out:  {Association} $\rightarrow$ {\tt Relationship }\\
+\hspace*{0.5cm}out:  {Association} $\rightarrow$ {\tt Relationship }\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child:Relationship, Parent:Relationship)}\\
+
+({\bf UML-1SA}) {\tt Sub - relationship} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Subtyping of association}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child:Relationship, Parent:Relationship)} \\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Association }\\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Association }\\
+\hspace*{0.5cm}out:  {Subtyping(Child:Association, Parent:Association)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+%({\bf UML-SC1}) {Subsetting of association ends} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Role Subset}\\
+%\hspace*{0.3cm}in: {Subsetting(Child: Association end, Parent: Association end)} \\
+%\hspace*{0.5cm}out:  {\tt Subsumption(Child:UML-R1(Association end), Parent:UML-R1(Association end))}\\
+
+%({\bf UML-1SC}) {Role Subset}  $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsetting of association ends}\\
+%\hspace*{0.3cm}in: {Subsumption(Child: Role, Parent: Role)} \\
+%\hspace*{0.5cm}out:  {\tt Subsetting(Child:UML-1R(Role), Parent:UML-1R(Role))}\\
+
+
+%------------------------------------------------------------------------------
+%\\ \
+
+
+\subsection{\colorbox{lightgray}{\em ER/KF Rules}}
+
+%\footnotesize
+
+({\bf ER-O1}) Entity type $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Object Type}\\
+\hspace*{0.3cm}in: Entity type\\
+\hspace*{0.5cm}out: {\tt Object Type}\\
+
+({\bf ER-1O}) {\tt Object Type} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}${Entity type}\\
+\hspace*{0.3cm}in: {\tt Object Type}\\
+\hspace*{0.5cm}out: {Entity type}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+%({\bf ER-R1}) Component of relationship $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Role}\\
+%\hspace*{0.3cm}in: Component of relationship\\
+%\hspace*{0.5cm}out: {\tt Role}\\
+
+%({\bf ER-1R}) {\tt Role} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}${Component of relationship}\\
+%\hspace*{0.3cm}in: {\tt Role}\\
+%\hspace*{0.5cm}out: {Component of relationship}\\
+
+({\bf ER-R1}) Component of relationship $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Role}\\
+\hspace*{0.3cm}in: Component of relationship\\
+\hspace*{0.3cm}in: Relationship(Component of relationship: Entity type, \_\_)\\
+\hspace*{0.3cm}in: CardinalityConstraint(Component of relationship, min, max)\\
+\hspace*{0.5cm}out: Component of relationship $\rightarrow$ {\tt Role}\\
+\hspace*{0.5cm}out: {\tt ER-O1(Entity type)}\\
+\hspace*{0.5cm}out: {\tt ER-A1(Relationship)}\\
+\hspace*{0.5cm}out: {\tt  ER-MC1(CardinalityConstraint)}\\
+\hspace*{0.5cm}out: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+
+({\bf ER-1R}) {\tt Role} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}${ Component of relationship\\
+\hspace*{0.3cm}in: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, \_\_)}\\
+\hspace*{0.3cm}in: {\tt CardinalityConstraint(Role, min, max)}\\
+\hspace*{0.5cm}out: {\tt Role} $\rightarrow$ {Component of relationship}\\
+\hspace*{0.5cm}out: {ER-1O(Object type)}\\
+\hspace*{0.5cm}out: {ER-1A(Relationship)}\\
+\hspace*{0.5cm}out: {ER-1MC(CardinalityConstraint)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-M1}) Mandatory $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Mandatory}\\
+\hspace*{0.3cm}in: CardinalityConstraint(Component of relationship, 1, max)\\
+%\hspace*{0.5cm}out: {\bf UML-R1(Association end)} \\
+\hspace*{0.5cm}out: {\tt Mandatory(ER-R1(Component of relationship))}\\
+
+({\bf ER-1M}) {\tt Mandatory} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}${Mandatory}\\
+\hspace*{0.3cm}in: {\tt Mandatory(Role)}\\
+%\hspace*{0.5cm}out: {\bf UML-1R(Role)} \\
+\hspace*{0.5cm}out: {CardinalityConstraint(ER-1R(Role), 1, *)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-S1}) {Subtype} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsumption}\\
+\hspace*{0.3cm}in: {Subtype(Child: Entity type, Parent: Entity type)} \\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child: ER-O1(Entity type), Parent: ER-O1(Entity type))}\\
+
+
+({\bf ER-1S}) {\tt Subsumption} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Subtype}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child: Object type, Parent: Object type)} \\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+%\hspace*{0.5cm}out:  {\bf UML-O1(Class)}\\
+\hspace*{0.5cm}out:  {Subtype(Child: ER-1O(Object type), Parent: ER-1O(Object type))}\\
+ 
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-C1}) {Total} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Completeness constraint}\\
+\hspace*{0.3cm}in: {Subtype(Child-1: Entity type, Parent: Entity type)} \\
+\hspace*{0.3cm}in: {Subtype(Child-2: Entity type, Parent: Entity type)} \\
+\hspace*{0.3cm}in: {Total(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {\tt ER-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt ER-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt CompletenessConstraint(Child-1: Object type, Child-2: Object type)}\\
+
+({\bf ER-1C}) {\tt Completeness constraint} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Total}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt CompletenessConstraint(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {ER-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {ER-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {Total(Child-1: Entity type, Child-2: Entity type)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-D1}) {Disjoint} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Disjoint object type}\\
+\hspace*{0.3cm}in: {Subtype(Child-1: Entity type, Parent: Entity type)} \\
+\hspace*{0.3cm}in: {Subtype(Child-2: Entity type, Parent: Entity type)} \\
+\hspace*{0.3cm}in: {Disjoint(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {\tt ER-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt ER-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt DisjointObjectType(Child-1: Object type, Child-2: Object type)}\\
+
+({\bf ER-1D}) {\tt Disjoint object type} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Disjoint}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt DisjointObjectType(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {ER-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {ER-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {Disjoint(Child-1: Entity type, Child-2: Entity type)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-ATT1}) {Attribute} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Attribute}\\
+\hspace*{0.3cm}in: Attribute(Entity type, \_\_)\\
+\hspace*{0.5cm}out:  {\tt ER-O1(Entity type)} \\
+\hspace*{0.5cm}out:  {\tt ER-D1(\_\_)}\hfill {\it // Datatype given by the user}\\
+\hspace*{0.5cm}out:  {\tt Attribute(Object type, Data type)}\\
+
+({\bf ER-1ATT}) {\tt Attribute} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Attribute}\\
+\hspace*{0.3cm}in: {\tt Attribute(Object type, Data type)}\\
+\hspace*{0.5cm}out:  {ER-1O(Object type)} \\
+\hspace*{0.5cm}out:  {Attribute(Entity type, \_\_)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-A1}) {Relationship} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Relationship}\\
+\hspace*{0.3cm}in: {Relationship(Component of relationship: Entity type, Component of relationship: Entity type)} \\
+\hspace*{0.5cm}out:  {Relationship} $\rightarrow$ {\tt Relationship}\\
+\hspace*{0.5cm}out:  {\tt Relationship(ER-R1(Component of relationship):ER-O1(Entity type), ER-R1(Component of relationship):ER-O1(Entity type))}\\
+
+({\bf ER-1A}) {\tt Relationship} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Relationship}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, Role: Object type)} \\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Relationship}\\
+\hspace*{0.5cm}out:  {Relationship(ER-1R(Role):ER-1O(Object type), ER-1R(Role):ER-1O(Object type))}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-MC1}) {Cardinality constraint} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Object type cardinality constraint}\\
+\hspace*{0.3cm}in: {CardinalityConstraint(Component of relationship, min, max)} \\
+\hspace*{0.5cm}out:  {\tt ObjectTypeCardinalityConstraint(ER-R1(Component of relationship), min, max)}\\
+
+({\bf ER-1MC}) {\tt Object type cardinality constraint} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Cardinality constraint}\\
+\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, min, max)} \\
+\hspace*{0.5cm}out:  {CardinalityConstraint(ER-1R(Role), min, max)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ER-SA1}) {Subtyping of Relationship} $\overset{\text{ER to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Sub - relationship}\\
+\hspace*{0.3cm}in: {Subtyping(Child:Relationship, Parent:Relationship)} \\
+\hspace*{0.5cm}out:  {Relationship} $\rightarrow$ {\tt Relationship }\\
+\hspace*{0.5cm}out:  {Relationship} $\rightarrow$ {\tt Relationship }\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child:Relationship, Parent:Relationship)}\\
+
+({\bf ER-1SA}) {\tt Sub - relationship} $\overset{\text{KF to ER}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Subtyping of relationship}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child:Relationship, Parent:Relationship)} \\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Relationship }\\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Relationship }\\
+\hspace*{0.5cm}out:  {Subtyping(Child:Relationship, Parent:Relationship)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+%({\bf UML-SC1}) {Subsetting of association ends} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Role Subset}\\
+%\hspace*{0.3cm}in: {Subsetting(Child: Association end, Parent: Association end)} \\
+%\hspace*{0.5cm}out:  {\tt Subsumption(Child:UML-R1(Association end), Parent:UML-R1(Association end))}\\
+
+%({\bf UML-1SC}) {Role Subset}  $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsetting of association ends}\\
+%\hspace*{0.3cm}in: {Subsumption(Child: Role, Parent: Role)} \\
+%\hspace*{0.5cm}out:  {\tt Subsetting(Child:UML-1R(Role), Parent:UML-1R(Role))}\\
+
+
+
+
+\subsection{\colorbox{lightgray}{\em ORM 2/KF Rules}}
+%\footnotesize
+
+({\bf ORM2-O1}) Object type $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Object Type}\\
+\hspace*{0.3cm}in: Object type\\
+\hspace*{0.5cm}out: {\tt Object Type}\\
+
+({\bf ORM2-1O}) {\tt Object Type} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}${Object type}\\
+\hspace*{0.3cm}in: {\tt Object Type}\\
+\hspace*{0.5cm}out: {Object type}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+%({\bf ORM2-R1}) Role $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Role}\\
+%\hspace*{0.3cm}in: Role\\
+%\hspace*{0.5cm}out: {\tt Role}\\
+
+%({\bf ORM2-1R}) {\tt Role} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}${Role}\\
+%\hspace*{0.3cm}in: {\tt Role}\\
+%\hspace*{0.5cm}out: {Role}\\
+
+({\bf ORM2-R1}) Role $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Role}\\
+\hspace*{0.3cm}in: Role\\
+\hspace*{0.3cm}in: FactType(Role: Object type, \_\_)\\
+\hspace*{0.3cm}in: FrequencyConstraint(Role, min, max)\\
+\hspace*{0.5cm}out: Role $\rightarrow$ {\tt Role}\\
+\hspace*{0.5cm}out: {\tt ORM2-O1(Object type)}\\
+\hspace*{0.5cm}out: {\tt ORM2-A1(FactType)}\\
+\hspace*{0.5cm}out: {\tt ORM2-MC1-1/ORM2-MC1-2(FrequencyConstraint)}\\
+\hspace*{0.5cm}out: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+
+({\bf ORM2-1R}) {\tt Role} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}${ Role\\
+\hspace*{0.3cm}in: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, \_\_)}\\
+\hspace*{0.3cm}in: {\tt CardinalityConstraint(Role, min, max)}\\
+\hspace*{0.5cm}out: {\tt Role} $\rightarrow$ {Role}\\
+\hspace*{0.5cm}out: {ORM2-1O(Object type)}\\
+\hspace*{0.5cm}out: {ORM2-1A(Relationship)}\\
+\hspace*{0.5cm}out: {ORM2-1MC-1/ORM2-1MC-2(CardinalityConstraint)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-M1}) Mandatory $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Mandatory}\\
+\hspace*{0.3cm}in: Mandatory(Role)\\
+\hspace*{0.5cm}out: {\tt Mandatory(ORM2-R1(Role)))}\\
+
+({\bf ORM2-1M}) {\tt Mandatory} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}${Mandatory}\\
+\hspace*{0.3cm}in: {\tt Mandatory(Role)}\\
+\hspace*{0.5cm}out: {Mandatory(ORM2-1R(Role)))}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-S1}) {Subtype} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsumption}\\
+\hspace*{0.3cm}in: {Subtype(Child: Object type, Parent: Object type)} \\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child: ORM2-O1(Object type), Parent: ORM2-O1(Object type))}\\
+
+
+({\bf ORM2-1S}) {\tt Subsumption} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Subtype}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child: Object type, Parent: Object type)} \\
+\hspace*{0.5cm}out:  {Subtype(Child: ORM2-1O(Object type), Parent: ORM2-1O(Object type))}\\
+ 
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-C1}) {Total} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Completeness constraint}\\
+\hspace*{0.3cm}in: {Subtype(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {Subtype(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {Total(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {\tt ORM2-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt ORM2-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt CompletenessConstraint(Child-1: Object type, Child-2: Object type)}\\
+
+({\bf ORM2-1C}) {\tt Completeness constraint} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Total}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt CompletenessConstraint(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {ORM2-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {ORM2-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {Total(Child-1: Object type, Child-2: Object type)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-D1}) {Exclusive} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Disjoint object type}\\
+\hspace*{0.3cm}in: {Subtype(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {Subtype(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {Exclusive(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {\tt ORM2-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt ORM2-S1(Subtype)}\\
+\hspace*{0.5cm}out:  {\tt DisjointObjectType(Child-1: Object type, Child-2: Object type)}\\
+
+({\bf ORM2-1D}) {\tt Disjoint object type} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Exclusive}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt DisjointObjectType(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {ORM2-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {ORM2-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {Exclusive(Child-1: Object type, Child-2: Object type)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-VT1}) {Value type} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Value type}\\
+\hspace*{0.3cm}in: Value type\\
+\hspace*{0.3cm}in: MappedTo(Value type, Data type)\\
+\hspace*{0.5cm}out:  {\tt ORM2-DT1(Data type)} \\
+\hspace*{0.5cm}out:  MappedTo $\rightarrow$ {\tt MappedTo}\\
+\hspace*{0.5cm}out:  Value type $\rightarrow$ {\tt Value type}\\
+\hspace*{0.5cm}out:  {\tt MappedTo(Value type, Data type)}\\
+
+({\bf ORM2-1VT}) {\tt Value type} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Value type}\\
+\hspace*{0.3cm}in: {\tt Value type $\wedge$ MappedTo(Value type, Data type)}\\
+\hspace*{0.5cm}out:  {ORM2-1DT(Data type)} \\
+\hspace*{0.5cm}out:  {\tt MappedTo} $\rightarrow$ {MappedTo}\\
+\hspace*{0.5cm}out:  {\tt Value type} $\rightarrow$ {Value type}\\
+\hspace*{0.5cm}out:  MappedTo(Value type, Data type)\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-A1}) {Fact type} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Relationship}\\
+\hspace*{0.3cm}in: {Fact type(Role: Object type, Role: Object type)} \\
+\hspace*{0.5cm}out:  {Fact type} $\rightarrow$ {\tt Relationship}\\
+\hspace*{0.5cm}out:  {\tt Relationship(ORM2-R1(Role):ORM2-O1(Object type), ORM2-R1(Role):ORM2-O1(Object type))}\\
+
+({\bf ORM2-1A}) {\tt Relationship} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Fact type}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, Role: Object type)} \\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Fact type}\\
+\hspace*{0.5cm}out:  {FactType(ORM2-1R(Role):ORM2-1O(Object type), ORM2-1R(Role):ORM2-1O(Object type))}\\
+
+%------------------------------------------------------------------------------
+%\\ \
+
+%({\bf ORM2-UC1}) {Uniqueness constraint} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Uniqueness constraint}\\
+%\hspace*{0.3cm}in: {UniquenessConstraint(Role, min, max)} \hfill {\it // for (min,max) = 0..*, 0..1, 1..*, 1..1}\\
+%\hspace*{0.5cm}out:  {\tt UniquenessConstraint(ORM1-R1(Role), min, max)}\\
+
+%({\bf ORM2-1UC}) {\tt Uniqueness constraint} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Uniqueness constraint}\\
+%\hspace*{0.3cm}in: {\tt UniquenessConstraint(Role, min, max)} \hfill {\it // for (min,max) = 0..*, 0..1, 1..*, 1..1}\\
+%\hspace*{0.5cm}out:  {UniquenessConstraint(ORM1-1R(Role), min, max)}\\
+
+------------------------------------------------------------------------------
+\\ 
+%\todo[inline]{Regla  Original}
+%({\bf ORM2-MC1}) {Frequency constraint} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Object type cardinality constraint}\\
+%\hspace*{0.3cm}in: {FrequencyConstraint(Role, min, max)} \hfill {\it // (min, max) different from Uniqueness constraints }\\
+%\hspace*{0.5cm}out:  {\tt ObjectTypeCardinalityConstraint(ORM2-R1(Role), min, max)}\\
+
+
+
+%({\bf ORM2-1MC}) {\tt Object type cardinality constraint} $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Frequency constraint}\\
+%\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, min, max)} \hfill {\it // (min, max) different from Uniqueness constraints }\\
+%\hspace*{0.5cm}out:  {FrequencyConstraint(ORM2-1R(Role), min, max)}\\
+
+%\todo[inline,color=green]{Reglas  Cambiadas.  En este caso hice ORM2 a Kf}    
+
+({\bf ORM2-MC1-1}) {Frequency constraint}           $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Object type cardinality constraint}\\
+\hspace*{0.3cm}in: {FrequencyConstraint(Role, min, max),\ } // min=0 o min=1\\
+\hspace*{0.5cm}out:  {\tt ObjectTypeCardinalityConstraint(ORM2-R1(Role), 0, max)}\\
+
+
+({\bf ORM2-MC1-2}) {Frequency constraint} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Object type cardinality constraint}\\
+\hspace*{0.3cm}in: {FrequencyConstraint(Role, min, max), Mandatory(Role)} \hfill $min>1$ \\ %, (min, max) different from Uniqueness constraints }  \\
+\hspace*{0.5cm}out: {\tt ObjectTypeCardinalityConstraint(ORM2-R1(Role), min,max)}\\ 
+%\todo[inline,color=green]{Reglas  Cambiadas.  En este caso  hice  Kf a ORM2} 
+
+({\bf ORM2-1MC-1}) {\tt Object type cardinality constraint} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Frequency constraint}\\
+\hspace*{0.3cm}in: {\tt   ObjectTypeCardinalityConstraint(Role, 0, max)} \hfill \\
+\hspace*{0.5cm}out:  {FrequencyConstraint(ORM2-1R(Role), 0, max)}\\
+
+({\bf ORM2-1MC-2}) {\tt Object type cardinality constraint} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Frequency constraint}\\
+\hspace*{0.3cm}in: {\tt   ObjectTypeCardinalityConstraint(Role, min, max)} \hfill $min\leq 1$ \\ %(min, max) different from Uniqueness constraints }\\
+\hspace*{0.5cm}out:  {\tt FrequencyConstraint(ORM2-1R(Role), min, max)}\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf ORM2-SA1}) {Subset constraint on fact type} $\overset{\text{ORM 2 to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Sub - relationship}\\
+\hspace*{0.3cm}in: {Subset(Child:Fact type, Parent:Fact type)} \\
+\hspace*{0.5cm}out:  {Fact type} $\rightarrow$ {\tt Relationship }\\
+\hspace*{0.5cm}out:  {Fact type} $\rightarrow$ {\tt Relationship }\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child:Relationship, Parent:Relationship)}\\
+
+({\bf ORM2-1SA}) {\tt Sub - relationship} $\overset{\text{KF to ORM 2}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Subset constraint on fact type}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child:Relationship, Parent:Relationship)} \\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Fact type}\\
+\hspace*{0.5cm}out:  {\tt Relationship} $\rightarrow$ {Fact type}\\
+\hspace*{0.5cm}out:  {Subset(Child:Fact type, Parent:Fact type)}\\
+
+------------------------------------------------------------------------------
+
+
+\subsection{\colorbox{lightgray}{\em MM/MM Rules}}
+
+%\footnotesize
+
+({\bf MM-ATT-VT}) {\tt Attribute} $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Value type}\\
+\hspace*{0.3cm}in: {\tt Attribute(Object type, Data type)} \\
+\hspace*{0.5cm}out:  {\tt Data type}\\
+\hspace*{0.5cm}out:  {\tt Role}\\
+\hspace*{0.5cm}out:  {\tt Relationship}\\
+\hspace*{0.5cm}out:  {\tt MappedTo}\\
+\hspace*{0.5cm}out:  {\tt Attribute $\rightarrow$ Value type}\\
+\hspace*{0.5cm}out:  {\tt Relationship(Role:Object type, Role:Value type)}\\
+\hspace*{0.5cm}out:  {\tt MappedTo(Value type, Data type)}\\
+
+
+({\bf MM-VT-ATT}) {\tt Value type} $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Attribute}\\
+\hspace*{0.3cm}in: {\tt Value type $\wedge$ MappedTo(Value type, Data type)} \\
+\hspace*{0.5cm}out: {\tt Data type}\\
+\hspace*{0.5cm}out: {\tt Object type}\\
+\hspace*{0.5cm}out: {\tt Attribute(Object type, Data type)}\\
+
+------------------------------------------------------------------------------
+
+\subsection{\colorbox{lightgray}{\em DL/KF Embedding Rules}}
+
+%\begin{table}
+%    \centering
+%    \footnotesize
+%    \begin{tabular}{|c|c|c|}
+%    \hline
+%\multicolumn{3}{c}{Normalisation} \\ \hline\hline
+
+%{\scriptsize (1)} $A \sqsubseteq B$ & {\scriptsize (2)} $A \sqcap B \sqsubseteq C$ & {\scriptsize (3)} $A \sqsubseteq B \sqcup C$\\\hline
+
+%{\scriptsize (4)} $A \sqcap B \sqsubseteq C \sqcup D$ & {\scriptsize (5)} $A \sqsubseteq \exists P.B$ & {\scriptsize (6)} $A \sqsubseteq \forall P.B$\\\hline
+
+%{\scriptsize (7)} $\exists P.B \sqsubseteq A$ & {\scriptsize (8)} $A \sqsubseteq \ \leq n \ P.B$ & {\scriptsize (9)} $A \sqsubseteq \ \geq 1 \ P.B$ \\\hline
+
+%{\scriptsize (10)} $A \sqsubseteq \ \leq n \ P.B$ &  &  \\\hline
+
+%    \end{tabular}
+%    \caption{Axioms involving $\exists$, $\forall$ and cardinalities apply also for OWL 2 datatypes}
+%    \label{tab:normalisation}
+%\end{table}
+
+
+\noindent ({\bf KO1}) {Atomic Concept $C_i$} $\overset{\text{DL to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {Object type}  \\
+\hspace*{0.5cm}out:  $C_i \rightarrow$ {\tt Object type }\\
+
+
+%\noindent ({\bf KS1}) {\tt Subsumption} $\overset{\text{KF to DL}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {$C_i \sqsubseteq C_j$}  \\
+%\hspace*{0.3cm}in:  {\tt Subsumption(Child: Object type, Parent: Object type)}\\
+%\hspace*{0.5cm}out: KO1(Object type)\\
+%\hspace*{0.5cm}out: KO1(Object type)\\
+%\hspace*{0.5cm}out: {$C_i \sqsubseteq C_j$} \hfill \\
+
+
+\noindent ({\bf 1KS}) {$C_i \sqsubseteq C_j$} $\overset{\text{DL to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsumption}\\
+\hspace*{0.3cm}in:  $C_i \sqsubseteq C_j$ \hfill {\it // A, B atomic concepts }\\
+\hspace*{0.5cm}out: $C_i$ $\rightarrow$ {\tt Object type }\\
+\hspace*{0.5cm}out: $C_j$ $\rightarrow$ {\tt Object type}\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child: Object type, Parent: Object type)} \hfill \\
+
+%\noindent ({\bf OK2}) {$A \sqcap B \sqsubseteq \bot$} $\overset{\text{DL to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt KF}\\
+%\hspace*{0.3cm}in:  $C1 \sqsubseteq $ \hfill \\
+%\hspace*{0.5cm}out: $A$ $\rightarrow$ {\tt Object type }\\
+%\hspace*{0.5cm}out:  $B$ $\rightarrow$ {\tt Object type}\\
+%\hspace*{0.5cm}out:  $O$ $\rightarrow$ {\tt Object type}  (fresh)\\
+%\hspace*{0.5cm}out:  {\tt Subsumption(Child: $A$, Parent: $O$)} \hfill \\
+%\hspace*{0.5cm}out:  {\tt Subsumption(Child: $B$, Parent: $O$)} \hfill \\
+%\hspace*{0.5cm}out:  {\tt DisjointObjectType($A$, $B$)} \hfill \\
+
+
+------------------------------------------------------------------------------
+\\ \
+
+\noindent ({\bf OK2}) {$A \equiv B$} $\overset{\text{DL to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt KF}\\
+\hspace*{0.3cm}in:  normalised $A \equiv B$ \hfill \\
+\hspace*{0.5cm}out: $A$ $\rightarrow$ {\tt Object type }\\
+\hspace*{0.5cm}out:  $B$ $\rightarrow$ {\tt Object type}\\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child: $A$, Parent: $B$)} \hfill \\
+\hspace*{0.5cm}out:  {\tt Subsumption(Child: $B$, Parent: $A$)} \hfill \\
+
+
+
+
+
+
+\subsection{\colorbox{lightgray}{\em KF/DL Embedding Rules}}
+
+%%\begin{landscape}
+%\begin{sidewaystable*}
+\begin{table}[h]
+\caption{KF/DL Embedding Rules}
+  \label{tab:KF-DLRules}
+    \centering
+    \footnotesize
+    \begin{tabular}{|l|c|}
+    \hline
+    \multicolumn{1}{|c|} \   &  \  \\
+\multicolumn{1}{|c|}{\bf\large KF}  & {\bf\large DL} \\
+\multicolumn{1}{|c|}\  &  \  \\\hline\hline
+
+{\tt Object type O} & Concept O \\\hline
+
+{\tt Role $r_{endConcept}$ } &   Role $r_{endConcept}$\\ \hline
+{\tt Data Type D }&Concept D\\
+\hline
+{\tt Attribute A of data type DT for the object type O }
+&Role A\\
+&$\exists A.\top \sqsubseteq O$\\
+&$\top \sqsubseteq \forall A.DT$\\
+&$O \sqsubseteq \ \leq 1 \ A.DT $\\
+\hline
+{\tt Binary Relationship R between O1 and O2}
+& Concept R \\
+&$R \sqsubseteq \exists r_{o1}.O1$\\
+&$R \sqsubseteq \exists r_{o2}.O2$\\
+\hline
+{\tt Object type O cardinality constraint}:&\\
+\ \ &\\
+(1)Range {\tt (min, max) }&  $O \sqsubseteq \ (\geq $ min $ \ r_{o}^{-}.R) \sqcap (\leq $ max $ \ r_{o}^{-}.R)$\\\hdashline
+(2)Range {\tt (.. max) }&  $O \sqsubseteq \  (\leq $ max $ \ r_{o}^{-}.R)$\\\hdashline
+(3)Range{\tt (min ..) }&  $O \sqsubseteq \ (\geq $ min $ \ r_{o}^{-}.R) $\\\hline
+{\tt Mandatory role $r_o$}&$O \sqsubseteq \ \geq 1\ r_o^{-} $\\\hline
+{\tt Object type  subsumption}&$OSub \sqsubseteq OSup$\\\hline
+{\tt  Disjoint object type subsumption}&
+$O_1 \sqsubseteq OSup$\\
+&$O_2 \sqsubseteq OSup$\\
+&$\vdots$\\
+&$O_n \sqsubseteq OSup$\\
+&$O_i\sqsubseteq \bigsqcap_{j=i+1}^n \neg O_j, \mbox{ for }i =1, \ldots, n-1$\\\hline
+%& $O_i\sqsubseteq  OSup\sqcap\bigsqcap_{j=i+1}^n \neg O_j, \mbox{ for }i =1, \ldots, n$\\\hline
+{\tt  Completeness object type subsumption}& $O_1 \sqsubseteq OSup$\\
+&$O_2 \sqsubseteq OSup$\\
+& 
+$\ldots$\\
+&
+$O_n \sqsubseteq OSup$\\
+&$OSup \sqsubseteq O_1 \sqcup O_2 \sqcup \ldots \sqcup O_n$
+\\\hline
+{\tt Relationship Subsumption}&$RChild \sqsubseteq RParent$\\
+\hline
+    \end{tabular}
+    
+\end{table}
+%\end{landscape}
+%\end{sidewaystable*}
+
+
+
+------------------------------------------------------------------------------
+
+
+\subsection{\colorbox{lightgray}{\em KF/CNL (en) Rules}}
+
+({\bf KF-CNL-1O}) {\tt Object Type} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}${text}\\
+\hspace*{0.3cm}in: {\tt Object Type}\\
+\hspace*{0.5cm}out: [Object Type] is an Object Type\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-CNL-1R}) {\tt Role} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}${text\\
+\hspace*{0.3cm}in: {\tt Role(Relationship, Object type, CardinalityConstraint)}\\
+%\hspace*{0.3cm}in: {\tt Relationship(Role: Object type, \_\_)}\\
+%\hspace*{0.3cm}in: {\tt CardinalityConstraint(Role, min, max)}\\
+\hspace*{0.5cm}out: [Role] is a Role\\
+%\hspace*{0.5cm}out: {KF-CNL-1O(Object type)}\\
+%\hspace*{0.5cm}out: {UML-CNL-1A(Relationship)}\\
+%\hspace*{0.5cm}out: {UML-CNL-1MC(CardinalityConstraint)}\\
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-CNL-1DT}) {\tt Data type} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ text\\
+\hspace*{0.3cm}in: {\tt Data type}\\
+\hspace*{0.5cm}out: [Data type] is a Data Type\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-CNL-1M}) {\tt Mandatory} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}${text}\\
+\hspace*{0.3cm}in: {\tt Mandatory(Role)}\\
+\hspace*{0.5cm}out: [Role] is Mandatory\\
+
+%\nb{En UML-1M out no debería ser de 1 a max?}
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-CNL-1S}) {{\tt Subsumption} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child: Object type, Parent: Object type)} \\
+\hspace*{0.5cm}out:  Each [Child] is a [Parent]\\
+ 
+------------------------------------------------------------------------------
+\\ \
+
+
+({\bf UML-CNL-1C}) {\tt Completeness constraint} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt CompletenessConstraint(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {UML-CNL-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {UML-CNL-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  [Child-1] and [Child-2] cover [Parent]\\
+
+%\nb{En UML-C1 out el parametro Subclass no debería tener sus parametros también? ej: UML-S1(Subclass(Child-1, Parent))
+%Y lo mismo para UML-1C pero con Subsumption}
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-CNL-1D}) {\tt Disjoint object type} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-1: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt Subsumption(Child-2: Object type, Parent: Object type)} \\
+\hspace*{0.3cm}in: {\tt DisjointObjectType(Child-1, Child-2)} \\
+\hspace*{0.5cm}out:  {UML-CNL-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  {UML-CNL-1S(Subsumption)}\\
+\hspace*{0.5cm}out:  [Child-1] and [Child-2] are disjoint from each other.\\
+
+%\nb{Lo mismo que para UML-C1}
+------------------------------------------------------------------------------
+\\ \
+
+
+({\bf UML-CNL-1ATT}) {\tt Attribute} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Attribute(Object type, Data type)}\\
+\hspace*{0.5cm}out: {UML-CNL-1DT(Data type)}\\
+\hspace*{0.5cm}out: [Attribute] is an attribute with data type [Data type]\\
+\hspace*{0.5cm}out: [Object type] has attribute [Attribute]\\
+
+------------------------------------------------------------------------------
+\\ \
+
+
+({\bf UML-CNL-1A}) {\tt Relationship} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Relationship(Role-1: Object type-1, Role-2: Object type-2)} \\
+\hspace*{0.5cm}out:  UML-CNL-1O(Object type-1)\\ 
+\hspace*{0.5cm}out:  UML-CNL-1O(Object type-2))}\\
+\hspace*{0.5cm}out:  [Relationship] is a relationship between [Object type-1] and [Object type-2]\\
+\hspace*{0.5cm}out:  [Role-1] is a Role in the relationship [Relationship]\\
+\hspace*{0.5cm}out:  [Role-2] is a Role in the relationship [Relationship]\\
+
+------------------------------------------------------------------------------
+\\ \
+
+({\bf UML-CNL-1MC}) {\tt Object type cardinality constraint} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Role(Relationship, Object type-1, ObjectTypeCardinalityConstraint)}\\
+\hspace*{0.3cm}in: {\tt Relationship(Object type-1, Object type-2)} \\
+\hspace*{0.3cm}in: {\tt ObjectTypeCardinalityConstraint(Role, min, max)} \\
+%\hspace*{0.5cm}out:  {\bf UML-R1(Association end)} \\
+\hspace*{0.5cm}out:  Each [Object type-1] [Role] at least [min] [Object type-2] and at most [max] [Object type-2] 
+
+------------------------------------------------------------------------------
+\\ \
+
+
+({\bf UML-CNL-1SA}) {\tt Sub - relationship} $\overset{\text{KF to CNL(en)}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {text}\\
+\hspace*{0.3cm}in: {\tt Subsumption(Child:Relationship, Parent:Relationship)} \\
+\hspace*{0.5cm}out: Each [Child] is a [Parent]
+
+------------------------------------------------------------------------------
+\\ \
+
+%({\bf UML-SC1}) {Subsetting of association ends} $\overset{\text{UML to KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Role Subset}\\
+%\hspace*{0.3cm}in: {Subsetting(Child: Association end, Parent: Association end)} \\
+%\hspace*{0.5cm}out:  {\tt Subsumption(Child:UML-R1(Association end), Parent:UML-R1(Association end))}\\
+
+%({\bf UML-1SC}) {Role Subset}  $\overset{\text{KF to UML}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Subsetting of association ends}\\
+%\hspace*{0.3cm}in: {Subsumption(Child: Role, Parent: Role)} \\
+%\hspace*{0.5cm}out:  {\tt Subsetting(Child:UML-1R(Role), Parent:UML-1R(Role))}\\
+
+
+
+
+\end{document}
+

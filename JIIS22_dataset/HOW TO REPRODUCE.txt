@@ -1,0 +1,1 @@
+To reproduce the results, load the "Profile ..." json file into the Chrome DevTools Performance panel.
